@@ -1,9 +1,12 @@
-﻿/// File: Card.cs
+﻿/// File: Program.cs
 /// Name: John McMeen 
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: CISP 1020 Examples
 namespace _03_Enumeration
 {
+    /// <summary>
+    /// Demonstrates the use of the Deck class
+    /// </summary>
     internal class Program
     {
         public static void Main(string[] args)
