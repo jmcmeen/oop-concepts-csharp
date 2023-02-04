@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-HelloWorld", "00-HelloWo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-Template", "00-Template\00-Template.csproj", "{2E501891-EDCA-4556-8809-0B63B403DD90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Objects", "01-Objects\01-Objects.csproj", "{50FD43D1-4463-472F-B159-C136C600140B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Objects", "01-Objects\01-Objects.csproj", "{50FD43D1-4463-472F-B159-C136C600140B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Properties", "01-Properties\01-Properties.csproj", "{CE66C7D5-1811-4091-B9C8-9CE69EB05E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Properties", "01-Properties\01-Properties.csproj", "{CE66C7D5-1811-4091-B9C8-9CE69EB05E86}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Initializers", "02-Initializers\02-Initializers.csproj", "{78B3C4C5-1684-4775-AA67-B8B3D14B3B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Enumeration", "03-Enumeration\03-Enumeration.csproj", "{39DE479C-C5EE-4248-88B7-34D289FFEE03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{78B3C4C5-1684-4775-AA67-B8B3D14B3B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B3C4C5-1684-4775-AA67-B8B3D14B3B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B3C4C5-1684-4775-AA67-B8B3D14B3B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DE479C-C5EE-4248-88B7-34D289FFEE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DE479C-C5EE-4248-88B7-34D289FFEE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DE479C-C5EE-4248-88B7-34D289FFEE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DE479C-C5EE-4248-88B7-34D289FFEE03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@
 // Notes: Based on example at https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-objects-by-using-an-object-initializer
 namespace _01_Initializers
 {
-    internal class Program
+    internal class Program 
     {
         static void Main()
         {
