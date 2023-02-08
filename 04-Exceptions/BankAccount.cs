@@ -10,7 +10,7 @@
         {
             if(amount > Balance)
             {
-                throw new InsufficientFundException();
+                
             }
             Balance += amount;
         }
