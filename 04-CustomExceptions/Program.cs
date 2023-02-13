@@ -13,15 +13,13 @@
             try
             {
                 b.Withdraw(600);
+                b.Withdraw(-100);
             }
-            catch (InsufficientFundsException ex) 
+            catch (Exception ex) 
             { 
                 Console.WriteLine(ex.ToString());
             }
-            catch(InvalidAmountException ex) 
-            {
-                Console.WriteLine(ex.ToString());
-            }
+            
             
 
             Console.WriteLine(b);

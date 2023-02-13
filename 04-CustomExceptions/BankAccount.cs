@@ -10,8 +10,10 @@ namespace _04_CustomExceptions
 
         public void Deposit(decimal amount)
         {
-
-            
+            if(amount < 0)
+            {
+                throw new InvalidAmountException();
+            }
         }
 
         public void Withdraw(decimal amount)
@@ -22,7 +24,7 @@ namespace _04_CustomExceptions
             } 
             if(amount <= 0)
             {
-                throw new Exception();
+                throw new InvalidAmountException();
             }
 
             Balance -= amount;

@@ -16,7 +16,7 @@
             }
             catch (DivideByZeroException ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine("A divide by zero error occured");
             }
 
             Console.WriteLine(value);

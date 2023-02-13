@@ -2,6 +2,5 @@
 {
     internal class InsufficientFundsException : Exception
     {
-
     }
 }
