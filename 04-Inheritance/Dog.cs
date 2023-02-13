@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace _04_Inheritance
+﻿namespace _04_Inheritance
 {
     internal class Dog : Animal
     {

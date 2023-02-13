@@ -1,9 +1,10 @@
 ﻿namespace _04_AbstractClasses
 {
-    internal class Elephant : Animal
+    internal class Donkey : Animal
     {
-        public Elephant(string name) : base(name)
+        public Donkey(string name) : base(name)
         {
+
         }
 
         public override void MakeSound()
