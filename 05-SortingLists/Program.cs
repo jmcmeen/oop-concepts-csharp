@@ -13,6 +13,10 @@
                 ints.Add(random.Next(10));
             }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
             //Print the list
             Console.WriteLine("\nUnsorted List");
             foreach (int i in ints)
