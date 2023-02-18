@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-3-IComparer", "06-3-ICom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-Alexandria", "XX-Alexandria\XX-Alexandria.csproj", "{A89A54DD-EE01-4C6D-94BF-9012AEA64B98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-Dictionary", "XX-Dictionary\XX-Dictionary.csproj", "{F715F803-FD08-44D3-A329-F0AA2CBDB57F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{A89A54DD-EE01-4C6D-94BF-9012AEA64B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89A54DD-EE01-4C6D-94BF-9012AEA64B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89A54DD-EE01-4C6D-94BF-9012AEA64B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F715F803-FD08-44D3-A329-F0AA2CBDB57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F715F803-FD08-44D3-A329-F0AA2CBDB57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F715F803-FD08-44D3-A329-F0AA2CBDB57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F715F803-FD08-44D3-A329-F0AA2CBDB57F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
