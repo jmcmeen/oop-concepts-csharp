@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-Alexandria", "XX-Alexand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-Dictionary", "XX-Dictionary\XX-Dictionary.csproj", "{F715F803-FD08-44D3-A329-F0AA2CBDB57F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-DateTime", "XX-DateTime\XX-DateTime.csproj", "{F31709BB-9CFF-40AC-ACBB-F75351B32899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{F715F803-FD08-44D3-A329-F0AA2CBDB57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F715F803-FD08-44D3-A329-F0AA2CBDB57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F715F803-FD08-44D3-A329-F0AA2CBDB57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31709BB-9CFF-40AC-ACBB-F75351B32899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31709BB-9CFF-40AC-ACBB-F75351B32899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31709BB-9CFF-40AC-ACBB-F75351B32899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31709BB-9CFF-40AC-ACBB-F75351B32899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
