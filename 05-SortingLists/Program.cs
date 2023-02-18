@@ -7,16 +7,15 @@
             List<int> ints = new List<int>();
             Random random = new Random();
 
+            const int NUM_INTS = 25;
+            const int MAX_INT = 10;
+
             //Fill the list with random values
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < NUM_INTS; i++)
             {
-                ints.Add(random.Next(10));
+                ints.Add(random.Next(MAX_INT));
             }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
             //Print the list
             Console.WriteLine("\nUnsorted List");
             foreach (int i in ints)
