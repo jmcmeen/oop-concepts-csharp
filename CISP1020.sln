@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Algorithms", "05-Algorit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Shapes", "04-Shapes\04-Shapes.csproj", "{56A0BB7C-A9CE-4BDA-A548-9B236CCFD2C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-Interfaces", "06-Interfaces\06-Interfaces.csproj", "{9157E5DF-7883-445D-8278-402CD8CCE78D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-1-Interfaces", "06-Interfaces\06-1-Interfaces.csproj", "{9157E5DF-7883-445D-8278-402CD8CCE78D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-SortingObjectLists", "06-SortingObjectLists\06-SortingObjectLists.csproj", "{642513BA-4D04-415B-BA1B-77BBF4F00A37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-2-IComparable", "06-SortingObjectLists\06-2-IComparable.csproj", "{642513BA-4D04-415B-BA1B-77BBF4F00A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-3-IComparer", "06-3-IComparer\06-3-IComparer.csproj", "{676073B3-31E9-4233-9AD8-ACB549A3CCCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{642513BA-4D04-415B-BA1B-77BBF4F00A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{642513BA-4D04-415B-BA1B-77BBF4F00A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{642513BA-4D04-415B-BA1B-77BBF4F00A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676073B3-31E9-4233-9AD8-ACB549A3CCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676073B3-31E9-4233-9AD8-ACB549A3CCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676073B3-31E9-4233-9AD8-ACB549A3CCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676073B3-31E9-4233-9AD8-ACB549A3CCCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

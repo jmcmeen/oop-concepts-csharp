@@ -1,4 +1,4 @@
-﻿namespace _06_SortingObjectLists
+﻿namespace _06_3_IComparer
 {
     internal class Program
     {
@@ -15,14 +15,14 @@
             Console.WriteLine("Print unsorted list\n");
             PrintMonsters(monsterList);
 
-            monsterList.Sort();
+            monsterList.Sort(new HitPointsComparer());
 
-            Console.WriteLine("\nPrint sorted list\n");
-            PrintMonsters(monsterList);
+            Console.WriteLine("\nPrint sorted by HitPoints list\n");
+            PrintMonsters(monsterList); 
+            
+            monsterList.Sort(new NameComparer());
 
-            monsterList.Reverse();
-
-            Console.WriteLine("\nPrint reversed list\n");
+            Console.WriteLine("\nPrint sorted by Name list\n");
             PrintMonsters(monsterList);
         }
 
