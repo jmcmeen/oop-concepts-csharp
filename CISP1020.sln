@@ -33,15 +33,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-1-Interfaces", "06-Inter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-2-IComparable", "06-SortingObjectLists\06-2-IComparable.csproj", "{642513BA-4D04-415B-BA1B-77BBF4F00A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-3-IComparer", "06-3-IComparer\06-3-IComparer.csproj", "{676073B3-31E9-4233-9AD8-ACB549A3CCCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-3-IComparer", "06-3-IComparer\06-3-IComparer.csproj", "{676073B3-31E9-4233-9AD8-ACB549A3CCCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-Alexandria", "XX-Alexandria\XX-Alexandria.csproj", "{A89A54DD-EE01-4C6D-94BF-9012AEA64B98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Alexandria", "XX-Alexandria\XX-Alexandria.csproj", "{A89A54DD-EE01-4C6D-94BF-9012AEA64B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-Dictionary", "XX-Dictionary\XX-Dictionary.csproj", "{F715F803-FD08-44D3-A329-F0AA2CBDB57F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Dictionary", "XX-Dictionary\XX-Dictionary.csproj", "{F715F803-FD08-44D3-A329-F0AA2CBDB57F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-DateTime", "XX-DateTime\XX-DateTime.csproj", "{F31709BB-9CFF-40AC-ACBB-F75351B32899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-DateTime", "XX-DateTime\XX-DateTime.csproj", "{F31709BB-9CFF-40AC-ACBB-F75351B32899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-ObjectsVSStaticMethods", "XX-ObjectsVSStaticMethods\XX-ObjectsVSStaticMethods.csproj", "{0509DBDE-E5EB-4711-8A0C-73DF33B59148}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-ObjectsVSStaticMethods", "XX-ObjectsVSStaticMethods\XX-ObjectsVSStaticMethods.csproj", "{0509DBDE-E5EB-4711-8A0C-73DF33B59148}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Files", "XX-Files\XX-Files.csproj", "{07E0BDCD-B989-4356-B929-D86489D2AB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-BasicWinForms", "XX-BasicWinForms\XX-BasicWinForms.csproj", "{559D8FDD-756A-4D6F-A2B2-DDB73929F616}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{0509DBDE-E5EB-4711-8A0C-73DF33B59148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0509DBDE-E5EB-4711-8A0C-73DF33B59148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0509DBDE-E5EB-4711-8A0C-73DF33B59148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E0BDCD-B989-4356-B929-D86489D2AB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E0BDCD-B989-4356-B929-D86489D2AB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E0BDCD-B989-4356-B929-D86489D2AB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E0BDCD-B989-4356-B929-D86489D2AB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559D8FDD-756A-4D6F-A2B2-DDB73929F616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559D8FDD-756A-4D6F-A2B2-DDB73929F616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559D8FDD-756A-4D6F-A2B2-DDB73929F616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559D8FDD-756A-4D6F-A2B2-DDB73929F616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
