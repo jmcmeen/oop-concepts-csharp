@@ -1,23 +1,31 @@
 ﻿namespace _07_DiceRoller
 {
     /// <summary>
-    /// 
+    /// Roll the dice! Uses a static helper class
     /// </summary>
     internal class Program
     {
         /// <summary>
-        /// 
+        /// Program entry point
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine($"d6 = {DiceRoller.Roll(6)}");
-            Console.WriteLine($"d20 = {DiceRoller.Roll(20)}");
-            Console.WriteLine($"d100 = {DiceRoller.Roll(100)}");
+            //For every side in the array
+            foreach (var numSide in new[] {6, 20, 100})
+            {
+                //Roll a die with the number sides
+                Console.WriteLine($"d{numSide} = {DiceRoller.Roll(numSide)}");
 
-            Console.WriteLine($"10d4 = {DiceRoller.RollMultiple(10, 4)}");
-            Console.WriteLine($"2d20 = {DiceRoller.RollMultiple(2, 20)}");
-            Console.WriteLine($"20d100 = {DiceRoller.RollMultiple(1, 100)}");
+                //For each numDice in the array
+                foreach (var numDice in new[] {2,3,4,5})
+                {
+                    //Roll a numSide die numSice times
+                    Console.WriteLine($"{numDice}d{numSide} = {DiceRoller.RollMultiple(numDice, numSide)}");
+                }
+
+                //Create a separator between blocks
+                Console.WriteLine();
+            }
         }
     }
 }
