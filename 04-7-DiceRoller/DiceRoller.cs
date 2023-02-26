@@ -3,7 +3,7 @@
     /// <summary>
     /// Static helper class 
     /// </summary>
-    internal class DiceRoller
+    internal static class DiceRoller
     {
         /// <summary>
         /// Creates a Dice object, rolls it, and returns value
