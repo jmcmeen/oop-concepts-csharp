@@ -2,15 +2,14 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             List<Monster> monsterList = new List<Monster>();
 
-            monsterList.Add(new Monster("Orc"));
-            monsterList.Add(new Monster("Troll"));
-            monsterList.Add(new Monster("Ogre"));
-            monsterList.Add(new Monster("Dragon"));
-            monsterList.Add(new Monster("Golem"));
+            for(int i = 0; i < 25; i++)
+            {
+                monsterList.Add(new Monster());
+            }
 
             Console.WriteLine("Print unsorted list\n");
             PrintMonsters(monsterList);
