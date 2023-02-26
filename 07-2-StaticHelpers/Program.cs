@@ -1,32 +1,94 @@
-﻿namespace XX_ObjectsVSStaticMethods
+﻿using System.Diagnostics;
+
+namespace _07_02_StaticHelpers
 {
     /// <summary>
-    /// 
+    /// Program that slowly increments ohms for a series of volt values
+    /// The program also caculated how many ticks it spends in static methods
+    /// versus object oriented methods
     /// </summary>
     internal class Program
     {
         /// <summary>
-        /// 
+        /// Program entry point
         /// </summary>
-        /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main()
         {
-            //Static helper class example
-            Console.WriteLine("Using static methods from the OhmsLawUtility static helper class");
-            Console.WriteLine("\tOhms = " + OhmsLawUtility.GetOhms(.005, 9));
-            Console.WriteLine("\tVolts = " + OhmsLawUtility.GetVolts(.005, 1800));
-            Console.WriteLine("\tAmps = " + OhmsLawUtility.GetAmps(1800, 9));
+            double ohmsCap = 10000.0;                   //ohms upper limit
+            double ohmsIncrement = 0.0001;              //value to increment ohms by each cycle
+            double[] volts = { 1.5, 3, 4.5, 9, 12 };    //volt values to iterate through
+            double printDelay = 1000000;               //pagination variable
+            Stopwatch watch = new Stopwatch();          //Stopwatch objects to measure run time
+            long staticTicks = 0;                       //variable to hold accumulated ticks in static method calls
+            long objectTicks = 0;                       //cariable to hold accumulated ticks in object calls
 
-            //Object-oriented Ohms Law demonstration
-            Console.WriteLine("Using objects to represent Ohm's law values");
-            Ohm o = new Ohm(.005, 9);
-            Console.WriteLine("\tOhms = " + o.GetValue());
+            //For every value in volt array
+            foreach(double volt in volts)
+            {
+                //count how many times ohms is incremented
+                long count = 0;
 
-            Volt v = new Volt(.005, 1800);
-            Console.WriteLine("\tVolts = " + v.GetValue());
+                //for every ohmsIncrement up to ohmsCap
+                for(double ohm = ohmsIncrement; ohm < ohmsCap; ohm+= ohmsIncrement)
+                {
+                    bool print = false;
+                    
+                    //only print the results every printDelay times
+                    print = count % printDelay == 0;
 
-            Amp a = new Amp(1800, 9);
-            Console.WriteLine("\tAmps = " + a.GetValue());
+                    //Start a timer
+                    watch.Start();
+
+                    //Calculate the amps based on the volts and ohms using static helper
+                    double amps = OhmsLawUtility.GetAmps(ohm, volt);
+
+                    //Stop the timer
+                    watch.Stop();
+
+                    //Capture the elapsed ticks for static routines
+                    staticTicks += watch.ElapsedTicks;
+
+                    //Reset the time for the next test
+                    watch.Reset();
+
+                    //Print current values of volt, ohm, amps
+                    if (print)
+                    {
+                        Console.WriteLine($"volts = {volt} ohm = {ohm} amps = {amps}");
+                    }
+                    
+                    //Start a timer
+                    watch.Start();
+
+                    //Calculate the amps using an Amp Object
+                    amps = new Amp(ohm, volt).GetValue();
+                    
+                    //Stop the timer
+                    watch.Stop();
+
+                    //Capture the elapsed ticks for object routines
+                    objectTicks += watch.ElapsedTicks;
+
+                    //Rest
+                    watch.Reset();
+
+                    //Print current values of volt, ohm, amps
+                    if (print)
+                    {
+                        Console.WriteLine($"volts = {volt} ohm = {ohm} amps = {amps}");
+                    }
+
+                    //increment counter
+                    count++;
+                }
+
+                //Print total times ohms was incremented
+                Console.WriteLine($"Incremented ohms {count} times");
+            }
+
+            //How many ticks did static methods spend working vs object methods
+            Console.WriteLine($"Total ticks in static methods: {staticTicks}");
+            Console.WriteLine($"Total ticks creating and using objects: {objectTicks}");
         }
     }
 }

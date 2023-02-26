@@ -1,4 +1,4 @@
-﻿namespace XX_ObjectsVSStaticMethods
+﻿namespace _07_02_StaticHelpers
 {
     /// <summary>
     /// 
