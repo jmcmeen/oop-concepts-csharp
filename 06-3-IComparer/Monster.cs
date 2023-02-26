@@ -5,22 +5,15 @@
     /// </summary>
     internal class Monster
     {
-        private const int MIN_HP = 100;
-        private const int MAX_HP = 200;
         public string Name { get; set; }
         public int HitPoints { get; set; }
 
         /// <summary>
-        /// Default constructor creates a random Monster
+        /// Default constructor
         /// </summary>
         public Monster()
         {
-            Random r = new Random();
-            Name = RandomGen.NextName(8);
-
-            HitPoints = r.Next(MIN_HP, MAX_HP);
         }
-
 
         /// <summary>
         /// Monster to string

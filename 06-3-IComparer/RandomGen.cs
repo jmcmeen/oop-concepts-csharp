@@ -41,7 +41,7 @@
             string randName = "";
 
             //~30% chance name will start with spicy vowels
-            if(r.NextDouble() > 0.70)
+            if(r.NextDouble() < 0.30)
             {
                 //Add from the list of spicy vowels
                 randName += spicyVowels[r.Next(spicyVowels.Count)];
@@ -65,7 +65,7 @@
                 if (consonants.Contains(randName.Substring(randName.Length - 1)))
                 {
                     //~30% chance name to add spicy vowels
-                    if (r.NextDouble() > 0.70)
+                    if (r.NextDouble() < 0.30)
                     {
                         //Add from the list of spicy vowels
                         randName += spicyVowels[r.Next(spicyVowels.Count)];
@@ -85,6 +85,22 @@
             }
 
             return randName;
+        }
+
+
+        /// <summary>
+        /// Generates a random Monster
+        /// </summary>
+        /// <returns>Monster</returns>
+        public static Monster NextMonster()
+        {
+            const int MIN_HP = 50;
+            const int MAX_HP = 500;
+            const int MAX_NAME_LENGTH = 8;
+            return new Monster { 
+                Name = NextName(MAX_NAME_LENGTH),
+                HitPoints = new Random().Next(MIN_HP, MAX_HP+1)
+            };
         }
     }
 }

@@ -8,7 +8,7 @@
 
             for(int i = 0; i < 25; i++)
             {
-                monsterList.Add(new Monster());
+                monsterList.Add(RandomGen.NextMonster());
             }
 
             Console.WriteLine("Print unsorted list\n");
