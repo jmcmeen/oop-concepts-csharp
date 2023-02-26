@@ -21,31 +21,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-2-IComparable", "06-2-IC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-1-Interfaces", "06-1-Interfaces\06-1-Interfaces.csproj", "{A6715E6E-1480-4AF8-B504-42C7ABE6598D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-SortingLists", "05-1-SortingLists\05-SortingLists.csproj", "{BFAC7266-43D5-49E2-9BB3-7491A18D2FFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-2-SortingLists", "05-1-SortingLists\05-2-SortingLists.csproj", "{BFAC7266-43D5-49E2-9BB3-7491A18D2FFA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Algorithms", "05-1-Algorithms\05-Algorithms.csproj", "{D27A3A00-9E9B-4D95-BC55-3B6FD17CF84E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-1-Algorithms", "05-1-Algorithms\05-1-Algorithms.csproj", "{D27A3A00-9E9B-4D95-BC55-3B6FD17CF84E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-DiceRoller", "04-7-DiceRoller\04-DiceRoller.csproj", "{38D0BB5E-ED2B-43E7-9695-E8DBCAC858BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-7-DiceRoller", "04-7-DiceRoller\04-7-DiceRoller.csproj", "{38D0BB5E-ED2B-43E7-9695-E8DBCAC858BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-5-CustomExceptions", "04-6-CustomExceptions\04-5-CustomExceptions.csproj", "{388F6C15-D46F-45B5-8450-2086677B399D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-6-CustomExceptions", "04-6-CustomExceptions\04-6-CustomExceptions.csproj", "{388F6C15-D46F-45B5-8450-2086677B399D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-4-Exceptions", "04-5-Exceptions\04-4-Exceptions.csproj", "{246AA16D-B176-4021-B2E7-76932BBC156E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-5-Exceptions", "04-5-Exceptions\04-5-Exceptions.csproj", "{246AA16D-B176-4021-B2E7-76932BBC156E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-3-ExceptionsBasic", "04-4-ExceptionsBasic\04-3-ExceptionsBasic.csproj", "{F60CA139-96DF-4483-A508-205F0ED0F557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-4-ExceptionsBasic", "04-4-ExceptionsBasic\04-4-ExceptionsBasic.csproj", "{F60CA139-96DF-4483-A508-205F0ED0F557}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Shapes", "04-3-Shapes\04-Shapes.csproj", "{FA040134-DA5E-4A96-A0F7-8F14E856E977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-3-Shapes", "04-3-Shapes\04-3-Shapes.csproj", "{FA040134-DA5E-4A96-A0F7-8F14E856E977}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-2-AbstractClasses", "04-2-AbstractClasses\04-2-AbstractClasses.csproj", "{BD3D6600-39AE-45D0-9BB8-D063FCC529C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-1-Inheritance", "04-1-Inheritance\04-1-Inheritance.csproj", "{193D4ED7-7C3C-490F-9FD9-D95A1B97AABD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Enumeration", "03-1-Enumeration\03-Enumeration.csproj", "{0D3A506A-A173-4CF4-A427-97899C6BD418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-1-Enumeration", "03-1-Enumeration\03-1-Enumeration.csproj", "{0D3A506A-A173-4CF4-A427-97899C6BD418}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Initializers", "02-1-Initializers\02-Initializers.csproj", "{D5844816-9544-4CDC-BFFC-A56C69AAA15E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-1-Initializers", "02-1-Initializers\02-1-Initializers.csproj", "{D5844816-9544-4CDC-BFFC-A56C69AAA15E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Properties", "01-2-AutoProperties\01-Properties.csproj", "{D46DA1EE-BA9F-4B7A-BA3D-D1FDDF7932E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-2-AutoProperties", "01-2-AutoProperties\01-2-AutoProperties.csproj", "{D46DA1EE-BA9F-4B7A-BA3D-D1FDDF7932E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Objects", "01-1-Objects\01-Objects.csproj", "{FB6B672D-9E9A-4AA9-93E8-0A5156EF8DC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-1-Objects", "01-1-Objects\01-1-Objects.csproj", "{FB6B672D-9E9A-4AA9-93E8-0A5156EF8DC3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-HelloWorld", "00-1-HelloWorld\00-HelloWorld.csproj", "{C28A9536-69F9-42B5-8920-456740BBF3EC}"
 EndProject
