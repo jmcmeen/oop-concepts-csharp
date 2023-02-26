@@ -33,6 +33,5 @@
         {
             return $"d{numSides}";
         }
-
     }
 }

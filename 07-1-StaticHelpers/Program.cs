@@ -21,6 +21,7 @@ namespace _07_02_StaticHelpers
             Stopwatch watch = new Stopwatch();          //Stopwatch objects to measure run time
             long staticTicks = 0;                       //variable to hold accumulated ticks in static method calls
             long objectTicks = 0;                       //cariable to hold accumulated ticks in object calls
+            double amps;
 
             //For every value in volt array
             foreach(double volt in volts)
@@ -40,7 +41,7 @@ namespace _07_02_StaticHelpers
                     watch.Start();
 
                     //Calculate the amps based on the volts and ohms using static helper
-                    double amps = OhmsLawUtility.GetAmps(ohm, volt);
+                    amps = OhmsLawUtility.GetAmps(ohm, volt);
 
                     //Stop the timer
                     watch.Stop();
@@ -54,7 +55,7 @@ namespace _07_02_StaticHelpers
                     //Print current values of volt, ohm, amps
                     if (print)
                     {
-                        Console.WriteLine($"volts = {volt} ohm = {ohm} amps = {amps}");
+                        Console.WriteLine($"volts = {volt} ohms = {ohm} amps = {amps}");
                     }
                     
                     //Start a timer
