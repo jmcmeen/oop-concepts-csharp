@@ -80,7 +80,6 @@
                     //Add from the list of consonants
                     randName += consonants[r.Next(consonants.Count)];
                 }
-
             }
 
             return randName;

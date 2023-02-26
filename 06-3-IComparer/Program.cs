@@ -11,17 +11,17 @@
                 monsterList.Add(RandomGen.NextMonster());
             }
 
-            Console.WriteLine("Print unsorted list\n");
+            Console.WriteLine("Print unsorted List\n");
             PrintMonsters(monsterList);
 
             monsterList.Sort(new HitPointsComparer());
 
-            Console.WriteLine("\nPrint sorted by HitPoints list\n");
+            Console.WriteLine("\nPrint List sorted by HitPoints\n");
             PrintMonsters(monsterList); 
             
             monsterList.Sort(new NameComparer());
 
-            Console.WriteLine("\nPrint sorted by Name list\n");
+            Console.WriteLine("\nPrint List sorted by Name\n");
             PrintMonsters(monsterList);
         }
 
