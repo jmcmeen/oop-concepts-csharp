@@ -37,11 +37,17 @@
             Generics.Swap<int>(integerArray, 0, 2);
             Generics.Swap<double>(doubleArray, 0, 2);
 
-            //In most cases the compiler can infer which method you want without
+            //In some cases the compiler can infer which method you want without
             //the type in bracket <int>, such as below
             Console.WriteLine("Print arrays using generic method:");
             Generics.PrintArray(integerArray);
             Generics.PrintArray(doubleArray);
+
+            //Have an enumerated type and need a random value?
+            //here is your method, it accepts any enum type
+            PizzaToppings p = Generics.RandomEnumValue<PizzaToppings>();
+
+            Console.WriteLine($"{p} is the best pizza topping.");
         }
 
         /// <summary>
