@@ -5,6 +5,7 @@
     /// </summary>
     internal class RandomGen
     {
+        private static readonly Random r = new Random();
         /// <summary>
         /// Generates a random proper name.. probably not a lot that you've heard before
         /// </summary>
@@ -14,13 +15,11 @@
         /// undesirable content</returns>
         public static string NextName(int maxLength)
         {
-            Random r = new Random();
-
             //chose a random name length and make sure maxLength is longer than 3
             int nameLength = r.Next(3, maxLength <= 3 ? 4 : maxLength + 1);
 
             //create a list of consanant sounds
-            List<string> consonants = new List<string> { "b", "c", "d", "f", "g", "h", "j", "k", 
+            List<string> consonants = new List<string> { "b", "c", "d", "f", "g", "h", "j", "k",
                 "l", "m", "l", "n", "p", "q", "r", "s", "sh", "zh", "t", "v", "w", "x" };
 
             //create a base list of vowels
@@ -41,13 +40,13 @@
             string randName = "";
 
             //~30% chance name will start with spicy vowels
-            if(r.NextDouble() < 0.30)
+            if (r.NextDouble() < 0.30)
             {
                 //Add from the list of spicy vowels
                 randName += spicyVowels[r.Next(spicyVowels.Count)];
 
                 //Captialize the first letter
-                randName = randName.Substring(0,1).ToUpper() + randName.Substring(1);
+                randName = randName.Substring(0, 1).ToUpper() + randName.Substring(1);
             }
             else
             {
@@ -57,7 +56,7 @@
 
             //Add from the list of spicy vowels
             randName += spicyVowels[r.Next(spicyVowels.Count)];
-            
+
             //Loop over
             while (randName.Length < nameLength)
             {
@@ -97,9 +96,10 @@
             const int MIN_HP = 50;
             const int MAX_HP = 500;
             const int MAX_NAME_LENGTH = 8;
-            return new Monster { 
+            return new Monster
+            {
                 Name = NextName(MAX_NAME_LENGTH),
-                HitPoints = new Random().Next(MIN_HP, MAX_HP+1)
+                HitPoints = r.Next(MIN_HP, MAX_HP + 1)
             };
         }
     }
