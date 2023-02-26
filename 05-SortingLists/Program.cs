@@ -1,8 +1,14 @@
 ﻿namespace _05_SortingLists
 {
+    /// <summary>
+    /// Demonstrates sorting lists of built in types
+    /// </summary>
     internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             List<int> ints = new List<int>();
             Random random = new Random();

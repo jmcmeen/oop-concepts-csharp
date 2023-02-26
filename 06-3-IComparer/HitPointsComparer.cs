@@ -7,7 +7,8 @@
             if(x.HitPoints > y.HitPoints)
             {
                 return 1;
-            }else if(x.HitPoints < y.HitPoints)
+            }
+            else if(x.HitPoints < y.HitPoints)
             {
                 return -1;
             }

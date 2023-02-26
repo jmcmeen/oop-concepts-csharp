@@ -12,7 +12,13 @@
             Random r = new Random();
             Name = name;
 
-            HitPoints = r.Next(MIN_HP, MAX_HP);
+            HitPoints = r.Next(MIN_HP, MAX_HP + 1);
+        }
+
+        public Monster(string name, int hitPoints)
+        {
+            Name = name;
+            HitPoints = hitPoints;
         }
 
         public override string ToString()

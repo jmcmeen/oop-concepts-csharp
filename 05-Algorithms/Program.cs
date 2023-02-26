@@ -1,52 +1,73 @@
 ﻿namespace _05_Algorithms
 {
+    //Demonstrates the use of variopus array algorithms
     internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
-            int[] vals= { 71, 102, 405, 100, 5 , 14, 32, 50};
+            //Simulation parameters
+            const int ARRAY_SIZE = 20;
+            const int MIN_RANDOM_VALUE = 1;
+            const int MAX_RANDOM_VALUE = 11;
 
-            int index = ArrayAlgorithms.LinearSearch(vals, 100);
+            //Create an integer array with random values
+            int[] vals = ArrayUtils.GetRandomArray(ARRAY_SIZE, MIN_RANDOM_VALUE, MAX_RANDOM_VALUE);
 
+            //Print the array
+            ArrayUtils.PrintArray(vals);
+
+            //Let's try to find a random int
+            int searchInput = new Random().Next(MIN_RANDOM_VALUE, MAX_RANDOM_VALUE);
+
+            Console.WriteLine($"Searching for {searchInput}");
+
+            //Find the index of the specifed value
+            int index = ArrayUtils.LinearSearch(vals, searchInput);
+
+            //If it isn't found the method returns a -1
             if(index == -1) 
             {
                 Console.WriteLine("Value not found");
+                Console.WriteLine("Rest assured, it is not in the array, linear search checks all values");
             }
             else
             {
                 Console.WriteLine("Value found at index " + index);
             }
 
-            int[] vals2 = {1,2,3,4,5,6,7,8,9,10};
+            //Let's try to find a random int using binary search
+            searchInput = new Random().Next(MIN_RANDOM_VALUE, MAX_RANDOM_VALUE);
 
-            index = ArrayAlgorithms.BinarySearch(vals, 5);
+            Console.WriteLine($"Searching for {searchInput}");
 
+            index = ArrayUtils.BinarySearch(vals, searchInput);
+
+            //If it isn't found the method returns a -1
             if (index == -1)
             {
                 Console.WriteLine("Value not found");
+                Console.WriteLine("Did you remember to sort your array before using a binary search?");
             }
             else
             {
                 Console.WriteLine("Value found at index " + index);
+                Console.WriteLine("If you didn't sort before using binary search, you got lucky.");
             }
 
-            int[] rand = new int[1000];
+            Console.WriteLine("Sorting the array");
+            ArrayUtils.BubbleSort(vals);
+            ArrayUtils.PrintArray(vals);
 
-            Random r = new Random();
+            Console.WriteLine("Randomizing");
+            ArrayUtils.RandomizeArray(vals, 100);
+            ArrayUtils.PrintArray(vals);
 
-            for(int i = 0; i < rand.Length; i++)
-            {
-                rand[i] = r.Next();
-            }
-
-            ArrayAlgorithms.BubbleSort(rand);
-            ArrayAlgorithms.OptimizedBubbleSort(rand);
-
-            foreach(int i in vals)
-            {
-               // Console.WriteLine(i);
-            }
-
+            Console.WriteLine("Sorting the array again");
+            ArrayUtils.OptimizedBubbleSort(vals);
+            ArrayUtils.PrintArray(vals);
         }
     }
 }

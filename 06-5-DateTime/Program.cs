@@ -1,12 +1,18 @@
 ﻿namespace XX_DateTime
 {
+    /// <summary>
+    /// Demonstrates very basic DateTime usage
+    /// </summary>
     internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             List<DateTime> list = new List<DateTime>();
 
-            DateTime date1 = DateTime.Now;
+            DateTime date1 = new DateTime();
             DateTime date2 = DateTime.Now;
             DateTime date3 = DateTime.UtcNow;
             DateTime date4 = DateTime.Today;

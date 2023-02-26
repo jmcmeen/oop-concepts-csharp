@@ -1,7 +1,14 @@
 ﻿namespace XX_ObjectsVSStaticMethods
 {
+    /// <summary>
+    /// 
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //Static helper class example

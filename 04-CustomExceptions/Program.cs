@@ -14,14 +14,16 @@
             {
                 b.Withdraw(600);
                 b.Withdraw(-100);
+                b.Deposit(1000000);
             }
-            catch (Exception ex) 
+            catch (InvalidAmountException ex) 
             { 
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message);
             }
-            
-            
-
+            catch(InsufficientFundsException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             Console.WriteLine(b);
         }
     }

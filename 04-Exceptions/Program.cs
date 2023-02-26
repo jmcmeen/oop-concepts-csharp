@@ -1,25 +1,37 @@
 ﻿namespace _04_Exceptions
 {
+    /// <summary>
+    /// Demonstrates the use of an Exception
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             int value = 0;
 
+            //try to execute some code that might throw an Exception
             try
             {
-                for (int i = 5; i >= 0; i--)
+                //Create a loop that eventually divides by 0
+                for (int i = 25; i >= 0; i--)
                 {
-                    value = 7 / i;
+                    Console.Write($"7/{i} = ");
+                    value = 25 / i;
+                    Console.WriteLine($"{value}");
                 }
-
             }
             catch (DivideByZeroException ex)
             {
-                Console.WriteLine("A divide by zero error occured");
-            }
+                //Print the Exception's message
+                Console.WriteLine(ex.Message);
 
-            Console.WriteLine(value);
+                //We could also print the StackTrace if we were debugging and needed more information
+                //Console.WriteLine(ex.StackTrace);
+            }
         }
     }
 }

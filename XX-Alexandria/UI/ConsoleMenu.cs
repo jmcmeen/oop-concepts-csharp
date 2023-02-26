@@ -61,7 +61,5 @@ namespace XX_Alexandria.UI
 
             } while (!c.IsExit());
         }
-
-
     }
 }
