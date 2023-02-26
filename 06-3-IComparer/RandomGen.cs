@@ -3,7 +3,7 @@
     /// <summary>
     /// Utility class for generating random content
     /// </summary>
-    internal class RandomGen
+    internal static class RandomGen
     {
         private static readonly Random r = new Random();
         /// <summary>

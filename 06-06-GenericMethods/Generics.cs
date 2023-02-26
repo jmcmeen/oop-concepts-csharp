@@ -3,7 +3,7 @@
     /// <summary>
     /// A few handy Generic methods
     /// </summary>
-    internal class Generics
+    internal static class Generics
     {
         private static readonly Random r = new Random();
 

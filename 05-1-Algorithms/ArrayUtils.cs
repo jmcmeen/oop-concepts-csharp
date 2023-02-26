@@ -3,7 +3,7 @@
     /// <summary>
     /// Misc integer array algorithms
     /// </summary>
-    internal class ArrayUtils
+    internal static class ArrayUtils
     {
         /// <summary>
         /// Sort array with basic bubble sort algorithm

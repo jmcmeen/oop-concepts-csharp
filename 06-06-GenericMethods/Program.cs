@@ -3,7 +3,7 @@
     /// <summary>
     /// Demonstrates the use of generic methods
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
@@ -31,7 +31,7 @@
             //This. Is. Bad. Imagine if you had to do this for every type!
             //Generic methods solve this problem for us.
             //Examine the code in the Generics.cs file included for the
-            //method calls below
+            //method calls below.
 
             Console.WriteLine("Swap vals using generic method:");
             Generics.Swap<int>(integerArray, 0, 2);
