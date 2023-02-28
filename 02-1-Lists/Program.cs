@@ -1,7 +1,7 @@
 ﻿namespace _02_1_Lists
 {
     /// <summary>
-    /// A program to demonstrate some basic List functionality 
+    /// A program to demonstrate some basic List functionality
     /// </summary>
     internal class Program
     {
