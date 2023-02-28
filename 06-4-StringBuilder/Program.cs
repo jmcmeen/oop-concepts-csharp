@@ -13,7 +13,7 @@ namespace _06_StringBuilder
         /// </summary>
         static void Main()
         {
-            Stopwatch watch = new System.Diagnostics.Stopwatch();
+            Stopwatch watch = new Stopwatch();
 
             for (int i = 2; i < 10000000; i*=2)
             {

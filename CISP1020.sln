@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-HelloWorld", "00-1-Hello
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-1-StaticHelpers", "07-1-StaticHelpers\07-1-StaticHelpers.csproj", "{66590F8B-A97F-428D-906B-524BA73074D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-6-GenericMethods", "06-06-GenericMethods\06-6-GenericMethods.csproj", "{3AD64FA3-2571-4203-A7C7-6A644305BEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-6-GenericMethods", "06-06-GenericMethods\06-6-GenericMethods.csproj", "{3AD64FA3-2571-4203-A7C7-6A644305BEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-2-StaticFields", "07-2-StaticFields\07-2-StaticFields.csproj", "{B987E945-F0C7-46BA-8A5C-8D9643151DC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{3AD64FA3-2571-4203-A7C7-6A644305BEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AD64FA3-2571-4203-A7C7-6A644305BEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD64FA3-2571-4203-A7C7-6A644305BEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B987E945-F0C7-46BA-8A5C-8D9643151DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B987E945-F0C7-46BA-8A5C-8D9643151DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B987E945-F0C7-46BA-8A5C-8D9643151DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B987E945-F0C7-46BA-8A5C-8D9643151DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

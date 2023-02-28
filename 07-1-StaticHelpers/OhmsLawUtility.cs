@@ -3,7 +3,7 @@
     /// <summary>
     /// 
     /// </summary>
-    internal class OhmsLawUtility
+    internal static class OhmsLawUtility
     {
         /// <summary>
         /// 
