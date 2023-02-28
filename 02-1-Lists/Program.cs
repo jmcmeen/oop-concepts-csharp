@@ -16,7 +16,7 @@
             //This is how it asks for memory to hold the integers
             list = new List<int>();
 
-            //Now that it has memory, 
+            //Now that it has memory, we can add some values
             list.Add(5641);
             list.Add(5744);
             list.Add(239485);
