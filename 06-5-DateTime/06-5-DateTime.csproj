@@ -27,7 +27,7 @@
     <ProjectReference Include="..\06-2-IComparable\06-2-IComparable.csproj" />
     <ProjectReference Include="..\06-3-IComparer\06-3-IComparer.csproj" />
     <ProjectReference Include="..\06-4-StringBuilder\06-4-StringBuilder.csproj" />
-    <ProjectReference Include="..\07-2-StaticHelpers\07-1-StaticHelpers.csproj" />
+    <ProjectReference Include="..\07-1-StaticHelpers\07-1-StaticHelpers.csproj" />
   </ItemGroup>
 
 </Project>
