@@ -1,6 +1,6 @@
 ﻿namespace XX_Alexandria.Models
 {
-    internal class CatalogItem
+    internal class CatalogItem 
     {
         public string ID { get; set; }
         public string Title { get; set; }

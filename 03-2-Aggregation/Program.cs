@@ -3,7 +3,7 @@
     /// <summary>
     /// An explanation of the Aggregation relationship
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
@@ -54,6 +54,7 @@
             person = new Person("John N.", address);
             Person person2 = new Person("Dave B.", address);
 
+            Console.WriteLine();
             //At this point, there are 2 Persoon objects, and this class method (Main), that "has a"
             //reference to the Address object. Now, of course, when Main ends, all memory is released
             //back to the operating system.
