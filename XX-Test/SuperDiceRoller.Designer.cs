@@ -132,7 +132,7 @@
             // 
             this.output.AutoSize = true;
             this.output.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.output.Location = new System.Drawing.Point(255, 43);
+            this.output.Location = new System.Drawing.Point(12, 38);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(47, 78);
             this.output.TabIndex = 9;
