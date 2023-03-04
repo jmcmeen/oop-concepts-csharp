@@ -2,10 +2,11 @@
 {
     internal class TreasureChest1
     {
-        public Item[] items;
+        public Dictionary<int, Item> items;
 
-        public TreasureChest1() {
-            items = new Item[10];         
+        public TreasureChest1()
+        {
+            items = new Dictionary<int, Item>();
         }
     }
 }

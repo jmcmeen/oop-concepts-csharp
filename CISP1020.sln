@@ -67,6 +67,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-3-Abstraction", "07-3-Ab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-SuperDiceRoller", "XX-Test\XX-SuperDiceRoller.csproj", "{A3F04E7B-C2CA-4A62-B48F-67726AB4B3CD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Physics", "XX-Physics\XX-Physics.csproj", "{2BE4D3CB-F8B1-497B-8524-D5C07183D946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-UsingObjects", "XX-UsingObjects\XX-UsingObjects.csproj", "{380DC266-6447-4069-8C2D-0CB84C9AF59E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +205,14 @@ Global
 		{A3F04E7B-C2CA-4A62-B48F-67726AB4B3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3F04E7B-C2CA-4A62-B48F-67726AB4B3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3F04E7B-C2CA-4A62-B48F-67726AB4B3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE4D3CB-F8B1-497B-8524-D5C07183D946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE4D3CB-F8B1-497B-8524-D5C07183D946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE4D3CB-F8B1-497B-8524-D5C07183D946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE4D3CB-F8B1-497B-8524-D5C07183D946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380DC266-6447-4069-8C2D-0CB84C9AF59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380DC266-6447-4069-8C2D-0CB84C9AF59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380DC266-6447-4069-8C2D-0CB84C9AF59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380DC266-6447-4069-8C2D-0CB84C9AF59E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

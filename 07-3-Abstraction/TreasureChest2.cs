@@ -2,16 +2,16 @@
 {
     internal class TreasureChest2
     {
-        private Item[] items;
+        public Dictionary<string, Item> items;
 
         public TreasureChest2()
         {
-            items = new Item[5];
+            items = new Dictionary<string, Item>();
         }
 
         public void AddItem(Item item)
         {
-            //items.Add(item);
+            items.Add($"{new Random().NextInt64(40000000000000)}", item);
         }
     }
 }
