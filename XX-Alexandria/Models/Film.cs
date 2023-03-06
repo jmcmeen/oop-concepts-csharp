@@ -2,7 +2,7 @@
 
 namespace XX_Alexandria.Models
 {
-    internal class Film : CatalogItem
+    internal class Film : CatalogItem, ISearchable
     {
         public string Director { get; set; }
         public FilmType FilmType { get; set; }
@@ -17,5 +17,13 @@ namespace XX_Alexandria.Models
             return $"{base.ToString()} Film {{ Director: {Director} Type: {FilmType} }}";
         }
 
+        public override bool Search(string searchTerm)
+        {
+            //Search item terms
+            return Title.ToLower().Contains(searchTerm.ToLower()) ||
+               Year.ToLower().Contains(searchTerm.ToLower()) ||
+               Director.ToLower().Contains(searchTerm.ToLower());
+
+        }
     }
 }

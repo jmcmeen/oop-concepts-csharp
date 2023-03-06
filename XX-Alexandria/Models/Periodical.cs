@@ -2,7 +2,7 @@
 
 namespace XX_Alexandria.Models
 {
-    internal class Periodical : CatalogItem
+    internal class Periodical : CatalogItem, ISearchable
     {
         public string Volume { get; set; }
         public string Issue { get; set; }

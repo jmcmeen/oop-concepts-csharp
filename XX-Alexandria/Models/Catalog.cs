@@ -32,28 +32,9 @@ namespace XX_Alexandria.Models
 
             foreach (CatalogItem item in Items)
             {
-                //Search item terms
-                if (item.Title.ToLower().Contains(searchTerm.ToLower()) || item.Year.ToLower().Contains(searchTerm.ToLower()))
+                if (item.Search(searchTerm))
                 {
                     searchResults.Add(item);
-                    continue;
-                }
-
-                if (item.GetType() == typeof(Book))
-                {
-                    Book b = (Book)item;
-                    if (b.Author.ToLower().Contains(searchTerm.ToLower()) || b.ISBN.ToLower().Contains(searchTerm.ToLower()))
-                    {
-                        searchResults.Add(item);
-                    }
-                }
-                else if (item.GetType() == typeof(Film))
-                {
-                    Film d = (Film)item;
-                    if (d.Director.ToLower().Contains(searchTerm.ToLower()))
-                    {
-                        searchResults.Add(item);
-                    }
                 }
             }
             return searchResults;

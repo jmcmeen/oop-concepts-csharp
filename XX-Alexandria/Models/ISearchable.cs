@@ -2,6 +2,6 @@
 {
     internal interface ISearchable
     {
-        public bool Search();
+        public bool Search(string searchTerm);
     }
 }
