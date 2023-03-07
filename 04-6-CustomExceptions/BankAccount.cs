@@ -3,10 +3,11 @@
 namespace _04_CustomExceptions
 {
     internal class BankAccount
-    {   
+    {
+        private decimal _balance;
         public int Id { get; set; }
         public string Name { get; set; }
-        public decimal Balance { get; set; }
+        private decimal Balance { get; }
 
         public void Deposit(decimal amount)
         {
@@ -14,6 +15,8 @@ namespace _04_CustomExceptions
             {
                 throw new InvalidAmountException();
             }
+
+            _balance += amount;
         }
 
         public void Withdraw(decimal amount)
@@ -27,7 +30,7 @@ namespace _04_CustomExceptions
                 throw new InvalidAmountException();
             }
 
-            Balance -= amount;
+            _balance -= amount;
         }
 
         public override string ToString()
