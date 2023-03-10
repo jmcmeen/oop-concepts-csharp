@@ -6,15 +6,16 @@
         {
             BankAccount b = new BankAccount { 
                 Id = 1,
-                Name= "John McMeen",
-                Balance = 500 
+                Name= "Burf Snerfle",
             };
+
+            b.Deposit(100.00m);
 
             try
             {
-                b.Withdraw(600);
-                b.Withdraw(-100);
-                b.Deposit(1000000);
+                b.Withdraw(600.00m);
+                b.Withdraw(-100.00m);
+                b.Deposit(1000000.00m);
             }
             catch (InvalidAmountException ex) 
             { 

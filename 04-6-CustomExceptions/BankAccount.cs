@@ -1,13 +1,11 @@
-﻿using System.Numerics;
-
-namespace _04_CustomExceptions
+﻿namespace _04_CustomExceptions
 {
     internal class BankAccount
     {
         private decimal _balance;
         public int Id { get; set; }
         public string Name { get; set; }
-        private decimal Balance { get; }
+        private decimal Balance { get { return _balance; } }
 
         public void Deposit(decimal amount)
         {
