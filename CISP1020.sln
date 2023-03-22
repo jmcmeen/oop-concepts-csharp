@@ -71,7 +71,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Physics", "XX-Physics\XX
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-UsingObjects", "XX-UsingObjects\XX-UsingObjects.csproj", "{380DC266-6447-4069-8C2D-0CB84C9AF59E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-SplitStrings", "XX-SplitStrings\XX-SplitStrings.csproj", "{A10E95EB-CEBD-4BCD-AFFA-F704D48A2389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-SplitStrings", "XX-SplitStrings\XX-SplitStrings.csproj", "{A10E95EB-CEBD-4BCD-AFFA-F704D48A2389}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-1-Equals", "09-1-Equals\09-1-Equals.csproj", "{6C936EC3-DED5-472A-B9AB-C1FCA0BCBC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-StringContains", "XX-StringContains\XX-StringContains.csproj", "{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,14 @@ Global
 		{A10E95EB-CEBD-4BCD-AFFA-F704D48A2389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A10E95EB-CEBD-4BCD-AFFA-F704D48A2389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A10E95EB-CEBD-4BCD-AFFA-F704D48A2389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C936EC3-DED5-472A-B9AB-C1FCA0BCBC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C936EC3-DED5-472A-B9AB-C1FCA0BCBC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C936EC3-DED5-472A-B9AB-C1FCA0BCBC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C936EC3-DED5-472A-B9AB-C1FCA0BCBC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
