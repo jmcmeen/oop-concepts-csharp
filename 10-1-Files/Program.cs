@@ -1,12 +1,12 @@
 ﻿//references: https://learn.microsoft.com/en-us/dotnet/api/system.io.file?view=net-7.0
 
-namespace XX_Files
+namespace _10_1_Files
 {
     internal class Program
     {
         public static void Main()
         {
-            string path = @"c:\temp.txt";
+            const string path = @"c:\temp.txt";
             if (!File.Exists(path))
             {
                 // Create a file to write to.

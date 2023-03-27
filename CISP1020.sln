@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Alexandria", "XX-Alexand
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-BasicWinForms", "11-1-BasicWinForms\XX-BasicWinForms.csproj", "{D4E09A8D-04D2-407A-8F21-52BA59F8F35B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Files", "10-1-Files\XX-Files.csproj", "{3BEBABC1-DFCC-4DB4-9B50-CF05CD221B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-1-TextFiles", "10-1-Files\10-1-TextFiles.csproj", "{3BEBABC1-DFCC-4DB4-9B50-CF05CD221B86}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Dictionary", "09-1-Dictionary\XX-Dictionary.csproj", "{1AD54900-84FE-4350-B29B-B428EFCEDA35}"
 EndProject
@@ -75,7 +75,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-SplitStrings", "XX-Split
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-1-Equals", "09-1-Equals\09-1-Equals.csproj", "{6C936EC3-DED5-472A-B9AB-C1FCA0BCBC85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-StringContains", "XX-StringContains\XX-StringContains.csproj", "{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-StringContains", "XX-StringContains\XX-StringContains.csproj", "{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-2-HashCode", "09-2-HashCode\09-2-HashCode.csproj", "{FE6AB3DF-E8B7-4E36-820D-03784D126408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-2-BinaryFiles", "10-2-BinaryFiles\10-2-BinaryFiles.csproj", "{79B39B32-65B2-471A-B581-3213A50E1D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-3-FileEncoding", "10-3-FileEncoding\10-3-FileEncoding.csproj", "{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +237,18 @@ Global
 		{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D40CB3C-4E18-4A0E-9767-3432537BF8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6AB3DF-E8B7-4E36-820D-03784D126408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6AB3DF-E8B7-4E36-820D-03784D126408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6AB3DF-E8B7-4E36-820D-03784D126408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6AB3DF-E8B7-4E36-820D-03784D126408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B39B32-65B2-471A-B581-3213A50E1D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B39B32-65B2-471A-B581-3213A50E1D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B39B32-65B2-471A-B581-3213A50E1D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B39B32-65B2-471A-B581-3213A50E1D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

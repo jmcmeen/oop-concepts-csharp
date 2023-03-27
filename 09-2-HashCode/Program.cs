@@ -1,8 +1,10 @@
-﻿namespace _09_1_Equals
+﻿using _09_1_Equals;
+
+namespace _09_2_HashCode
 {
     internal class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Loot loot1 = new Loot
             {
@@ -22,8 +24,10 @@
                 cost = 250.00
             };
 
-            Console.WriteLine($"loot1 == loot2 -> {loot1.Equals(loot2)}");
-            Console.WriteLine($"loot1 == loot3 -> {loot1.Equals(loot3)}");
+            Console.WriteLine($"loot1 HashCode = {loot1.GetHashCode()}");
+            Console.WriteLine($"loot2 HashCode = {loot2.GetHashCode()}");
+            Console.WriteLine($"loot3 HashCode = {loot3.GetHashCode()}");
+
         }
     }
 }

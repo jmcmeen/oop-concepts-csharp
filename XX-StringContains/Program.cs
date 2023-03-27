@@ -39,7 +39,6 @@
                 }
             }
 
-
             Console.WriteLine($"{test} isValid = {isValid} ");
         }
     }
