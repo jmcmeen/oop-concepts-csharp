@@ -19,8 +19,6 @@
                     Console.WriteLine($"{s.particles[i]} - {s.particles[j]} - {s.particles[i].CalculateForce(s.particles[j])}");
                 }
             }
-
-
         }
     }
 }

@@ -13,7 +13,6 @@
     <ProjectReference Include="..\01-1-Objects\01-1-Objects.csproj" />
     <ProjectReference Include="..\01-2-AutoProperties\01-2-AutoProperties.csproj" />
     <ProjectReference Include="..\02-1-Initializers\02-1-Initializers.csproj" />
-    <ProjectReference Include="..\03-1-Enumeration\03-1-Enumeration.csproj" />
     <ProjectReference Include="..\04-1-Inheritance\04-1-Inheritance.csproj" />
     <ProjectReference Include="..\04-2-AbstractClasses\04-2-AbstractClasses.csproj" />
     <ProjectReference Include="..\04-3-Shapes\04-3-Shapes.csproj" />

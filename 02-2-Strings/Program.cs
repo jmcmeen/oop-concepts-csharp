@@ -1,8 +1,26 @@
-﻿namespace XX_StringContains
+﻿namespace _02_2_Strings
 {
     internal class Program
     {
         static void Main(string[] args)
+        {
+            SplitStrings();
+            StringContains();
+        }
+
+        public static void SplitStrings()
+        {
+            string aSentence = "Hello World! How are you today!";
+
+            string[] aSplitSentence = aSentence.Split(" ");
+
+            foreach (string s in aSplitSentence)
+            {
+                Console.WriteLine(s);
+            }
+        }
+
+        public static void StringContains()
         {
             string test = "Hello World";
             string validChars = "helowrd ";
@@ -30,11 +48,11 @@
 
             //simple way to test for valid chars in a string, this would be better solved with
             //regular expressions
-            foreach(char c in test.ToLower())
+            foreach (char c in test.ToLower())
             {
-                if(!validChars.ToLower().Contains(c))
+                if (!validChars.ToLower().Contains(c))
                 {
-                    isValid= false;
+                    isValid = false;
                     break;
                 }
             }
