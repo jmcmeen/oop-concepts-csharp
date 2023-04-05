@@ -79,9 +79,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-StringContains", "XX-Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-2-HashCode", "09-2-HashCode\09-2-HashCode.csproj", "{FE6AB3DF-E8B7-4E36-820D-03784D126408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-2-BinaryFiles", "10-2-BinaryFiles\10-2-BinaryFiles.csproj", "{79B39B32-65B2-471A-B581-3213A50E1D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-2-BinaryFiles", "10-2-BinaryFiles\10-2-BinaryFiles.csproj", "{79B39B32-65B2-471A-B581-3213A50E1D94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-3-FileEncoding", "10-3-FileEncoding\10-3-FileEncoding.csproj", "{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-3-FileEncoding", "10-3-FileEncoding\10-3-FileEncoding.csproj", "{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-1-JSONSerialization", "11-1-JSONSerialization\11-1-JSONSerialization.csproj", "{DEAD5D40-74E8-4573-A9B0-B0D297C2E3DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A6F9F4-B9AD-4E7D-95DD-F2F396D40418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAD5D40-74E8-4573-A9B0-B0D297C2E3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAD5D40-74E8-4573-A9B0-B0D297C2E3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAD5D40-74E8-4573-A9B0-B0D297C2E3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAD5D40-74E8-4573-A9B0-B0D297C2E3DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
