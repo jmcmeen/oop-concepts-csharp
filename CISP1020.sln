@@ -89,6 +89,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-2-CopyConstructors", "11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-3-ICloneable", "11-3-ICloneable\11-3-ICloneable.csproj", "{8FB1A87F-318C-45B9-9392-AEAD72284A63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-4-ShallowCopy", "11-4-ShallowCopy\11-4-ShallowCopy.csproj", "{3E5AB6B0-32A6-4178-A27D-ABAE7BE98B34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{8FB1A87F-318C-45B9-9392-AEAD72284A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FB1A87F-318C-45B9-9392-AEAD72284A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FB1A87F-318C-45B9-9392-AEAD72284A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5AB6B0-32A6-4178-A27D-ABAE7BE98B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5AB6B0-32A6-4178-A27D-ABAE7BE98B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5AB6B0-32A6-4178-A27D-ABAE7BE98B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5AB6B0-32A6-4178-A27D-ABAE7BE98B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
