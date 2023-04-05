@@ -24,8 +24,12 @@ namespace _11_1_JSONSerialization
             //Now let's take that string, call Deserialize and turn this back into a set of object!
             TreasureChest? myNewTreasureChest = JsonSerializer.Deserialize<TreasureChest>(jsonString);
 
-            //Behold an object reference!
-            Console.WriteLine(myNewTreasureChest.items.Count);
+            //There is a possibility this call will return null if Deserialization issues arise
+            if(myNewTreasureChest != null)
+            {
+                //Behold an object reference!
+                Console.WriteLine(myNewTreasureChest.items.Count);
+            }   
         }
     }
 }
