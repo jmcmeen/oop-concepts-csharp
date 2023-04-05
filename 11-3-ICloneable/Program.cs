@@ -1,6 +1,4 @@
-﻿using _11_1_CopyConstructors;
-
-namespace _11_3_ICloneable
+﻿namespace _11_3_ICloneable
 {
     internal class Program
     {

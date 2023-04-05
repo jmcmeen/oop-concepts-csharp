@@ -1,0 +1,51 @@
+﻿using System.Text;
+
+namespace _11_5_DeepCopy
+{
+    internal class Server : ICloneable
+    {
+        public string? Name { get; set; }
+        public List<Guild> Guilds { get; set; }
+
+        public Server()
+        {
+            Guilds = new List<Guild>();
+        }
+
+        /// <summary>
+        /// Clone (Deep Copy)
+        /// </summary>
+        /// <returns></returns>
+        public object Clone()
+        {
+            //Create a new Server object
+            Server s = new Server
+            {
+                Name = this.Name,
+            };
+
+            //Call each Guild's deep copy Clone method and add to a new Server object Guilds
+            foreach(Guild guild in Guilds)
+            {
+                s.Guilds.Add((Guild)guild.Clone());
+            }
+
+            return s;
+        }
+
+        /// <summary>
+        /// ToString
+        /// </summary>
+        /// <returns></returns>
+        public override string? ToString()
+        {
+            StringBuilder sb = new StringBuilder($"Server: {{ \n\tName: {Name}\n");
+            foreach (Guild guild in Guilds)
+            {
+                sb.Append($"\n\t{guild}");
+            }
+            sb.Append("\n}");
+            return sb.ToString();
+        }
+    }
+}

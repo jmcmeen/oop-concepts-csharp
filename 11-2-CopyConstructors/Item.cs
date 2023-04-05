@@ -1,4 +1,4 @@
-﻿namespace _11_1_CopyConstructors
+﻿namespace _11_2_CopyConstructors
 {
     internal class Item
     {
