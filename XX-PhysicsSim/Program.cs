@@ -7,7 +7,7 @@
             Space s = new Space();
             Random r = new Random();
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 2; i++)
             {
                 s.AddParticle(r.Next(), r.Next(), r.Next(), r.Next());
             }
@@ -16,7 +16,7 @@
             {
                 for(int j = i + 1 ; j < s.particles.Count; j++)
                 {
-                    Console.WriteLine($"{s.particles[i]} - {s.particles[j]} - {s.particles[i].CalculateForce(s.particles[j])}");
+                    Console.WriteLine($"{s.particles[i]} - {s.particles[j]} - {s.particles[i].CalculateForceMagnitude(s.particles[j])}");
                 }
             }
         }

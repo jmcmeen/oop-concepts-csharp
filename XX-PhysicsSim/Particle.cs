@@ -3,23 +3,23 @@
     internal class Particle
     {
         public double mass;  //kg
-        public Vector v;
+        public Point3d p;
 
         public Particle(double x, double y, double z, double mass)
         {
             this.mass = mass;
 
-            v = new Vector(x, y, x);
+            p = new Point3d(x, y, x);
         }
 
-        public double CalculateForce(Particle p)
+        public double CalculateForceMagnitude(Particle particle)
         {
-            return Constants.GRAV * (mass * p.mass / Math.Pow(v.CalculateDistance(p.v), 2));
+            return Constants.GRAV * (mass * particle.mass / Math.Pow(p.CalculateDistance(particle.p), 2));
         }
 
         public override string ToString()
         {
-            return $"{{{mass}, {v.x},{v.y},{v.z}}}";
+            return $"{{{mass}, {p.x},{p.y},{p.z}}}";
         }
     }
 }

@@ -13,5 +13,7 @@
         {
             particles.Add(new Particle(x, y, z, mass));
         }
+
+
     }
 }
