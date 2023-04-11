@@ -12,7 +12,8 @@
         public object Clone()
         {
             //This is a deep copy because Address's Clone creates a new obect and returns it
-            return new Person { Name = this.Name, Address = (Address)this.Address.Clone() };
+            return new Person { Name = this.Name, 
+                                Address = (Address)this.Address.Clone() };
         }
 
         /// <summary>

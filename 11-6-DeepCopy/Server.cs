@@ -19,7 +19,7 @@ namespace _11_5_DeepCopy
         public object Clone()
         {
             //Create a new Server object
-            Server s = new Server
+            Server server = new Server
             {
                 Name = this.Name,
             };
@@ -27,10 +27,10 @@ namespace _11_5_DeepCopy
             //Call each Guild's deep copy Clone method and add to a new Server object Guilds
             foreach(Guild guild in Guilds)
             {
-                s.Guilds.Add((Guild)guild.Clone());
+                server.Guilds.Add(  (Guild)guild.Clone()  );
             }
 
-            return s;
+            return server;
         }
 
         /// <summary>

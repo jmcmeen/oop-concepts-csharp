@@ -8,7 +8,7 @@
         public string? Zip { get; set; }
 
         /// <summary>
-        /// 
+        /// ToString
         /// </summary>
         /// <returns></returns>
         public override string? ToString()

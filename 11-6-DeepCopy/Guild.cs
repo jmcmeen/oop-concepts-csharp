@@ -2,7 +2,7 @@
 
 namespace _11_5_DeepCopy
 {
-    internal class Guild
+    internal class Guild : ICloneable
     {
         public string? Name { get; set; } 
         public List<Player> Players { get; set; }
@@ -19,18 +19,18 @@ namespace _11_5_DeepCopy
         public object Clone()
         {
             //Create a new Guild so it is a Deep Copy
-            Guild g = new Guild
+            Guild guild = new Guild
             {
                 Name = this.Name,
             };
 
             //Player.Clone() creates a new Player
-            foreach (Player p in Players)
+            foreach (Player player in this.Players)
             {
-                g.Players.Add((Player)p.Clone());
+                guild.Players.Add( (Player)player.Clone() );
             }
 
-            return g;
+            return guild;
         }
 
         /// <summary>

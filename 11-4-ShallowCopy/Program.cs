@@ -13,7 +13,7 @@
                     Street = "123 New Street",
                     City = "Miami",
                     State = "Florida",
-                    Zip = "33101 "
+                    Zip = "33101"
                 }
             };
 

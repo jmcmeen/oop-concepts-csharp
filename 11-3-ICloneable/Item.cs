@@ -37,8 +37,10 @@
         /// <returns></returns>
         public object Clone()
         {
+            object o = new Item();
+
             //create and return a new Item reference, passing in this Item's properties
-            return new Item(Description, Cost);
+            return new Item(this.Description, this.Cost);
         }
     }
 }

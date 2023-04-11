@@ -5,7 +5,7 @@ namespace XX_BasicWinForms
         public Form1()
         {
             InitializeComponent();
-            this.button1.MouseEnter += OnMouseEnterButton1;
+            this.button1.MouseEnter += new EventHandler(OnMouseEnterButton1);
         }
 
         private void OnMouseEnterButton1(object sender, EventArgs e)
@@ -15,6 +15,11 @@ namespace XX_BasicWinForms
 
             button1.Location = new Point(x, y);
             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
