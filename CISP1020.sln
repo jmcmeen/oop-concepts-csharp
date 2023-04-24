@@ -97,9 +97,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-AhhhRealCircles", "XX-Ah
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-HelloWorld", "00-1-HelloWorld\00-HelloWorld.csproj", "{291299D2-1CE7-4A3C-879F-A016859B4434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-Containers", "XX-Containers\XX-Containers.csproj", "{0830C9B7-4B9B-4932-B649-CE663D5BF763}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-Containers", "XX-Containers\XX-Containers.csproj", "{0830C9B7-4B9B-4932-B649-CE663D5BF763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XX-BindingSource", "XX-BindingSource\XX-BindingSource.csproj", "{1183B2D8-5824-46A6-A566-85D3A048D6C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-BindingSource", "XX-BindingSource\XX-BindingSource.csproj", "{1183B2D8-5824-46A6-A566-85D3A048D6C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-03-Hashing", "09-03-Hashing\09-03-Hashing.csproj", "{FB0DFFC8-3E8A-4033-BC46-16EBF0EC0500}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{1183B2D8-5824-46A6-A566-85D3A048D6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1183B2D8-5824-46A6-A566-85D3A048D6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1183B2D8-5824-46A6-A566-85D3A048D6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0DFFC8-3E8A-4033-BC46-16EBF0EC0500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0DFFC8-3E8A-4033-BC46-16EBF0EC0500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0DFFC8-3E8A-4033-BC46-16EBF0EC0500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0DFFC8-3E8A-4033-BC46-16EBF0EC0500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
