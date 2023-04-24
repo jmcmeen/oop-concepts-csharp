@@ -16,10 +16,5 @@ namespace XX_BasicWinForms
             button1.Location = new Point(x, y);
             
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
