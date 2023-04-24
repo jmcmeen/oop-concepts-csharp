@@ -34,7 +34,7 @@ namespace _10_3_FileEncoding
             //creates a binary file
             using (var stream = File.Open(binaryFilePath, FileMode.Create))
             {
-                using (var writer = new BinaryWriter(stream, Encoding.UTF8, false))
+                using (var writer = new BinaryWriter(stream, Encoding.Default, false))
                 {
                     writer.Write(writeValue);
                 }
@@ -45,7 +45,7 @@ namespace _10_3_FileEncoding
             {
                 using (var stream = File.Open(binaryFilePath, FileMode.Open))
                 {
-                    using (var reader = new BinaryReader(stream, Encoding.UTF8, false))
+                    using (var reader = new BinaryReader(stream, Encoding.Default, false))
                     {
                         readValue = reader.ReadInt32();
                     }
