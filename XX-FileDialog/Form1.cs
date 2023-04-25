@@ -15,7 +15,7 @@ namespace XX_FileDialog
         {
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                filePathTextBox.Text = openFileDialog.FileName;
+                filePathTextBox.Text = openFileDialog.FileName; 
                 fileData = File.ReadAllBytes(openFileDialog.FileName);
 
                 outputTextBox.Text = BitConverter.ToString(fileData);
