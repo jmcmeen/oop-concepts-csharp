@@ -18,7 +18,6 @@ namespace _09_03_Hashing
             Console.WriteLine($"output - {output}");
             Console.WriteLine($"output (no dashes) - {output.Replace("-","")}\n");
 
-
             algorithm = SHA1.Create();
             Console.Write("Enter a string to hash to SHA1: ");
             input = Console.ReadLine();
