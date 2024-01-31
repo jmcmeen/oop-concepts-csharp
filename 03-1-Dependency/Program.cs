@@ -1,5 +1,8 @@
 ﻿namespace _03_1_Dependency
 {
+    /// <summary>
+    /// A brief explanation of the Dependency relationship
+    /// </summary>
     internal class Program
     {
         static void Main()

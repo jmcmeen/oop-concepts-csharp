@@ -1,4 +1,4 @@
-﻿namespace _03_5_WinForms
+﻿namespace _03_6_WinForms
 {
     internal class Program
     {
