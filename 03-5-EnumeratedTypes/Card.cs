@@ -2,7 +2,7 @@
 /// Name: John McMeen 
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: CISP 1020 Examples
-namespace _03_Enumeration
+namespace _03_5_EnumeratedTypes
 {
     /// <summary>
     /// Models a playing card
@@ -13,7 +13,7 @@ namespace _03_Enumeration
         public Rank Rank { get; set; }
 
         /// <summary>
-        /// Paramterized constructor
+        /// Parameterized constructor
         /// </summary>
         /// <param name="suit">The card's suit</param>
         /// <param name="rank">The card's rank</param>
