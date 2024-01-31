@@ -1,4 +1,4 @@
-﻿namespace _03_2_Aggregation
+﻿namespace _03_3_Aggregation
 {
     /// <summary>
     /// An explanation of the Aggregation relationship

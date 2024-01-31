@@ -1,4 +1,4 @@
-﻿namespace _02_3_Association
+﻿namespace _03_2_Association
 {
     /// <summary>
     /// A brief explanation of the object relationship Association

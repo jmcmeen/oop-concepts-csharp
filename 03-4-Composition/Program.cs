@@ -1,4 +1,4 @@
-﻿namespace _03_3_Composition
+﻿namespace _03_4_Composition
 {
     /// <summary>
     /// An explanation of the Composition relationship
@@ -10,7 +10,7 @@
         /// </summary>
         static void Main()
         {
-            //Assocation relationships that refers to encapsulation are called "has-a" relationships
+            //Association relationships that refer to encapsulation are called "has-a" relationships
             //It means that beyond just a class using another class to do something, that
             //the object of one class holds, or "has a," field or property of another class type
 
