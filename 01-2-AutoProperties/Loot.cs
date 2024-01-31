@@ -4,6 +4,9 @@
 /// Project: CISP 1020 Examples
 namespace _01_Properties
 {
+    /// <summary>
+    /// Models loot
+    /// </summary>
     internal class Loot
     {
         // public auto-properties
