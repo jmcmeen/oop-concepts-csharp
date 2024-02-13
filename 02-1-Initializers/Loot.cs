@@ -16,7 +16,10 @@ namespace _01_Initializers
         /// <summary>
         /// Default constructor
         /// </summary>
-        public Loot() { }
+        public Loot() 
+        { 
+        
+        }
 
         /// <summary>
         /// Prameterized constructor

@@ -26,7 +26,7 @@ namespace _01_Initializers
             // an argument for only the ID property. No corresponding constructor is
             // necessary. Only the parameterless constructor is used to process object
             // initializers.
-            Loot loot3 = new Loot
+            Loot loot3 = new Loot()
             {
                 Name = "Dagger"
             };
