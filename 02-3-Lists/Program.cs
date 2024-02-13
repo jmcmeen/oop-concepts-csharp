@@ -58,6 +58,19 @@
             }
 
             //TODO TrimExcess and Capacity
+            Console.WriteLine($"I am holding {listOfIntegers.Count} out of {listOfIntegers.Capacity} possible values for {(float)listOfIntegers.Count / listOfIntegers.Capacity * 100.0} utilization.");
+
+            listOfIntegers.TrimExcess();
+
+            Console.WriteLine($"I am holding {listOfIntegers.Count} out of {listOfIntegers.Capacity} possible values for {(float)listOfIntegers.Count / listOfIntegers.Capacity * 100.0} utilization.");
+
+            listOfIntegers.Add(4);
+
+            Console.WriteLine($"I am holding {listOfIntegers.Count} out of {listOfIntegers.Capacity} possible values for {(float)listOfIntegers.Count / listOfIntegers.Capacity * 100.0} utilization.");
+
+            listOfIntegers.Capacity = 7;
+
+            Console.WriteLine($"I am holding {listOfIntegers.Count} out of {listOfIntegers.Capacity} possible values for {(float)listOfIntegers.Count / listOfIntegers.Capacity * 100.0} utilization.");
         }
     }
 }
