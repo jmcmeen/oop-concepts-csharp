@@ -11,7 +11,7 @@
             list.Add(new Animal("Larry"));
             list.Add(new Cat("William"));
             list.Add(new Dog("Gene"));
-            list.Add(new Fish("Gerald"));
+            list.Add(new Fish("Gerald B."));
             list.Add(new Elephant("Thomas"));
 
             foreach (Animal a in list)

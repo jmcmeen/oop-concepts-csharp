@@ -75,6 +75,8 @@
                     Effect = "Sipping from it allows glimpses into the past or future", 
                     GoldPrice = 100,
                 });
+
+
                 Console.WriteLine("Item added.\n");
             }
             catch (Exception ex)
