@@ -1,19 +1,27 @@
 ﻿namespace _07_3_Abstraction
 {
-    internal class Program
+    /// <summary>
+    /// Program that demonstrates Abstraction
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            TreasureChest1 t1 = new TreasureChest1();
-            t1.items[0] = new Item();
-            t1.items[1] = new Item();
-            t1.items[2] = new Item();
+            Random random = new Random();
 
+            List<TreasureChest> treasureChests = new List<TreasureChest>();
 
-            TreasureChest2 t2 = new TreasureChest2();
-            t2.AddItem(new Item());
-            t2.AddItem(new Item());
-            t2.AddItem(new Item());
+            treasureChests.Add(new TreasureChestType1());
+            treasureChests.Add(new TreasureChestType2());
+
+            foreach(TreasureChest treasureChest in treasureChests)
+            {
+                var numItemsToAdd = random.Next(1,11);
+                for(int i = 0; i < numItemsToAdd; i++)
+                {
+                    treasureChest.AddItem(new Item());
+                }
+            }
 
             Console.WriteLine();
         }

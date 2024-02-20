@@ -1,8 +1,14 @@
 ﻿namespace _07_2_StaticFields
 {
-    internal class Program
+    /// <summary>
+    /// Program to demonstrate static fields
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             TreasureChest tc = new TreasureChest("Larry");
             TreasureChest tc2 = new TreasureChest("Paula");

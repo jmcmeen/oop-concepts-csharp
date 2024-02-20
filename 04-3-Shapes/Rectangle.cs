@@ -1,18 +1,19 @@
-﻿namespace _04_Shapes
+﻿namespace _04_3_Shapes
 {
     /// <summary>
-    /// Rectangle class inherits from Shape
+    /// Models a Rectangle derived from Shape
     /// </summary>
     internal class Rectangle : Shape
     {
+        //public auto-implemented properties
         public double Length { get; set; }
         public double Width { get; set; }
 
         /// <summary>
         /// Parameterized constructor
         /// </summary>
-        /// <param name="width"></param>
-        /// <param name="length"></param>
+        /// <param name="width"> Rectangle width</param>
+        /// <param name="length">Rectangle length</param>
         public Rectangle(double width, double length)
         {
             Width = width;
@@ -20,9 +21,9 @@
         }
 
         /// <summary>
-        /// Calculates area
+        /// Calculates Rectangle's area
         /// </summary>
-        /// <returns>The rectangle's area</returns>
+        /// <returns>The rectangle's area as a double</returns>
         public override double CalculateArea()
         {
             return Length * Width;
@@ -30,7 +31,7 @@
 
 
         /// <summary>
-        /// Converts to a string
+        /// Converts Rectangle to a string
         /// </summary>
         /// <returns>A rectangles string representation</returns>
         public override string ToString()

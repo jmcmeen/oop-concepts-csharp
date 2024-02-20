@@ -1,12 +1,12 @@
-﻿namespace _07_02_StaticHelpers
+﻿namespace _07_01_StaticHelpers
 {
     /// <summary>
-    /// 
+    /// Helper methods for calculating common electrical mathematics
     /// </summary>
     internal static class OhmsLawUtility
     {
         /// <summary>
-        /// 
+        /// Calculates amps
         /// </summary>
         /// <param name="ohms"></param>
         /// <param name="volts"></param>
@@ -17,7 +17,7 @@
         }
 
         /// <summary>
-        /// 
+        /// Calculates volts
         /// </summary>
         /// <param name="amps"></param>
         /// <param name="ohms"></param>
@@ -28,7 +28,7 @@
         }
 
         /// <summary>
-        /// 
+        /// Calculates Ohms
         /// </summary>
         /// <param name="amps"></param>
         /// <param name="volts"></param>

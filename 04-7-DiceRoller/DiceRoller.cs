@@ -1,7 +1,7 @@
-﻿namespace _07_DiceRoller
+﻿namespace _04_7_DiceRoller
 {
     /// <summary>
-    /// Static helper class 
+    /// Static helper class for rolling dice
     /// </summary>
     internal static class DiceRoller
     {

@@ -1,9 +1,9 @@
-﻿namespace _04_Shapes
+﻿namespace _04_3_Shapes
 {
     /// <summary>
     /// Demonstrates the use of Abstract classes
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

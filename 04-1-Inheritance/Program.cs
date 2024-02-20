@@ -1,8 +1,14 @@
-﻿namespace _04_Inheritance
+﻿namespace _04_1_Inheritance
 {
-    internal class Program
+    /// <summary>
+    /// Program demonstrating basic inheritance and polymorphic behavior
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             List<Animal> list = new List<Animal>();
 

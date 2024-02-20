@@ -1,8 +1,14 @@
-﻿namespace _06_SortingObjectLists
+﻿namespace _06_2_IComparable
 {
-    internal class Program
+    /// <summary>
+    /// Program to demonstrate IComparable List sorting
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             List<Monster> monsterList = new List<Monster>();
 
@@ -26,6 +32,10 @@
             PrintMonsters(monsterList);
         }
 
+        /// <summary>
+        /// Prints a list of Monsters to the console
+        /// </summary>
+        /// <param name="monsterList"></param>
         static void PrintMonsters(List<Monster> monsterList)
         {
             foreach (Monster monster in monsterList)

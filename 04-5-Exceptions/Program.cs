@@ -1,15 +1,14 @@
-﻿namespace _04_Exceptions
+﻿namespace _04_5_Exceptions
 {
     /// <summary>
     /// Demonstrates the use of an Exception
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
         /// </summary>
-        /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main()
         {
             int value = 0;
 

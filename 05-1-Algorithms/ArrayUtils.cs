@@ -1,4 +1,4 @@
-﻿namespace _05_Algorithms
+﻿namespace _05_1_Algorithms
 {
     /// <summary>
     /// Misc integer array algorithms

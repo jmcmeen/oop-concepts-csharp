@@ -1,15 +1,11 @@
-﻿/// File: Loot.cs
-/// Name: John McMeen 
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _01_Initializers
+﻿namespace _02_1_Initializers
 {
     internal class Loot
     {
         // public auto-properties
-        public string Name{ get; set; }
+        public string? Name{ get; set; }
         public uint Price{ get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         //public methods
 
@@ -22,7 +18,7 @@ namespace _01_Initializers
         }
 
         /// <summary>
-        /// Prameterized constructor
+        /// Parameterized constructor
         /// </summary>
         /// <param name="name"></param>
         /// <param name="price"></param>

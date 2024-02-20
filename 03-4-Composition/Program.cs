@@ -3,7 +3,7 @@
     /// <summary>
     /// An explanation of the Composition relationship
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
@@ -12,11 +12,11 @@
         {
             //Association relationships that refer to encapsulation are called "has-a" relationships
             //It means that beyond just a class using another class to do something, that
-            //the object of one class holds, or "has a," field or property of another class type
+            //the object of one class holds, or "has a," field or property of another class type.
 
-            //In this example a Car object "has-a" Engine object as one of its fields
-            //The term Composition is a specific case of "has-a" relationship which
-            //implies that the containing object, Car, has complete control over the lifespan, 
+            //In this example a Car object "owns-a" Engine object as one of its fields
+            //The term Composition is a specific case of "owns-a" relationship which
+            //implies that the containing object, Car, owns complete control over the lifespan, 
             //or solely owns, the reference to Engine. An Engine object cannot live
             //independently of the Car object that contains it.
        
@@ -38,7 +38,7 @@
 
             //Please do not mistake this relationship to mean that only Cars can contain Engines, other objects
             //can use the Engine class in any manner of the relationships described (aggregation or composition). 
-            //Composition means the Car will manage the exisitence of its own Engine solely, and not give access to
+            //Composition means the Car will manage the existence of its own Engine solely, and not give access to
             //the Engine publicly.
 
             //Take aways:

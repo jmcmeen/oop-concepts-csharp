@@ -1,13 +1,13 @@
 ﻿using System.Diagnostics;
 
-namespace _07_02_StaticHelpers
+namespace _07_01_StaticHelpers
 {
     /// <summary>
     /// Program that slowly increments ohms for a series of volt values
-    /// The program also caculated how many ticks it spends in static methods
+    /// The program also calculated how many ticks it spends in static methods
     /// versus object oriented methods
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
@@ -20,7 +20,7 @@ namespace _07_02_StaticHelpers
             double printDelay = 1000000;               //pagination variable
             Stopwatch watch = new Stopwatch();          //Stopwatch objects to measure run time
             long staticTicks = 0;                       //variable to hold accumulated ticks in static method calls
-            long objectTicks = 0;                       //cariable to hold accumulated ticks in object calls
+            long objectTicks = 0;                       //variable to hold accumulated ticks in object calls
             double amps;
 
             //For every value in volt array

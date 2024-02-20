@@ -1,9 +1,9 @@
 ﻿namespace _03_2_Association
 {
     /// <summary>
-    /// A brief explanation of the object relationship Association
+    /// A program demonstrating an Association relationship
     /// </summary>
-    internal class Program
+    internal static class Program
     {
 
         /// <summary>

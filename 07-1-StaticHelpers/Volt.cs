@@ -1,5 +1,8 @@
-﻿namespace _07_02_StaticHelpers
+﻿namespace _07_01_StaticHelpers
 {
+    /// <summary>
+    /// Models a Volt in electricity    
+    /// </summary>
     internal class Volt
     {
         private double amps, ohms;
@@ -10,6 +13,10 @@
             this.ohms = ohms;
         }
 
+        /// <summary>
+        /// Calculates and returns the Volts
+        /// </summary>
+        /// <returns></returns>
         public double GetValue()
         {
             return amps * ohms;

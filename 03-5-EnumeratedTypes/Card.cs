@@ -1,14 +1,11 @@
-﻿/// File: Card.cs
-/// Name: John McMeen 
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _03_5_EnumeratedTypes
+﻿namespace _03_5_EnumeratedTypes
 {
     /// <summary>
     /// Models a playing card
     /// </summary>
     internal class Card
     {
+        // public auto-implemented properties
         public Suit Suit { get; set; }
         public Rank Rank { get; set; }
 

@@ -1,7 +1,13 @@
 ﻿namespace _03_6_WinForms
 {
-    internal class Program
+    /// <summary>
+    /// Basic program showing a simple form dialog
+    /// </summary>
+    internal static class Program
     {
+        /// <summary>
+        /// Program entry point
+        /// </summary>
         static void Main()
         {
             Form f = new Form();

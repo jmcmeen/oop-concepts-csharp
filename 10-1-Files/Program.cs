@@ -2,7 +2,7 @@
 
 namespace _10_1_Files
 {
-    internal class Program
+    internal static class Program
     {
         public static void Main()
         {

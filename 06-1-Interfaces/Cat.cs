@@ -1,4 +1,4 @@
-﻿namespace _06_Interfaces
+﻿namespace _06_1_Interfaces
 {
     /// <summary>
     /// Models a Cat that implements the ISound interface

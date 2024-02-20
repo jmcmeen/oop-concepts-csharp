@@ -1,7 +1,13 @@
 ﻿namespace _06_3_IComparer
 {
-    internal class Program
+    /// <summary>
+    /// Program demonstrating sorting a list with a Comparer
+    /// </summary>
+    internal static class Program
     {
+        /// <summary>
+        /// Program entry point
+        /// </summary>
         static void Main()
         {
             List<Monster> monsterList = new List<Monster>();

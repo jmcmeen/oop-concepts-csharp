@@ -10,7 +10,7 @@
         /// </summary>
         static void Main()
         {
-            //Suppose you wanted to creat a method to swap two values in an array.
+            //Suppose you wanted to create a method to swap two values in an array.
             //Since arrays have a single type, you might find yourself
             //creating repetitive code to handle specific types:
             int[] integerArray = { 1, 2, 3};

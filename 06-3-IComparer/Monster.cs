@@ -5,7 +5,7 @@
     /// </summary>
     internal class Monster
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public int HitPoints { get; set; }
 
         /// <summary>

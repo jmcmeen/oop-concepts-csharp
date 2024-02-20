@@ -3,8 +3,11 @@
     /// <summary>
     /// A brief explanation of the Dependency relationship
     /// </summary>
-    internal class Program
+    internal static class Program
     {
+        /// <summary>
+        /// Program entry point
+        /// </summary>
         static void Main()
         {
             //Two objects or classes are considered to be Dependent if one utilizes the other

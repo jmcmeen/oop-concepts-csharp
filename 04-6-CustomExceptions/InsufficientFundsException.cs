@@ -1,8 +1,15 @@
-﻿namespace _04_CustomExceptions
+﻿namespace _04_6_CustomExceptions
 {
+    /// <summary>
+    /// Exception for insufficient funds
+    /// </summary>
     internal class InsufficientFundsException : Exception
     {
-        private const string MESSAGE = "Insufficient Funds for Transaction!";
-        public InsufficientFundsException() : base(MESSAGE) { }
+        private const string DEFAULT_MSG = "Insufficient Funds for Transaction!";
+
+        /// <summary>
+        /// Default constructor
+        /// </summary>
+        public InsufficientFundsException() : base(DEFAULT_MSG) { }
     }
 }

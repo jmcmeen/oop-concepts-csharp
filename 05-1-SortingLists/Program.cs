@@ -3,14 +3,14 @@
     /// <summary>
     /// Demonstrates sorting lists of built in types
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
         /// </summary>
         static void Main()
         {
-            List<int> ints = new List<int>();
+            List<int> integer = new List<int>();
             Random random = new Random();
 
             const int NUM_INTS = 25;
@@ -19,22 +19,22 @@
             //Fill the list with random values
             for (int i = 0; i < NUM_INTS; i++)
             {
-                ints.Add(random.Next(MAX_INT));
+                integer.Add(random.Next(MAX_INT));
             }
 
             //Print the list
             Console.WriteLine("\nUnsorted List");
-            foreach (int i in ints)
+            foreach (int i in integer)
             {
                 Console.WriteLine(i);
             }
 
             //Sort the list
-            ints.Sort();
+            integer.Sort();
 
             //Print the list
             Console.WriteLine("\nSorted List");
-            foreach (int i in ints)
+            foreach (int i in integer)
             {
                 Console.WriteLine(i);
             }

@@ -1,16 +1,29 @@
-﻿namespace _04_AbstractClasses
+﻿namespace _04_2_AbstractClasses
 {
-    internal class Program
+    /// <summary>
+    /// Program demonstrating abstract classes
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
+            //create a list of generic, abstract, type Animal
             List<Animal> list = new List<Animal>();
 
+            //If you uncomment the line below, you will see you can not instantiate an abstract type
             //list.Add(new Animal("Larry"));
-            list.Add(new Cat("William"));
-            list.Add(new Dog("Gene"));
 
+            //Instantiate concrete types and add to a List
+            list.Add(new Cat("Sir Bill III"));
+            list.Add(new Dog("Darby"));
+            list.Add(new Donkey("Daniela"));
+            list.Add(new Elephant("Elizabeth"));
+            list.Add(new Fish("Frederick"));
 
+            //Make them make sound!
             foreach (Animal a in list)
             {
                 a.MakeSound();

@@ -1,12 +1,13 @@
-﻿// File: Program.cs
-// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1020 Examples
-// Notes: Based on example at https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-objects-by-using-an-object-initializer
-namespace _01_Initializers
+﻿namespace _02_1_Initializers
 {
-    internal class Program 
+    /// <summary>
+    /// Program demonstrating object-initializers
+    /// </summary>
+    internal static class Program
     {
+        /// <summary>
+        /// Program entry point
+        /// </summary>
         static void Main()
         {
             // Declare a Loot by using the constructor that has two parameters.

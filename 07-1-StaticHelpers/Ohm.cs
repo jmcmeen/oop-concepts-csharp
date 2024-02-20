@@ -1,18 +1,31 @@
-﻿namespace _07_02_StaticHelpers
+﻿namespace _07_01_StaticHelpers
 {
+    /// <summary>
+    /// Models an Ohm (resistance) in electricity    
+    /// </summary>
     internal class Ohm
     {
-        private double amps, volts;
+        //private fields
+        private double _amps, _volts;
 
+        /// <summary>
+        /// Parameterized constructor
+        /// </summary>
+        /// <param name="amps"></param>
+        /// <param name="volts"></param>
         public Ohm(double amps, double volts)
         {
-            this.amps = amps;
-            this.volts = volts;
+            this._amps = amps;
+            this._volts = volts;
         }
 
+        /// <summary>
+        /// Calculates and returns the resistance in Amps
+        /// </summary>
+        /// <returns></returns>
         public double GetValue()
         {
-            return volts / amps;
+            return _volts / _amps;
         }
     }
 }

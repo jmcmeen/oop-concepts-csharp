@@ -3,29 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>XX_DateTime</RootNamespace>
+    <RootNamespace>_06_5_DateTime</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\01-1-Objects\01-1-Objects.csproj" />
-    <ProjectReference Include="..\01-2-AutoProperties\01-2-AutoProperties.csproj" />
-    <ProjectReference Include="..\02-1-Initializers\02-1-Initializers.csproj" />
-    <ProjectReference Include="..\04-1-Inheritance\04-1-Inheritance.csproj" />
-    <ProjectReference Include="..\04-2-AbstractClasses\04-2-AbstractClasses.csproj" />
-    <ProjectReference Include="..\04-3-Shapes\04-3-Shapes.csproj" />
-    <ProjectReference Include="..\04-4-ExceptionsBasic\04-4-ExceptionsBasic.csproj" />
-    <ProjectReference Include="..\04-5-Exceptions\04-5-Exceptions.csproj" />
-    <ProjectReference Include="..\04-6-CustomExceptions\04-6-CustomExceptions.csproj" />
-    <ProjectReference Include="..\04-7-DiceRoller\04-7-DiceRoller.csproj" />
-    <ProjectReference Include="..\05-1-Algorithms\05-1-Algorithms.csproj" />
-    <ProjectReference Include="..\05-1-SortingLists\05-2-SortingLists.csproj" />
-    <ProjectReference Include="..\06-1-Interfaces\06-1-Interfaces.csproj" />
-    <ProjectReference Include="..\06-2-IComparable\06-2-IComparable.csproj" />
-    <ProjectReference Include="..\06-3-IComparer\06-3-IComparer.csproj" />
-    <ProjectReference Include="..\06-4-StringBuilder\06-4-StringBuilder.csproj" />
-    <ProjectReference Include="..\07-1-StaticHelpers\07-1-StaticHelpers.csproj" />
-  </ItemGroup>
 
 </Project>

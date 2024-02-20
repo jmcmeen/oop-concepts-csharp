@@ -1,9 +1,9 @@
-﻿namespace _06_Interfaces
+﻿namespace _06_1_Interfaces
 {
     /// <summary>
     /// Demonstrates a custom interface
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

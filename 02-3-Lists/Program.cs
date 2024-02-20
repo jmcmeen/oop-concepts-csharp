@@ -1,9 +1,9 @@
-﻿namespace _02_1_Lists
+﻿namespace _02_3_Lists
 {
     /// <summary>
     /// A program to demonstrate some basic List functionality
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
@@ -57,7 +57,7 @@
                 Console.Write(item + " ");
             }
 
-            //TODO TrimExcess and Capacity
+            //TrimExcess and Capacity
             Console.WriteLine($"I am holding {listOfIntegers.Count} out of {listOfIntegers.Capacity} possible values for {(float)listOfIntegers.Count / listOfIntegers.Capacity * 100.0} utilization.");
 
             listOfIntegers.TrimExcess();

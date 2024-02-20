@@ -1,14 +1,14 @@
-﻿namespace _07_DiceRoller
+﻿namespace _04_7_DiceRoller
 {
     /// <summary>
-    /// Models a multisided die
+    /// Models a multi-sided die
     /// </summary>
     internal class Dice
     {
         private int numSides;
 
         /// <summary>
-        /// Paramterized constructor
+        /// Parameterized constructor
         /// </summary>
         /// <param name="numSides">Number of sides on the die</param>
         public Dice(int numSides)

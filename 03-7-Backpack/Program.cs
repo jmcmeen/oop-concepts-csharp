@@ -1,7 +1,13 @@
-﻿namespace _03_7_BackpackComposition
+﻿namespace _03_7_Backpack
 {
+    /// <summary>
+    /// Program demonstrating a Backpack class which encapsulates a List of Items.
+    /// </summary>
     internal static class Program
     {
+        /// <summary>
+        /// Program entry point
+        /// </summary>
         static void Main()
         {
             //create a backpack

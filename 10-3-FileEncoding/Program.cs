@@ -2,7 +2,7 @@
 
 namespace _10_3_FileEncoding
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

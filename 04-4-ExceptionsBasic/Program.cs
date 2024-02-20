@@ -1,15 +1,14 @@
-﻿namespace _04_ExceptionsBasic
+﻿namespace _04_4_ExceptionsBasic
 {
     /// <summary>
     /// Demonstrates the use of an Exception
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
         /// </summary>
-        /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main()
         {
             //Try some code that might throw an Exception
             try

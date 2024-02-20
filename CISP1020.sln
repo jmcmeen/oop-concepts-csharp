@@ -109,9 +109,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-5-EnumeratedTypes", "03-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-6-WinForms", "03-6-WinForms\03-6-WinForms.csproj", "{9B98E3B2-C72C-4FFF-96B2-9A1872DC1069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-0-Inheritance", "04-0-Inheritance\04-0-Inheritance.csproj", "{B5E790C6-51B1-4BF0-92CA-0CC79876E92B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-0-Inheritance", "04-0-Inheritance\04-0-Inheritance.csproj", "{B5E790C6-51B1-4BF0-92CA-0CC79876E92B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-7-Backpack", "03-7-Backpack\03-7-Backpack.csproj", "{8ECA1174-10D8-4E2B-8776-117FE75FC6F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-8-CircleCalculator", "04-8-CircleCalculator\04-8-CircleCalculator.csproj", "{CA11A433-4E53-4A06-BC6B-4B97B9852486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,6 +341,10 @@ Global
 		{8ECA1174-10D8-4E2B-8776-117FE75FC6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ECA1174-10D8-4E2B-8776-117FE75FC6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ECA1174-10D8-4E2B-8776-117FE75FC6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA11A433-4E53-4A06-BC6B-4B97B9852486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA11A433-4E53-4A06-BC6B-4B97B9852486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA11A433-4E53-4A06-BC6B-4B97B9852486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA11A433-4E53-4A06-BC6B-4B97B9852486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

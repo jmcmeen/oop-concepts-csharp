@@ -2,7 +2,7 @@
 
 namespace _09_2_HashCode
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

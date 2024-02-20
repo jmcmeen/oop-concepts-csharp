@@ -1,13 +1,9 @@
-﻿/// File: Program.cs
-/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _00_HelloWorld
+﻿namespace _00_HelloWorld
 {
     /// <summary>
     /// Hello World Console Application
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

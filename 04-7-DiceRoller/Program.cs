@@ -1,14 +1,14 @@
-﻿namespace _07_DiceRoller
+﻿namespace _04_7_DiceRoller
 {
     /// <summary>
     /// Roll the dice! Uses a static helper class
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
         /// </summary>
-        static void Main(string[] args)
+        static void Main()
         {
             //For every side in the array
             foreach (var numSide in new[] {6, 20, 100})
@@ -19,7 +19,7 @@
                 //For each numDice in the array
                 foreach (var numDice in new[] {2,3,4,5})
                 {
-                    //Roll a numSide die numSice times
+                    //Roll a numSide die numSide times
                     Console.WriteLine($"{numDice}d{numSide} = {DiceRoller.RollMultiple(numDice, numSide)}");
                 }
 

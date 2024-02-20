@@ -1,6 +1,6 @@
 ﻿namespace _11_5_DeepCopy
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

@@ -18,7 +18,7 @@
             //chose a random name length and make sure maxLength is longer than 3
             int nameLength = r.Next(3, maxLength <= 3 ? 4 : maxLength + 1);
 
-            //create a list of consanant sounds
+            //create a list of consonant sounds
             List<string> consonants = new List<string> { "b", "c", "d", "f", "g", "h", "j", "k",
                 "l", "m", "l", "n", "p", "q", "r", "s", "sh", "zh", "t", "v", "w", "x" };
 
@@ -45,7 +45,7 @@
                 //Add from the list of spicy vowels
                 randName += spicyVowels[r.Next(spicyVowels.Count)];
 
-                //Captialize the first letter
+                //Capitalize the first letter
                 randName = randName.Substring(0, 1).ToUpper() + randName.Substring(1);
             }
             else
@@ -60,7 +60,7 @@
             //Loop over
             while (randName.Length < nameLength)
             {
-                //If the last character is in the consanants List, time to add a vowel
+                //If the last character is in the consonants List, time to add a vowel
                 if (consonants.Contains(randName.Substring(randName.Length - 1)))
                 {
                     //~30% chance name to add spicy vowels
@@ -75,7 +75,7 @@
                         randName += vowels[r.Next(vowels.Count)];
                     }
                 }
-                else //otherwise add,a consanant
+                else //otherwise add,a consonant
                 {
                     //Add from the list of consonants
                     randName += consonants[r.Next(consonants.Count)];

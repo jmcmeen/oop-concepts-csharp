@@ -1,13 +1,22 @@
 ﻿namespace _02_2_Strings
 {
-    internal class Program
+    /// <summary>
+    /// Program demonstrating some string functionality
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             SplitStrings();
             StringContains();
         }
 
+        /// <summary>
+        /// A methods demonstrating how to split strings into arrays
+        /// </summary>
         public static void SplitStrings()
         {
             string aSentence = "Hello World! How are you today!";
@@ -20,6 +29,9 @@
             }
         }
 
+        /// <summary>
+        /// Methods demonstrating String.Contains
+        /// </summary>
         public static void StringContains()
         {
             string test = "Hello World";

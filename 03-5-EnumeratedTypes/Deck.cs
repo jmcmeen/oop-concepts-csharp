@@ -1,14 +1,11 @@
-﻿/// File: Deck.cs
-/// Name: John McMeen 
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _03_5_EnumeratedTypes
+﻿namespace _03_5_EnumeratedTypes
 {
     /// <summary>
     /// Models a deck of playing cards
     /// </summary>
     internal class Deck
     {
+        //public fields
         public List<Card> cards;
 
         /// <summary>

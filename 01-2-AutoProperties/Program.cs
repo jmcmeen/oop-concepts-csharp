@@ -1,16 +1,14 @@
-﻿using _01_Properties;
-/// File: Program.cs
-/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _01_Properties
+﻿namespace _01_2_AutoProperties
 {
     /// <summary>
     /// Program to demonstrate use of Classes and Objects
     /// </summary>
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             // Create a Loot reference
             Loot loot;
@@ -18,7 +16,7 @@ namespace _01_Properties
             // Instantiate a Loot object using new keyword and default constructor
             loot = new Loot();
 
-            // Instantiate a new Loot obect using parameterized constructor
+            // Instantiate a new Loot object using parameterized constructor
             Loot loot2 = new Loot("Hammer of Fate", 500);
 
             // Print to console, Loot object is converted to a String with .ToString() in Loot

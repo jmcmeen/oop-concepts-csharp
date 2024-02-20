@@ -1,9 +1,8 @@
-﻿/// File: Loot.cs
-/// Name: John McMeen 
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _01_Objects
+﻿namespace _01_1_Objects
 {
+    /// <summary>
+    /// Models in game loot
+    /// </summary>
     internal class Loot
     {
         //private fields
@@ -22,7 +21,7 @@ namespace _01_Objects
         }
 
         /// <summary>
-        /// Prameterized constructor
+        /// Parameterized constructor
         /// </summary>
         /// <param name="name"></param>
         /// <param name="price"></param>

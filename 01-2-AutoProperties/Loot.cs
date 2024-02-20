@@ -1,8 +1,4 @@
-﻿/// File: Loot.cs
-/// Name: John McMeen 
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _01_Properties
+﻿namespace _01_2_AutoProperties
 {
     /// <summary>
     /// Models loot
@@ -25,10 +21,10 @@ namespace _01_Properties
         }
 
         /// <summary>
-        /// Prameterized constructor
+        /// Parameterized constructor
         /// </summary>
-        /// <param name="name"></param>
-        /// <param name="price"></param>
+        /// <param name="name">loot name</param>
+        /// <param name="price">loot price</param>
         public Loot(string name, uint price)
         {
             Name = name;

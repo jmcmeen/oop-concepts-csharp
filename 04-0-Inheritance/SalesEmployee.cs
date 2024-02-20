@@ -1,6 +1,4 @@
-﻿using System.Transactions;
-
-namespace _04_0_Inheritance
+﻿namespace _04_0_Inheritance
 {
     internal class SalesEmployee : Employee
     {

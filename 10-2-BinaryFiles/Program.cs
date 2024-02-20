@@ -3,7 +3,7 @@ using System.Text;
 
 namespace _10_2_BinaryFiles
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

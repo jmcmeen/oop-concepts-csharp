@@ -2,7 +2,7 @@
 
 namespace XX_Dictionary
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

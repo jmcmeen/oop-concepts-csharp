@@ -1,12 +1,12 @@
 ﻿using System.Diagnostics;
 using System.Text;
 
-namespace _06_StringBuilder
+namespace _06_4_StringBuilder
 {
     /// <summary>
-    /// Demonstrates run times of String concatentation vs. StringBuilder
+    /// Demonstrates run times of String concatenation vs. StringBuilder
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

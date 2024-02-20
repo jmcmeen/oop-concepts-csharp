@@ -1,15 +1,14 @@
-﻿/// File: Program.cs
-/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _01_Objects
+﻿namespace _01_1_Objects
 {
     /// <summary>
     /// Program to demonstrate use of Classes and Objects
     /// </summary>
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             // Create a Loot reference
             Loot loot;

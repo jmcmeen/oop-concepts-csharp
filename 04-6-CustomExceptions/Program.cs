@@ -1,8 +1,14 @@
-﻿namespace _04_CustomExceptions
+﻿namespace _04_6_CustomExceptions
 {
-    internal class Program
+    /// <summary>
+    /// Program to demonstrate 
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             BankAccount b = new BankAccount { 
                 Id = 1,

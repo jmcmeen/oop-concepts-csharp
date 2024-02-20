@@ -1,7 +1,7 @@
 ﻿namespace _03_3_Aggregation
 {
     /// <summary>
-    /// An explanation of the Aggregation relationship
+    /// A program demonstrating an Aggregation relationship
     /// </summary>
     internal static class Program
     {

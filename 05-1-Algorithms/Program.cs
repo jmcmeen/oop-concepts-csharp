@@ -1,7 +1,9 @@
-﻿namespace _05_Algorithms
+﻿namespace _05_1_Algorithms
 {
-    //Demonstrates the use of variopus array algorithms
-    internal class Program
+    /// <summary>
+    /// Demonstrates the use of various array algorithms
+    /// </summary>
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

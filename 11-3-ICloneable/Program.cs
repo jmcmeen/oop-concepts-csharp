@@ -1,6 +1,6 @@
 ﻿namespace _11_3_ICloneable
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

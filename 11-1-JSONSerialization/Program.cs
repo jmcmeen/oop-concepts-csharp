@@ -2,7 +2,7 @@
 
 namespace _11_1_JSONSerialization
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

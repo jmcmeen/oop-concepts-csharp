@@ -1,29 +1,42 @@
 ﻿namespace _03_4_Composition
 {
+    /// <summary>
+    /// Models a car
+    /// </summary>
     internal class Car
     {
         //private Engine field
         private Engine engine;
 
-        //Here the car constructor creates a reference to an Engine obect
+        /// <summary>
+        /// Default constructor
+        /// </summary>
         public Car()
         {
+            //Here the car constructor creates a reference to an Engine obect
             engine = new Engine();
         }
 
-        //turn the engine on
+        /// <summary>
+        /// Sets the isOn variable to true
+        /// </summary>
         public void EngineOn()
         {
             engine.isOn = true;
         }
 
-        //turn the engine off
+        /// <summary>
+        /// Sets the isOn variable to false
+        /// </summary>
         public void EngineOff()
         {
             engine.isOn = false;
         }
 
-        //convert Car to string
+        /// <summary>
+        /// Converts a car object to a string
+        /// </summary>
+        /// <returns>string representation of car</returns>
         public override string ToString()
         {
             return "The car is" + (engine.isOn ? " on" : " off");

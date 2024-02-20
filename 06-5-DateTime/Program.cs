@@ -1,9 +1,9 @@
-﻿namespace XX_DateTime
+﻿namespace _06_5_DateTime
 {
     /// <summary>
     /// Demonstrates very basic DateTime usage
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

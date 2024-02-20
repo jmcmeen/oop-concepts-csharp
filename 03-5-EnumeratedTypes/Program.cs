@@ -1,15 +1,14 @@
-﻿/// File: Program.cs
-/// Name: John McMeen 
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP 1020 Examples
-namespace _03_5_EnumeratedTypes
+﻿namespace _03_5_EnumeratedTypes
 {
     /// <summary>
     /// Demonstrates the use of the Deck class
     /// </summary>
-    internal class Program
+    internal static class Program
     {
-        public static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        public static void Main()
         {
             //Create a deck object
             Deck deck = new Deck();
