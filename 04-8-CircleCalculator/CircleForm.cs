@@ -20,7 +20,7 @@ namespace CircleCalculator
         /// <param name="e"></param>
         private void radiusTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (radiusTextBox.Text != "")
+            if (radiusTextBox.Focused && radiusTextBox.Text != ""  && radiusTextBox.Text is not null)
             {
                 float radius = Convert.ToSingle(radiusTextBox.Text);
 
@@ -35,7 +35,7 @@ namespace CircleCalculator
         /// <param name="e"></param>
         private void areaTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (areaTextBox.Text != "" && areaTextBox.Text is not null)
+            if (areaTextBox.Focused && areaTextBox.Text != "" && areaTextBox.Text is not null)
             {
                 float area = Convert.ToSingle(areaTextBox.Text);
 
