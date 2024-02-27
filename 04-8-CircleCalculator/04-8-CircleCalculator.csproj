@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-	  <RootNamespace>_04_8_CircleClaculator</RootNamespace>
+	  <RootNamespace>_04_8_CircleCalculator</RootNamespace>
   </PropertyGroup>
 
 </Project>
