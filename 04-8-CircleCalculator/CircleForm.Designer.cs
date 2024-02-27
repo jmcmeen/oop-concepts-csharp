@@ -1,4 +1,4 @@
-﻿namespace CircleCalculator
+﻿namespace _04_8_CircleClaculator
 {
     partial class CircleForm
     {
@@ -38,7 +38,7 @@
             // 
             radiusTextBox.Location = new Point(74, 10);
             radiusTextBox.Name = "radiusTextBox";
-            radiusTextBox.Size = new Size(125, 27);
+            radiusTextBox.Size = new Size(280, 27);
             radiusTextBox.TabIndex = 1;
             radiusTextBox.TextChanged += radiusTextBox_TextChanged;
             // 
@@ -64,21 +64,21 @@
             // 
             areaTextBox.Location = new Point(74, 45);
             areaTextBox.Name = "areaTextBox";
-            areaTextBox.Size = new Size(125, 27);
+            areaTextBox.Size = new Size(280, 27);
             areaTextBox.TabIndex = 4;
             areaTextBox.TextChanged += areaTextBox_TextChanged;
             // 
-            // Form1
+            // CircleForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(235, 87);
+            ClientSize = new Size(368, 87);
             Controls.Add(areaTextBox);
             Controls.Add(areaLabel);
             Controls.Add(radiusLabel);
             Controls.Add(radiusTextBox);
-            Name = "Form1";
-            Text = "Circle Area";
+            Name = "CircleForm";
+            Text = "Circle Calculator";
             ResumeLayout(false);
             PerformLayout();
         }

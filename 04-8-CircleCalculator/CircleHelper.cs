@@ -1,4 +1,4 @@
-﻿namespace CircleCalculator
+﻿namespace _04_8_CircleClaculator
 {
     /// <summary>
     /// Helps with Circle Math
