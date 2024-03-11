@@ -3,9 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_04_0_Inheritance</RootNamespace>
+    <RootNamespace>_01_7_ParameterizedConstructors</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleClasses\SampleClasses.csproj" />
+  </ItemGroup>
 
 </Project>
