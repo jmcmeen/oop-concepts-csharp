@@ -17,5 +17,7 @@
             Name = name;
             numChests++;
         }
+
+        public int GetNumChests() { return numChests; }
     }
 }

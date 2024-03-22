@@ -5,7 +5,7 @@ namespace _09_03_Hashing
 {
     internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Encoding encoding= Encoding.ASCII;
             HashAlgorithm algorithm = MD5.Create();

@@ -13,18 +13,7 @@
         /// <returns></returns>
         public int Compare(Monster? x, Monster? y)
         {
-            if(x.HitPoints > y.HitPoints)
-            {
-                return 1;
-            }
-            else if(x.HitPoints < y.HitPoints)
-            {
-                return -1;
-            }
-            else
-            {
-                return 0;
-            }
+            return x.HitPoints - y.HitPoints;
         }
     }
 }

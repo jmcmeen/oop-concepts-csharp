@@ -4,7 +4,7 @@ namespace _09_2_HashCode
 {
     internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Loot loot1 = new Loot
             {

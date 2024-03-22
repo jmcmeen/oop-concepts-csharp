@@ -18,11 +18,15 @@ namespace _02_8_NullValues
              * but value types cannot, such as integers, Booleans, and strings.
              * */
 
+            int y;
+
+            //Console.WriteLine(y);
+
             // Reference types can be assigned null.
-            Dice dice = null;
+            Dice dice;
 
             //The following statement will not compile.
-            //int x = null;
+           //int x = null;
 
             /* C# will allow you to assign null to a value type if you 
              * explicitly declare it as nullable.The following statement will compile. */
@@ -38,6 +42,8 @@ namespace _02_8_NullValues
                 Wisdom = null,
                 Charisma = null
             };
+
+            Console.WriteLine(stats.Strength);
 
             //This will be especially useful when working with data from a database where null is a valid value.
         }

@@ -17,7 +17,7 @@ namespace _07_01_StaticHelpers
             double ohmsCap = 10000.0;                   //ohms upper limit
             double ohmsIncrement = 0.0001;              //value to increment ohms by each cycle
             double[] volts = { 1.5, 3, 4.5, 9, 12 };    //volt values to iterate through
-            double printDelay = 1000000;               //pagination variable
+            double printDelay = 1000000;                //pagination variable
             Stopwatch watch = new Stopwatch();          //Stopwatch objects to measure run time
             long staticTicks = 0;                       //variable to hold accumulated ticks in static method calls
             long objectTicks = 0;                       //variable to hold accumulated ticks in object calls

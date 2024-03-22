@@ -6,7 +6,6 @@
         {
             List<Employee> employees = new List<Employee>();
 
-
             employees.Add(new Employee("John", 5.00m));
             employees.Add(new SalesEmployee("John", 5.00m, 5.00m));
             
@@ -14,6 +13,8 @@
             {
                 Console.WriteLine(employee.GetSalary());
             }
+
+
         }
     }
 }

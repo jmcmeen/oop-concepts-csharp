@@ -1,4 +1,6 @@
-﻿namespace SampleClasses
+﻿using System.Runtime.CompilerServices;
+
+namespace SampleClasses
 {
     public class Loot
     {
@@ -53,7 +55,7 @@
             if (obj.GetType() != typeof(Loot)) return false;
 
             //another way to do the same thing above
-            //if(obj is not Loot) return false;
+            //if (obj is not Loot) return false;
 
             //cast to Loot
             Loot that = (Loot)obj;

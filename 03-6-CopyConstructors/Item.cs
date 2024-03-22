@@ -2,21 +2,23 @@
 {
     internal class Item
     {
-        public string? Description { get; set; }
+        public string Description { get; set; }
 
         public float Cost { get; set; }
 
         /// <summary>
         /// Default constructor
         /// </summary>
-        public Item(){}
+        public Item(){
+            Description
+        }
 
         /// <summary>
         /// Parametrized constructor
         /// </summary>
         /// <param name="description"></param>
         /// <param name="cost"></param>
-        public Item(string? description, float cost)
+        public Item(string description, float cost)
         {
             Description = description;
             Cost = cost;

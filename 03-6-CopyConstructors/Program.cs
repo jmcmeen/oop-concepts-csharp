@@ -2,7 +2,7 @@
 {
     internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //First there is one Item
             Item itemOne = new Item("Hammer", 25.2f);

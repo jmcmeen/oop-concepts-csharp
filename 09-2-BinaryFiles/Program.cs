@@ -1,13 +1,18 @@
-﻿using System.IO;
-using System.Text;
+﻿using System.Text;
 
-namespace _10_2_BinaryFiles
+namespace _09_2_BinaryFiles
 {
+    /// <summary>
+    /// Demonstrates binary files
+    /// </summary>
     internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry
+        /// </summary>
+        static void Main()
         {
-            const string fileName = @"c:\temp.dat";
+            const string fileName = @"temp.dat";
 
             using (var stream = File.Open(fileName, FileMode.Create))
             {

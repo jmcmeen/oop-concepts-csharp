@@ -1,4 +1,4 @@
-﻿namespace _11_1_JSONSerialization
+﻿namespace _09_4_JSONSerialization
 {
     internal class TreasureChest
     {
@@ -7,7 +7,7 @@
 
         public TreasureChest() 
         {
-            items = new List<Item>();    
+            items = new List<Item>();   
         }
     }
 }

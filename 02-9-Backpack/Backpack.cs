@@ -12,7 +12,7 @@ namespace _03_7_Backpack
         private uint _maxItems;
 
         /// <summary>
-        /// Paramterized constructor
+        /// Parameterized constructor
         /// </summary>
         /// <param name="maxItems">Make items for backpack to hold</param>
         public Backpack(uint maxItems)

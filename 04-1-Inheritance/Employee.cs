@@ -10,7 +10,7 @@
         protected decimal _salary;
 
         /// <summary>
-        /// Paramterized constructor
+        /// Parameterized constructor
         /// </summary>
         /// <param name="name">employee name</param>
         /// <param name="salary">employee salary</param>

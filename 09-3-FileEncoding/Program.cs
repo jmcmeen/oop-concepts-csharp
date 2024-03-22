@@ -4,10 +4,10 @@ namespace _10_3_FileEncoding
 {
     internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            const string textFilePath = @"c:\textfile.txt";
-            const string binaryFilePath = @"c:\binaryfile.dat";
+            const string textFilePath = @"textfile.txt";
+            const string binaryFilePath = @"binaryfile.dat";
             int writeValue = Int32.MaxValue;
             int readValue = 0;
 

@@ -12,8 +12,12 @@
         {
             TreasureChest tc = new TreasureChest("Larry");
             TreasureChest tc2 = new TreasureChest("Paula");
+            TreasureChest t3 = new TreasureChest("Frank C.");
 
             Console.WriteLine(TreasureChest.numChests);
+            Console.WriteLine(tc.GetNumChests());
+
+            string s = "Hello World!";
         }
     }
 }

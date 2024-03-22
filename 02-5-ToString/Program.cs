@@ -18,6 +18,7 @@ namespace _02_5_ToString
              * override keyword to the ToString method definition. This will
              * be discussed in a later section on overriding and inheritance. */
 
+
             Circle circle = new Circle()
             {
                 Radius = 5
