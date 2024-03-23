@@ -1,8 +1,7 @@
-﻿using System.Runtime.CompilerServices;
-
+﻿
 namespace SampleClasses
 {
-    public class Loot
+    public class Loot : IEquatable<Loot>, IComparable<Loot>
     {
         // public auto-properties
         public string? Name{ get; set; }
@@ -15,8 +14,10 @@ namespace SampleClasses
         /// Default constructor
         /// </summary>
         public Loot() 
-        { 
-        
+        {
+            Name = string.Empty;
+            Price = 0;
+            Description = string.Empty;
         }
 
         /// <summary>
@@ -41,27 +42,69 @@ namespace SampleClasses
         /// <summary>
         /// Override Equals
         /// </summary>
-        /// <param name="obj"></param>
+        /// <param name="other"></param>
         /// <returns></returns>
-        public override bool Equals(object obj)
+        public override bool Equals(object? other)
         {
             //check to make sure obj is not null
-            if (obj == null) return false;
+            if (other == null) return false;
 
             //check to see if obj is identical to this
-            if (obj == this) return true;
+            if (other == this) return true;
 
             //make sure obj is same type
-            if (obj.GetType() != typeof(Loot)) return false;
+            if (other.GetType() != typeof(Loot)) return false;
 
             //another way to do the same thing above
             //if (obj is not Loot) return false;
 
             //cast to Loot
-            Loot that = (Loot)obj;
+            Loot that = (Loot)other;
 
             //check all values to see if they are the same
             return this.Name.Equals(that.Name) && this.Price.Equals(that.Price) && this.Description.Equals(that.Description);
+        }
+
+        bool IEquatable<Loot>.Equals(Loot? other)
+        {
+            //check to make sure obj is not null
+            if (other == null) return false;
+
+            //check to see if obj is identical to this
+            if (other == this) return true;
+
+            //check all values to see if they are the same
+            return this.Name.Equals(other.Name) && this.Price.Equals(other.Price) && this.Description.Equals(other.Description);
+        }
+
+        public int CompareTo(Loot? other)
+        {
+            return this.Name.CompareTo(other.Name);
+        }
+
+        public static bool operator ==(Loot x, Loot y)
+        {
+            if (x is null)
+            {
+                if (y is null)
+                {
+                    return true;
+                }
+
+                // Only the left side is null.
+                return false;
+            }
+            // Equals handles case of null on right side.
+            return x.Equals(y);
+        }
+        public static bool operator !=(Loot x, Loot y)
+        {
+            return !(x == y);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(this.Name, this.Price, this.Description);
         }
     }
 }

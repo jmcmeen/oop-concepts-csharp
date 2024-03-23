@@ -16,14 +16,12 @@
             const string path = "temp.txt";
             string output = "Hello\nAnd\nWelcome";
 
-
             File.WriteAllText(path, output);
 
             //Read a text file
             string input = File.ReadAllText(path);
 
             Console.WriteLine(input);
-
 
             //Example 2 - Reading and writing text files line by line
             const string path2 = "temp2.txt";

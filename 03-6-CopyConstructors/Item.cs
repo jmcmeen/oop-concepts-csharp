@@ -10,7 +10,8 @@
         /// Default constructor
         /// </summary>
         public Item(){
-            Description
+            Description = string.Empty;
+            Cost = 0;
         }
 
         /// <summary>
