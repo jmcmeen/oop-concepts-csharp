@@ -13,7 +13,8 @@
         /// Parameterized constructor
         /// </summary>
         /// <param name="name"></param>
-        public TreasureChest(string name) {
+        public TreasureChest(string name)
+        {
             Name = name;
             numChests++;
         }

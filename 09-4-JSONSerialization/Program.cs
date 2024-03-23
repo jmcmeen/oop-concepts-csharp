@@ -37,7 +37,7 @@ namespace _09_4_JSONSerialization
             //now let's read that back in from the file and recreate our objects
             // Open the file to read from.
             string fileText = File.ReadAllText(path);
-            
+
             //Now let's take that string, call Deserialize and turn this back into a set of object!
             TreasureChest? myNewTreasureChest = JsonSerializer.Deserialize<TreasureChest>(fileText);
 

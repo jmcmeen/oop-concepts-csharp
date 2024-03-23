@@ -12,7 +12,8 @@
         /// Parameterized constructor
         /// </summary>
         /// <param name="radius">the Circle's radius</param>
-        public Circle(double radius) {
+        public Circle(double radius)
+        {
             Radius = radius;
         }
 

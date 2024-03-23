@@ -17,11 +17,11 @@
             cards = new List<Card>();
 
             //Create all 52 combinations of Suit and Rank
-            foreach(Suit s in Enum.GetValues(typeof(Suit)))
+            foreach (Suit s in Enum.GetValues(typeof(Suit)))
             {
                 foreach (Rank r in Enum.GetValues(typeof(Rank)))
                 {
-                    cards.Add(new Card(s,r));
+                    cards.Add(new Card(s, r));
                 }
             }
         }
@@ -33,11 +33,11 @@
         /// <returns>A new list of cards of size numCards</returns>
         public List<Card> DealHand(uint numCards)
         {
-            if(numCards > 0 && numCards <= cards.Count)
+            if (numCards > 0 && numCards <= cards.Count)
             {
                 List<Card> hand = new List<Card>();
 
-                for(int i = 0; i < numCards; i++)
+                for (int i = 0; i < numCards; i++)
                 {
                     hand.Add(cards[i]);
                 }

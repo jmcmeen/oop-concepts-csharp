@@ -20,7 +20,7 @@ namespace _04_8_CircleClaculator
         /// <param name="e"></param>
         private void radiusTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (radiusTextBox.Focused && radiusTextBox.Text != ""  && radiusTextBox.Text is not null)
+            if (radiusTextBox.Focused && radiusTextBox.Text != "" && radiusTextBox.Text is not null)
             {
                 float radius = Convert.ToSingle(radiusTextBox.Text);
 

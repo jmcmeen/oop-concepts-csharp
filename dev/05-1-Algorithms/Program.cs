@@ -30,7 +30,7 @@
             int index = ArrayUtils.LinearSearch(vals, searchInput);
 
             //If it isn't found the method returns a -1
-            if(index == -1) 
+            if (index == -1)
             {
                 Console.WriteLine("Value not found");
                 Console.WriteLine("Rest assured, it is not in the array, linear search checks all values");

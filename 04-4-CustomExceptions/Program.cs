@@ -10,9 +10,10 @@
         /// </summary>
         static void Main()
         {
-            BankAccount b = new BankAccount { 
+            BankAccount b = new BankAccount
+            {
                 Id = 1,
-                Name= "Burf Snerfle",
+                Name = "Burf Snerfle",
             };
 
             b.Deposit(100.00m);
@@ -23,15 +24,15 @@
                 b.Withdraw(-100.00m);
                 b.Deposit(1000000.00m);
             }
-            catch (InvalidAmountException ex) 
-            { 
-                Console.WriteLine(ex.Message);
-            }
-            catch(InsufficientFundsException ex)
+            catch (InvalidAmountException ex)
             {
                 Console.WriteLine(ex.Message);
             }
-            catch (Exception ex) 
+            catch (InsufficientFundsException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }

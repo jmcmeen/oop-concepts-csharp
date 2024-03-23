@@ -4,7 +4,7 @@ namespace _11_5_DeepCopy
 {
     internal class Guild : ICloneable
     {
-        public string? Name { get; set; } 
+        public string? Name { get; set; }
         public List<Player> Players { get; set; }
 
         public Guild()
@@ -27,7 +27,7 @@ namespace _11_5_DeepCopy
             //Player.Clone() creates a new Player
             foreach (Player player in this.Players)
             {
-                guild.Players.Add( (Player)player.Clone() );
+                guild.Players.Add((Player)player.Clone());
             }
 
             return guild;
@@ -40,7 +40,7 @@ namespace _11_5_DeepCopy
         public override string? ToString()
         {
             StringBuilder sb = new StringBuilder($"Guild: {{ \n\t\tName: {Name}\n");
-            foreach(Player player in Players)
+            foreach (Player player in Players)
             {
                 sb.Append($"\n\t\t{player}");
             }

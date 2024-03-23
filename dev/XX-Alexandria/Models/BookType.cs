@@ -2,7 +2,7 @@
 {
     internal enum BookType
     {
-        Paperback =1,
+        Paperback = 1,
         Hardback
     }
 }

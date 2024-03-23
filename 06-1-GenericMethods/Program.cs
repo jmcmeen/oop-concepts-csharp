@@ -13,7 +13,7 @@
             //Suppose you wanted to create a method to swap two values in an array.
             //Since arrays have a single type, you might find yourself
             //creating repetitive code to handle specific types:
-            int[] integerArray = { 1, 2, 3};
+            int[] integerArray = { 1, 2, 3 };
             double[] doubleArray = { 1.0, 2.0, 3.0 };
 
             Console.WriteLine("Print arrays:");

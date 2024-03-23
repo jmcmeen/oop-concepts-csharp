@@ -2,8 +2,8 @@
 {
     internal class Person : ICloneable
     {
-        public string? Name { get; set;}
-        public Address? Address { get; set;}
+        public string? Name { get; set; }
+        public Address? Address { get; set; }
 
         /// <summary>
         /// Clone
@@ -12,8 +12,11 @@
         public object Clone()
         {
             //This is a deep copy because Address's Clone creates a new object and returns it
-            return new Person { Name = this.Name, 
-                                Address = (Address)this.Address.Clone() };
+            return new Person
+            {
+                Name = this.Name,
+                Address = (Address)this.Address.Clone()
+            };
         }
 
         /// <summary>

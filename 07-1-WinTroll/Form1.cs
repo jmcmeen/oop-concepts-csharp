@@ -10,11 +10,11 @@ namespace XX_BasicWinForms
 
         private void OnMouseEnterButton1(object sender, EventArgs e)
         {
-            int x = new Random().Next(0 + button1.Width, this.Width - button1.Width*2);
+            int x = new Random().Next(0 + button1.Width, this.Width - button1.Width * 2);
             int y = new Random().Next(0 + button1.Height, this.Height - button1.Height * 2);
 
             button1.Location = new Point(x, y);
-            
+
         }
     }
 }

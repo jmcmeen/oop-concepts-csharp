@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace XX_Alexandria.UI.Commands
+﻿namespace XX_Alexandria.UI.Commands
 {
     internal interface IMenuCommand
     {

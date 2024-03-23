@@ -14,7 +14,7 @@ namespace _01_3_Classes
             Dice dice1 = new Dice();
 
             //simplified with explicit reference on left
-            Dice dice2 = new(); 
+            Dice dice2 = new();
 
             Console.WriteLine($"dice1 roll = {dice1.NextRoll()}");
             Console.WriteLine($"dice2 roll = {dice2.NextRoll()}");

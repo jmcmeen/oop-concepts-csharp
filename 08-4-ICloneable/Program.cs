@@ -11,10 +11,10 @@
 
             //Now we can create a copy using Item's Clone Method, since it implements the ICloneable interface
             Item? itemTwo = (Item)itemOne.Clone();
-            
+
             //Item? itemTwo = itemOne.Clone() as Item;
 
-            if(itemTwo != null)
+            if (itemTwo != null)
             {
                 Console.WriteLine(itemTwo);
             }

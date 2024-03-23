@@ -6,14 +6,14 @@ namespace XX_Alexandria.UI.Commands.MainMenu
     {
         private const string COMMAND_NAME = "Show All Catalog Items";
         private Catalog catalog;
-        public ShowAllItems(Catalog catalog) 
+        public ShowAllItems(Catalog catalog)
         {
             this.catalog = catalog;
         }
 
         public void Execute()
         {
-            if(catalog.NumItems != 0)
+            if (catalog.NumItems != 0)
             {
                 foreach (CatalogItem c in catalog.Items)
                 {

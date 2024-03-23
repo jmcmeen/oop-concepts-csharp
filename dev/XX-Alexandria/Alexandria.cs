@@ -1,6 +1,6 @@
-﻿using XX_Alexandria.UI.Commands.MainMenu;
+﻿using XX_Alexandria.Models;
 using XX_Alexandria.UI;
-using XX_Alexandria.Models;
+using XX_Alexandria.UI.Commands.MainMenu;
 
 namespace XX_Alexandria
 {

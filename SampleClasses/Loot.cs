@@ -4,8 +4,8 @@ namespace SampleClasses
     public class Loot : IEquatable<Loot>, IComparable<Loot>
     {
         // public auto-properties
-        public string? Name{ get; set; }
-        public uint Price{ get; set; }
+        public string? Name { get; set; }
+        public uint Price { get; set; }
         public string? Description { get; set; }
 
         //public methods
@@ -13,7 +13,7 @@ namespace SampleClasses
         /// <summary>
         /// Default constructor
         /// </summary>
-        public Loot() 
+        public Loot()
         {
             Name = string.Empty;
             Price = 0;

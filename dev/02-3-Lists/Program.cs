@@ -12,7 +12,7 @@
         {
             //This is a reference to a List object, it doesn't reference anything until you tell it to
             List<int> listOfIntegers;
-            
+
             //This is how it asks for memory to hold the integers
             listOfIntegers = new List<int>();
 
@@ -37,7 +37,7 @@
 
             //Ask the List, "List, what is thy current storage utilization?"
             //since List.Capacity and List.Count are integers, I need to cast one to a float below so it will perform float math
-            Console.WriteLine($"I am holding {listOfIntegers.Count} out of {listOfIntegers.Capacity} possible values for {(float)listOfIntegers.Count/listOfIntegers.Capacity * 100.0} utilization.");
+            Console.WriteLine($"I am holding {listOfIntegers.Count} out of {listOfIntegers.Capacity} possible values for {(float)listOfIntegers.Count / listOfIntegers.Capacity * 100.0} utilization.");
 
             //loop through a list and print each int twice on its own line
             for (int i = 0; i < listOfIntegers.Count; i++)

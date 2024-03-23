@@ -9,7 +9,7 @@
         /// Parameterized constructor
         /// </summary>
         /// <param name="name">Elephant's name</param>
-        public Elephant(string name) : base(name){}
+        public Elephant(string name) : base(name) { }
 
         /// <summary>
         /// Makes an elephant sound

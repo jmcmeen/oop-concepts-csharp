@@ -4,12 +4,12 @@ namespace BindingSource
 {
     internal class LootFile
     {
-        public List<Loot> loots {  get; set; }
+        public List<Loot> loots { get; set; }
         public string Path { get; set; }
         public bool Saved { get; set; }
         public bool NewFile { get; set; }
 
-        public LootFile() 
+        public LootFile()
         {
             loots = new List<Loot>();
             Saved = false;

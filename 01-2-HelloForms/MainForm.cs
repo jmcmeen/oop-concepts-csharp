@@ -38,7 +38,7 @@ namespace _00_1_HelloForms
                                               "Leroy Jenkins!",
                                               "It's dangerous to go alone! Take this!",
                                               "The cake is a lie!"};
-                    
+
 
             fortuneLabel.Text = fortunes[new Random().Next(fortunes.Count)];
         }

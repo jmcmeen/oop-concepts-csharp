@@ -4,7 +4,7 @@
     {
         protected decimal _salesBonus;
 
-        public SalesEmployee(string name, decimal salary, decimal salesBonus) 
+        public SalesEmployee(string name, decimal salary, decimal salesBonus)
             : base(name, salary)
         {
             _salesBonus = salesBonus;

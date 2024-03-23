@@ -5,9 +5,9 @@
         public int ID { get; set; }
         public List<Item> items { get; set; }
 
-        public TreasureChest() 
+        public TreasureChest()
         {
-            items = new List<Item>();   
+            items = new List<Item>();
         }
     }
 }

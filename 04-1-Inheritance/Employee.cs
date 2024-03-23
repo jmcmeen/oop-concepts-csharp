@@ -19,7 +19,7 @@
             _name = name;
             _salary = salary;
         }
-        
+
         /// <summary>
         /// Gets the employees salary
         /// </summary>

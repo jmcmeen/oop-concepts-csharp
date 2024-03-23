@@ -15,7 +15,7 @@
             Rectangle r = new Rectangle(2, 3);
 
             //Create a list of type Shape, Circle and Rectangles base (parent) class
-            List<Shape> shapes = new List<Shape>(); 
+            List<Shape> shapes = new List<Shape>();
             shapes.Add(c);
             shapes.Add(r);
 

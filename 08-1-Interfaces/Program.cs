@@ -12,7 +12,7 @@
         {
             //We can create a list of object that implement ISound, in a polymorphic way
             List<ISound> list = new List<ISound>();
-            
+
             //Cats and Cars are very different types of objects
             Cat cat = new Cat();
             Car car = new Car();
@@ -26,7 +26,7 @@
             list.Add(duck);
 
             //Because they all make sound
-            foreach(ISound thingThatMakesSounds in list)
+            foreach (ISound thingThatMakesSounds in list)
             {
                 Console.WriteLine(thingThatMakesSounds.GetType());
                 thingThatMakesSounds.MakeSound();

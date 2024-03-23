@@ -25,9 +25,9 @@ namespace _11_5_DeepCopy
             };
 
             //Call each Guild's deep copy Clone method and add to a new Server object Guilds
-            foreach(Guild guild in Guilds)
+            foreach (Guild guild in Guilds)
             {
-                server.Guilds.Add(  (Guild)guild.Clone()  );
+                server.Guilds.Add((Guild)guild.Clone());
             }
 
             return server;

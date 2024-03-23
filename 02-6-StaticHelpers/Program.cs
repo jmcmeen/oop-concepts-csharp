@@ -24,16 +24,16 @@ namespace _07_01_StaticHelpers
             double amps;
 
             //For every value in volt array
-            foreach(double volt in volts)
+            foreach (double volt in volts)
             {
                 //count how many times ohms is incremented
                 long count = 0;
 
                 //for every ohmsIncrement up to ohmsCap
-                for(double ohm = ohmsIncrement; ohm < ohmsCap; ohm+= ohmsIncrement)
+                for (double ohm = ohmsIncrement; ohm < ohmsCap; ohm += ohmsIncrement)
                 {
                     bool print = false;
-                    
+
                     //only print the results every printDelay times
                     print = count % printDelay == 0;
 
@@ -57,13 +57,13 @@ namespace _07_01_StaticHelpers
                     {
                         Console.WriteLine($"volts = {volt} ohms = {ohm} amps = {amps}");
                     }
-                    
+
                     //Start a timer
                     watch.Start();
 
                     //Calculate the amps using an Amp Object
                     amps = new Amp(ohm, volt).GetValue();
-                    
+
                     //Stop the timer
                     watch.Stop();
 

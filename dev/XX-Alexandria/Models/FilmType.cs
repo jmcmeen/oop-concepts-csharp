@@ -2,7 +2,7 @@
 {
     internal enum FilmType
     {
-        VHS =1,
+        VHS = 1,
         LaserDisk,
         DVD,
         BluRay

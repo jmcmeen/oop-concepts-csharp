@@ -15,7 +15,7 @@
 
             //Show all cards
             Console.WriteLine("Display the whole deck");
-            foreach(Card c in deck.cards)
+            foreach (Card c in deck.cards)
             {
                 Console.WriteLine(c);
             }

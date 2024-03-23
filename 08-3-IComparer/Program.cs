@@ -12,7 +12,7 @@
         {
             List<Monster> monsterList = new List<Monster>();
 
-            for(int i = 0; i < 25; i++)
+            for (int i = 0; i < 25; i++)
             {
                 monsterList.Add(RandomGen.NextMonster());
             }
@@ -23,8 +23,8 @@
             monsterList.Sort(new HitPointsComparer());
 
             Console.WriteLine("\nPrint List sorted by HitPoints\n");
-            PrintMonsters(monsterList); 
-            
+            PrintMonsters(monsterList);
+
             monsterList.Sort(new NameComparer());
 
             Console.WriteLine("\nPrint List sorted by Name\n");

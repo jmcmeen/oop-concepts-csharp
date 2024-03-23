@@ -31,7 +31,7 @@ namespace _01_9_ObjectLists
             // Display the area of each circle using a foreach loop
             foreach (var circle in circles)
             {
-                Console.WriteLine($"{circle.Area}");  
+                Console.WriteLine($"{circle.Area}");
             }
 
             Console.WriteLine();

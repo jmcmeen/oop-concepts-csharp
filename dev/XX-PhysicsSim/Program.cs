@@ -14,7 +14,7 @@
 
             for (int i = 0; i < s.particles.Count; i++)
             {
-                for(int j = i + 1 ; j < s.particles.Count; j++)
+                for (int j = i + 1; j < s.particles.Count; j++)
                 {
                     Console.WriteLine($"{s.particles[i]} - {s.particles[j]} - {s.particles[i].CalculateForceMagnitude(s.particles[j])}");
                 }

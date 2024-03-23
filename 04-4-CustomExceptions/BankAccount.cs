@@ -19,7 +19,7 @@
         /// <exception cref="InvalidAmountException"></exception>
         public void Deposit(decimal amount)
         {
-            if(amount < 0)
+            if (amount < 0)
             {
                 throw new InvalidAmountException();
             }
@@ -35,11 +35,11 @@
         /// <exception cref="InvalidAmountException"></exception>
         public void Withdraw(decimal amount)
         {
-            if(amount > _balance)
+            if (amount > _balance)
             {
                 throw new InsufficientFundsException();
-            } 
-            if(amount <= 0)
+            }
+            if (amount <= 0)
             {
                 throw new InvalidAmountException();
             }
@@ -53,7 +53,7 @@
         /// <returns>string representation of BankAccount</returns>
         public override string ToString()
         {
-            return $"{Name } {_balance}";
+            return $"{Name} {_balance}";
 
         }
     }

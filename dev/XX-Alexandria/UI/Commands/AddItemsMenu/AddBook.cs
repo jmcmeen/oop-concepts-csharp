@@ -8,7 +8,7 @@ namespace XX_Alexandria.UI.Commands.AddItemsMenu
 
         private Catalog catalog;
 
-        public AddBook(Catalog catalog) 
+        public AddBook(Catalog catalog)
         {
             this.catalog = catalog;
         }
@@ -37,7 +37,7 @@ namespace XX_Alexandria.UI.Commands.AddItemsMenu
 
             Console.WriteLine("\nEnter value for book type: ");
 
-            foreach(var v in Enum.GetValues(typeof(BookType)))
+            foreach (var v in Enum.GetValues(typeof(BookType)))
             {
                 Console.Write($"{v} [{(int)v}] ");
             }

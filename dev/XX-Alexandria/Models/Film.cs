@@ -1,6 +1,4 @@
-﻿using XX_Alexandria.Models;
-
-namespace XX_Alexandria.Models
+﻿namespace XX_Alexandria.Models
 {
     internal class Film : CatalogItem, ISearchable
     {

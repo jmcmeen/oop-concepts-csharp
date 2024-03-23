@@ -10,7 +10,7 @@
             {
                 Student s = new Student();
 
-                for(int j = 0; j < 100; j++)
+                for (int j = 0; j < 100; j++)
                 {
                     s.grades.Add(new Random().NextDouble() * 100);
                 }

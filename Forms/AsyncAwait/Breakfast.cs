@@ -30,7 +30,8 @@ SOFTWARE.
 
 using System.Diagnostics;
 
-namespace AsyncAwait {
+namespace AsyncAwait
+{
     public abstract class Breakfast
     {
         protected abstract void SendMessage(string text);
@@ -224,7 +225,7 @@ namespace AsyncAwait {
 
         protected override void SendMessage(string text)
         {
-            write($"[{ stopwatch.ElapsedMilliseconds }] {text}");
+            write($"[{stopwatch.ElapsedMilliseconds}] {text}");
         }
     }
 
@@ -263,7 +264,7 @@ namespace AsyncAwait {
 
         protected override void SendMessage(string text)
         {
-            progress.Report($"[{ stopwatch.ElapsedMilliseconds }] {text}");
+            progress.Report($"[{stopwatch.ElapsedMilliseconds}] {text}");
         }
     }
 }

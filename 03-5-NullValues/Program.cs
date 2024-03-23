@@ -26,7 +26,7 @@ namespace _02_8_NullValues
             Dice dice;
 
             //The following statement will not compile.
-           //int x = null;
+            //int x = null;
 
             /* C# will allow you to assign null to a value type if you 
              * explicitly declare it as nullable.The following statement will compile. */

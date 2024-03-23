@@ -25,8 +25,8 @@
             {
                 b.AddItem(item);
                 Console.WriteLine("Item added.\n");
-            } 
-            catch (Exception ex) 
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -57,9 +57,9 @@
             {
                 b.AddItem(new Item()
                 {
-                    Name= "Potion of Serpent’s Brew",
+                    Name = "Potion of Serpent’s Brew",
                     Description = "A bubbling bottle filled with iridescent liquid.",
-                    Effect = "Drinking from it grants the ability to speak and understand the language of snakes.", 
+                    Effect = "Drinking from it grants the ability to speak and understand the language of snakes.",
                     GoldPrice = 200,
                 });
                 Console.WriteLine("Item added.\n");
@@ -78,7 +78,7 @@
                 {
                     Name = "Chalice of Time’s Embrace",
                     Description = "A crystal goblet with shifting sands inside.",
-                    Effect = "Sipping from it allows glimpses into the past or future", 
+                    Effect = "Sipping from it allows glimpses into the past or future",
                     GoldPrice = 100,
                 });
 

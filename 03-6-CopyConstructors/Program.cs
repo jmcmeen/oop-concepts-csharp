@@ -12,7 +12,7 @@
             //Now we can create a copy using Item's copy constructor, passing in the first Item
             Item itemTwo = new Item(itemOne);
 
-            Console.WriteLine(itemTwo);            
+            Console.WriteLine(itemTwo);
         }
     }
 }

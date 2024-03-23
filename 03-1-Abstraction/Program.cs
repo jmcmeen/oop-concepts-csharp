@@ -14,10 +14,10 @@
             treasureChests.Add(new TreasureChestType1());
             treasureChests.Add(new TreasureChestType2());
 
-            foreach(TreasureChest treasureChest in treasureChests)
+            foreach (TreasureChest treasureChest in treasureChests)
             {
-                var numItemsToAdd = random.Next(1,11);
-                for(int i = 0; i < numItemsToAdd; i++)
+                var numItemsToAdd = random.Next(1, 11);
+                for (int i = 0; i < numItemsToAdd; i++)
                 {
                     treasureChest.AddItem(new Item());
                 }

@@ -263,7 +263,7 @@ namespace AsyncAwait
 
         private void SendMessage(string text)
         {
-            progress.Report($"[{ stopwatch.ElapsedMilliseconds }] {text}");
+            progress.Report($"[{stopwatch.ElapsedMilliseconds}] {text}");
         }
     }
 }

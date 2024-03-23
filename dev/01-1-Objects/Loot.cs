@@ -14,7 +14,8 @@
         /// <summary>
         /// Default constructor
         /// </summary>
-        public Loot() {
+        public Loot()
+        {
 
             name = "";
             price = 0;

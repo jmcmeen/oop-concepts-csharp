@@ -23,10 +23,13 @@
         /// <returns></returns>
         public object Clone()
         {
-            return new Address { Street = this.Street, 
-                                City = this.City, 
-                                State = this.State, 
-                                Zip = this.Zip};
+            return new Address
+            {
+                Street = this.Street,
+                City = this.City,
+                State = this.State,
+                Zip = this.Zip
+            };
         }
     }
 }

@@ -22,7 +22,7 @@
             list.Add(date3);
             list.Add(date4);
 
-            foreach(DateTime dt in list)
+            foreach (DateTime dt in list)
             {
                 Console.WriteLine(dt);
             }

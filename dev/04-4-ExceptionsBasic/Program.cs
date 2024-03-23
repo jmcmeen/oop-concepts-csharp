@@ -22,7 +22,7 @@
                 //This won't get executed
                 PrintANiceMessage();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 //Exception's have messages and stack traces
                 Console.WriteLine(ex.Message);

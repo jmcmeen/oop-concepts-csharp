@@ -11,7 +11,7 @@
         public static void Main()
         {
             // Example 1 - Reading and writing text files
-            
+
             //Write a text file
             const string path = "temp.txt";
             string output = "Hello\nAnd\nWelcome";

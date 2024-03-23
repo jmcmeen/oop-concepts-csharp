@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.Design;
-using XX_Alexandria.UI.Commands;
+﻿using XX_Alexandria.UI.Commands;
 
 namespace XX_Alexandria.UI
 {
@@ -10,7 +9,7 @@ namespace XX_Alexandria.UI
 
         public ConsoleMenu(string menuHeader)
         {
-            commandDictionary= new Dictionary<int, IMenuCommand>();
+            commandDictionary = new Dictionary<int, IMenuCommand>();
             this.menuHeader = menuHeader;
         }
 

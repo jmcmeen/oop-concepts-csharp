@@ -27,17 +27,17 @@ namespace BindingSource
 
         private void addLootButton_Click(object sender, EventArgs e)
         {
-            if(nameTextBox.Text == string.Empty)
+            if (nameTextBox.Text == string.Empty)
             {
                 toolStripStatusLabel.Text = "Name can not be blank!";
                 toolStripStatusLabel.ForeColor = Color.Red;
             }
-            else if (priceTextBox.Text ==  string.Empty) 
+            else if (priceTextBox.Text == string.Empty)
             {
                 toolStripStatusLabel.Text = "Price can not be blank!";
                 toolStripStatusLabel.ForeColor = Color.Red;
             }
-            else if (descriptionTextBox.Text == string.Empty) 
+            else if (descriptionTextBox.Text == string.Empty)
             {
                 toolStripStatusLabel.Text = "Description can not be blank!";
                 toolStripStatusLabel.ForeColor = Color.Red;
@@ -65,7 +65,7 @@ namespace BindingSource
                     descriptionTextBox.Text = string.Empty;
                     nameTextBox.Focus();
                 }
-                catch (FormatException) 
+                catch (FormatException)
                 {
                     toolStripStatusLabel.Text = "Price must be a whole number!";
                     toolStripStatusLabel.ForeColor = Color.Red;
@@ -110,9 +110,9 @@ namespace BindingSource
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(LootFile != null)
+            if (LootFile != null)
             {
-                if (!LootFile.Saved && !LootFile.NewFile )
+                if (!LootFile.Saved && !LootFile.NewFile)
                 {
                     DialogResult dialogResult = MessageBox.Show("You have unsaved data. Do you want to save?", "Warning", MessageBoxButtons.YesNo);
                     if (dialogResult == DialogResult.Yes)
@@ -152,7 +152,7 @@ namespace BindingSource
             }
             else
             {
-                if(openFileDialog.ShowDialog() == DialogResult.OK)
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     try
                     {
@@ -198,7 +198,7 @@ namespace BindingSource
                 saveToolStripMenuItem.Enabled = false;
                 saveAsToolStripMenuItem.Enabled = false;
                 closeToolStripMenuItem.Enabled = false;
-                
+
             }
             else
             {
@@ -213,8 +213,8 @@ namespace BindingSource
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (LootFile.Path == string.Empty)
-            {                
-                if(saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     LootFile.Path = saveFileDialog.FileName;
                     File.WriteAllText(LootFile.Path, JsonSerializer.Serialize(LootFile.loots));

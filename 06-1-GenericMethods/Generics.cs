@@ -31,7 +31,7 @@
         {
             foreach (T item in inputArray)
             {
-                Console.Write(item +" ");
+                Console.Write(item + " ");
             }
 
             Console.WriteLine();

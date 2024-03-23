@@ -1,6 +1,4 @@
-﻿using XX_Alexandria.Models;
-
-namespace XX_Alexandria.Models
+﻿namespace XX_Alexandria.Models
 {
     internal class Book : CatalogItem, ISearchable
     {
@@ -22,10 +20,10 @@ namespace XX_Alexandria.Models
         public override bool Search(string searchTerm)
         {
             //Search item terms
-             return Title.ToLower().Contains(searchTerm.ToLower()) || 
-                Year.ToLower().Contains(searchTerm.ToLower()) || 
-                Author.ToLower().Contains(searchTerm.ToLower()) || 
-                ISBN.ToLower().Contains(searchTerm.ToLower());
+            return Title.ToLower().Contains(searchTerm.ToLower()) ||
+               Year.ToLower().Contains(searchTerm.ToLower()) ||
+               Author.ToLower().Contains(searchTerm.ToLower()) ||
+               ISBN.ToLower().Contains(searchTerm.ToLower());
 
         }
     }

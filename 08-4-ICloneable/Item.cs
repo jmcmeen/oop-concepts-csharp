@@ -9,7 +9,7 @@
         /// <summary>
         /// Default constructor
         /// </summary>
-        public Item(){}
+        public Item() { }
 
         /// <summary>
         /// Parametrized constructor

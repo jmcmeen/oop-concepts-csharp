@@ -30,8 +30,8 @@ namespace _03_7_Backpack
         public void AddItem(Item item)
         {
             //guard clauses
-            if(item == null) throw new ArgumentNullException("item");
-            if(_items.Count >= _maxItems) throw new Exception("Backpack is full!");
+            if (item == null) throw new ArgumentNullException("item");
+            if (_items.Count >= _maxItems) throw new Exception("Backpack is full!");
 
             //Add the item
             _items.Add(item);
@@ -44,7 +44,7 @@ namespace _03_7_Backpack
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            foreach(Item item in _items)
+            foreach (Item item in _items)
             {
                 sb.Append(item.ToString());
                 sb.Append('\n');

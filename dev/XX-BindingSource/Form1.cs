@@ -8,7 +8,7 @@ namespace XX_BindingSource
             InitializeComponent();
             stringList = new List<string>();
 
-            listBindingSource.DataSource= stringList;
+            listBindingSource.DataSource = stringList;
             stringListBox.DataSource = listBindingSource;
         }
 

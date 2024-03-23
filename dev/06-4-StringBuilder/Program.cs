@@ -15,7 +15,7 @@ namespace _06_4_StringBuilder
         {
             Stopwatch watch = new Stopwatch();
 
-            for (int i = 2; i < 10000000; i*=2)
+            for (int i = 2; i < 10000000; i *= 2)
             {
                 Console.Write($"{i} iterations using String concatenation - ");
                 watch.Start();

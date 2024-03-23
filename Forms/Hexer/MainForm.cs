@@ -1,8 +1,5 @@
 //https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios
 
-using System.Drawing.Text;
-using static System.Net.Mime.MediaTypeNames;
-
 namespace XX_FileDialog
 {
     public partial class MainForm : Form
