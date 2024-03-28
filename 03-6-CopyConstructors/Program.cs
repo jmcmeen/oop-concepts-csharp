@@ -1,4 +1,4 @@
-﻿namespace _11_2_CopyConstructors
+﻿namespace _03_6_CopyConstructors
 {
     internal static class Program
     {

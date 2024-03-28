@@ -1,4 +1,4 @@
-﻿namespace _06_3_IComparer
+﻿namespace _08_3_IComparer
 {
     /// <summary>
     /// Utility class for generating random content

@@ -1,4 +1,4 @@
-﻿namespace _07_2_StaticFields
+﻿namespace _02_7_StaticFields
 {
     /// <summary>
     /// Program to demonstrate static fields

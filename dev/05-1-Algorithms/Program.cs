@@ -1,4 +1,4 @@
-﻿namespace _05_1_Algorithms
+﻿namespace _05_Algorithms
 {
     /// <summary>
     /// Demonstrates the use of various array algorithms

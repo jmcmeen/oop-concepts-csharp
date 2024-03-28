@@ -1,6 +1,6 @@
 ﻿using SampleClasses;
 
-namespace _02_5_ToString
+namespace _04_4_ToString
 {
     /// <summary>
     /// A program demonstrating ToString

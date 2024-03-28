@@ -1,4 +1,4 @@
-﻿namespace _11_5_DeepCopy
+﻿namespace _8_6_DeepCopy
 {
     internal class Address : ICloneable
     {
@@ -25,10 +25,10 @@
         {
             return new Address
             {
-                Street = this.Street,
-                City = this.City,
-                State = this.State,
-                Zip = this.Zip
+                Street = Street,
+                City = City,
+                State = State,
+                Zip = Zip
             };
         }
     }

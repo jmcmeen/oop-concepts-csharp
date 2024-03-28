@@ -1,6 +1,6 @@
 ﻿using SampleClasses; // Loot is in the SampleClasses class library in this solution
 
-namespace _01_3_Initializers
+namespace _01_8_ObjectInitializers
 {
     /// <summary>
     /// Program demonstrating object-initializers

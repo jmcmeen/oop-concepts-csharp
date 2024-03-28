@@ -1,4 +1,4 @@
-﻿namespace _09_1_Files
+﻿namespace _09_1_TextFiles
 {
     /// <summary>
     /// Demonstrates writing text files

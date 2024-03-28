@@ -1,4 +1,4 @@
-﻿namespace _07_3_Abstraction
+﻿namespace _03_1_Abstraction
 {
     /// <summary>
     /// Models a TreasureChest that owns a List of Items

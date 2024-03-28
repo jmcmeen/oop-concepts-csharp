@@ -1,4 +1,4 @@
-﻿namespace _12_3_ObjectsInTheWild
+﻿namespace _01_9_ObjectsInTheWild
 {
     internal class Triangle3
     {
@@ -15,9 +15,9 @@
 
         public Triangle3(double sideA, double sideB, double sideC)
         {
-            this.SideA = sideA;
-            this.SideB = sideB;
-            this.SideC = sideC;
+            SideA = sideA;
+            SideB = sideB;
+            SideC = sideC;
         }
 
         public double CalculateArea()

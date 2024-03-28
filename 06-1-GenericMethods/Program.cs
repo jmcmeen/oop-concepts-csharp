@@ -1,4 +1,4 @@
-﻿namespace _06_06_GenericMethods
+﻿namespace _06_1_GenericMethods
 {
     /// <summary>
     /// Demonstrates the use of generic methods
@@ -34,8 +34,8 @@
             //method calls below.
 
             Console.WriteLine("Swap vals using generic method:");
-            Generics.Swap<int>(integerArray, 0, 2);
-            Generics.Swap<double>(doubleArray, 0, 2);
+            Generics.Swap(integerArray, 0, 2);
+            Generics.Swap(doubleArray, 0, 2);
 
             //In some cases the compiler can infer which method you want without
             //the type in bracket <int>, such as below

@@ -1,4 +1,4 @@
-﻿namespace _11_5_DeepCopy
+﻿namespace _8_7_DeepCopy
 {
     internal static class Program
     {

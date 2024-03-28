@@ -1,4 +1,4 @@
-﻿namespace _11_3_ICloneable
+﻿namespace _8_4_ICloneable
 {
     internal static class Program
     {

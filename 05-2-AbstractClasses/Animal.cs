@@ -1,4 +1,4 @@
-﻿namespace _04_2_AbstractClasses
+﻿namespace _05_2_AbstractClasses
 {
     /// <summary>
     /// Models an abstract Animal
@@ -6,7 +6,7 @@
     internal abstract class Animal
     {
         //public auto-implemented properties
-        protected String Name { get; set; }
+        protected string Name { get; set; }
 
         /// <summary>
         /// Parameterized constructor

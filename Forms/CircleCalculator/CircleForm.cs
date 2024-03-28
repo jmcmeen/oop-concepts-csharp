@@ -1,3 +1,5 @@
+using _04_8_CircleCalculator;
+
 namespace _04_8_CircleClaculator
 {
     /// <summary>

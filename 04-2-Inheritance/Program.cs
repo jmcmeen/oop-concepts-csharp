@@ -1,4 +1,4 @@
-﻿namespace _04_1_Inheritance
+﻿namespace _04_2_Inheritance
 {
     /// <summary>
     /// Program demonstrating basic inheritance and polymorphic behavior

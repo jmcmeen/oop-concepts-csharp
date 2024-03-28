@@ -1,4 +1,4 @@
-﻿namespace _04_2_AbstractClasses
+﻿namespace _05_2_AbstractClasses
 {
     /// <summary>
     /// Models an Elephant derived from Animal

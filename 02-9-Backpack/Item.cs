@@ -1,4 +1,4 @@
-﻿namespace _03_7_Backpack
+﻿namespace _02_9_Backpack
 {
     /// <summary>
     /// Models an item

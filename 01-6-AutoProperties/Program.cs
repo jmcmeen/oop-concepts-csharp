@@ -1,6 +1,6 @@
 ﻿using SampleClasses;
 
-namespace _01_2_AutoProperties
+namespace _01_6_AutoProperties
 {
     /// <summary>
     /// Program to demonstrate use of Auto

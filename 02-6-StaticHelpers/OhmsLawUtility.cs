@@ -1,4 +1,4 @@
-﻿namespace _07_01_StaticHelpers
+﻿namespace _02_6_StaticHelpers
 {
     /// <summary>
     /// Helper methods for calculating common electrical mathematics

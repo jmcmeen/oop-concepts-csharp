@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace _03_7_Backpack
+namespace _02_9_Backpack
 {
     /// <summary>
     /// Models a backpack

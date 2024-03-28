@@ -1,4 +1,4 @@
-﻿namespace _11_3_ICloneable
+﻿namespace _8_4_ICloneable
 {
     internal class Item : ICloneable
     {
@@ -40,7 +40,7 @@
             object o = new Item();
 
             //create and return a new Item reference, passing in this Item's properties
-            return new Item(this.Description, this.Cost);
+            return new Item(Description, Cost);
         }
     }
 }

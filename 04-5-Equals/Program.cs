@@ -1,6 +1,6 @@
 ﻿using SampleClasses;
 
-namespace _09_1_Equals
+namespace _04_5_Equals
 {
     /// <summary>
     /// Demonstrates Equals

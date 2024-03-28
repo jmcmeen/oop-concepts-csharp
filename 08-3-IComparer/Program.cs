@@ -1,4 +1,4 @@
-﻿namespace _06_3_IComparer
+﻿namespace _08_3_IComparer
 {
     /// <summary>
     /// Program demonstrating sorting a list with a Comparer

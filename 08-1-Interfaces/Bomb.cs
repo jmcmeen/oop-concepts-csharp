@@ -1,4 +1,4 @@
-﻿namespace _06_1_Interfaces
+﻿namespace _08_1_Interfaces
 {
     internal class Bomb : ISound
     {

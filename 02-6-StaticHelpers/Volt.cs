@@ -1,4 +1,4 @@
-﻿namespace _07_01_StaticHelpers
+﻿namespace _02_6_StaticHelpers
 {
     /// <summary>
     /// Models a Volt in electricity    

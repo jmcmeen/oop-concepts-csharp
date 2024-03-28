@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace _11_5_DeepCopy
+namespace _8_7_DeepCopy
 {
     internal class Guild : ICloneable
     {
@@ -21,11 +21,11 @@ namespace _11_5_DeepCopy
             //Create a new Guild so it is a Deep Copy
             Guild guild = new Guild
             {
-                Name = this.Name,
+                Name = Name,
             };
 
             //Player.Clone() creates a new Player
-            foreach (Player player in this.Players)
+            foreach (Player player in Players)
             {
                 guild.Players.Add((Player)player.Clone());
             }

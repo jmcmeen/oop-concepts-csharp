@@ -1,4 +1,4 @@
-﻿namespace _06_2_IComparable
+﻿namespace _08_2_IComparable
 {
     /// <summary>
     /// Models a Monster, implementing the IComparable interface

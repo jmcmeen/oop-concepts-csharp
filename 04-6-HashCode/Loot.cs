@@ -1,4 +1,4 @@
-﻿namespace _09_1_Equals
+﻿namespace _04_6_HashCode
 {
     internal class Loot
     {

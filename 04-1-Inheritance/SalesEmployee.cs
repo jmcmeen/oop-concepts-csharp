@@ -1,4 +1,4 @@
-﻿namespace _04_0_Inheritance
+﻿namespace _04_1_Inheritance
 {
     internal class SalesEmployee : Employee
     {

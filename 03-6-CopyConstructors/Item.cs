@@ -1,4 +1,4 @@
-﻿namespace _11_2_CopyConstructors
+﻿namespace _03_6_CopyConstructors
 {
     internal class Item
     {
@@ -33,8 +33,8 @@
         public Item(Item item)
         {
             //copy each of the values from item to this
-            this.Description = item.Description;
-            this.Cost = item.Cost;
+            Description = item.Description;
+            Cost = item.Cost;
         }
 
         /// <summary>

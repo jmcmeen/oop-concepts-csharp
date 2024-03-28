@@ -1,4 +1,4 @@
-﻿namespace _06_06_GenericMethods
+﻿namespace _06_1_GenericMethods
 {
     internal enum PizzaToppings
     {

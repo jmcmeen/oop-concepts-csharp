@@ -1,4 +1,6 @@
-namespace BindingSource
+using BindingSource;
+
+namespace Looter
 {
     internal static class Program
     {

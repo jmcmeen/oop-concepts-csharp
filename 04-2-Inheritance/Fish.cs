@@ -1,4 +1,4 @@
-﻿namespace _04_1_Inheritance
+﻿namespace _04_2_Inheritance
 {
     /// <summary>
     /// Models a Fish derived frm Animal

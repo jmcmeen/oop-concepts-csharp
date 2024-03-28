@@ -1,4 +1,4 @@
-﻿namespace _04_7_DiceRoller
+﻿namespace _02_8_DiceRoller
 {
     /// <summary>
     /// Static helper class for rolling dice

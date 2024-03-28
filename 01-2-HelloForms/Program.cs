@@ -1,4 +1,6 @@
-namespace _00_1_HelloForms
+using _00_1_HelloForms;
+
+namespace _01_2_HelloForms
 {
     internal static class Program
     {

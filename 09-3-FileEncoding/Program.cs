@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace _10_3_FileEncoding
+namespace _09_3_FileEncoding
 {
     internal static class Program
     {
@@ -8,7 +8,7 @@ namespace _10_3_FileEncoding
         {
             const string textFilePath = @"textfile.txt";
             const string binaryFilePath = @"binaryfile.dat";
-            int writeValue = Int32.MaxValue;
+            int writeValue = int.MaxValue;
             int readValue = 0;
 
             //Creates a file if it does not exist

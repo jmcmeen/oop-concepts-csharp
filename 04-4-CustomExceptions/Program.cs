@@ -1,4 +1,4 @@
-﻿namespace _04_6_CustomExceptions
+﻿namespace _04_7_CustomExceptions
 {
     /// <summary>
     /// Program to demonstrate 

@@ -1,6 +1,6 @@
 ﻿using SampleClasses;
 
-namespace _01_8_ObjectArrays
+namespace _02_3_ObjectArrays
 {
     /// <summary>
     /// Demonstrates the use of object arrays

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace _07_01_StaticHelpers
+namespace _02_6_StaticHelpers
 {
     /// <summary>
     /// Program that slowly increments ohms for a series of volt values

@@ -1,4 +1,4 @@
-﻿namespace _06_3_IComparer
+﻿namespace _08_3_IComparer
 {
     /// <summary>
     /// Comparer which provides a method to compare two Monsters by Name

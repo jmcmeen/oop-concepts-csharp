@@ -1,4 +1,4 @@
-﻿namespace _07_01_StaticHelpers
+﻿namespace _02_6_StaticHelpers
 {
     /// <summary>
     /// Models an Amp (current) in electricity
@@ -15,8 +15,8 @@
         /// <param name="volts">volts</param>
         public Amp(double ohms, double volts)
         {
-            this._ohms = ohms;
-            this._volts = volts;
+            _ohms = ohms;
+            _volts = volts;
         }
 
         /// <summary>

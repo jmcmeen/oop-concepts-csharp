@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace _11_5_DeepCopy
+namespace _8_7_DeepCopy
 {
     internal class Server : ICloneable
     {
@@ -21,7 +21,7 @@ namespace _11_5_DeepCopy
             //Create a new Server object
             Server server = new Server
             {
-                Name = this.Name,
+                Name = Name,
             };
 
             //Call each Guild's deep copy Clone method and add to a new Server object Guilds

@@ -1,6 +1,4 @@
-﻿using _09_1_Equals;
-
-namespace _09_2_HashCode
+﻿namespace _04_6_HashCode
 {
     internal static class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace _11_5_DeepCopy
+﻿namespace _8_7_DeepCopy
 {
     internal class Player : ICloneable
     {
@@ -11,7 +11,7 @@
         public object Clone()
         {
             //create a new Player, String = will make a new string
-            return new Player { Username = this.Username };
+            return new Player { Username = Username };
         }
 
         /// <summary>

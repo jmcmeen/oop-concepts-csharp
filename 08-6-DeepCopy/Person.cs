@@ -1,4 +1,4 @@
-﻿namespace _11_5_DeepCopy
+﻿namespace _8_6_DeepCopy
 {
     internal class Person : ICloneable
     {
@@ -14,8 +14,8 @@
             //This is a deep copy because Address's Clone creates a new object and returns it
             return new Person
             {
-                Name = this.Name,
-                Address = (Address)this.Address.Clone()
+                Name = Name,
+                Address = (Address)Address.Clone()
             };
         }
 

@@ -1,4 +1,4 @@
-﻿namespace _07_01_StaticHelpers
+﻿namespace _02_6_StaticHelpers
 {
     /// <summary>
     /// Models an Ohm (resistance) in electricity    
@@ -15,8 +15,8 @@
         /// <param name="volts"></param>
         public Ohm(double amps, double volts)
         {
-            this._amps = amps;
-            this._volts = volts;
+            _amps = amps;
+            _volts = volts;
         }
 
         /// <summary>

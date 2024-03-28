@@ -1,4 +1,6 @@
-namespace XX_BasicWinForms
+using XX_BasicWinForms;
+
+namespace _07_1_WinTroll
 {
     internal static class Program
     {

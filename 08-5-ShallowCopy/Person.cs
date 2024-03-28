@@ -1,4 +1,4 @@
-﻿namespace _11_4_ShallowCopy
+﻿namespace _8_5_ShallowCopy
 {
     internal class Person : ICloneable
     {
@@ -14,8 +14,8 @@
             //This is a shallow copy because Address is a reference, so clones will all have references to the same Address in memory
             return new Person
             {
-                Name = this.Name,
-                Address = this.Address
+                Name = Name,
+                Address = Address
             };
         }
 

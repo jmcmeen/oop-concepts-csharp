@@ -1,6 +1,6 @@
 ﻿using SampleClasses;
 
-namespace _01_9_ObjectLists
+namespace _02_4_ObjectLists
 {
     /// <summary>
     /// Demonstrates object lists

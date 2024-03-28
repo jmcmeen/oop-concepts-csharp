@@ -1,4 +1,4 @@
-﻿namespace _04_1_Inheritance
+﻿namespace _04_2_Inheritance
 {
     /// <summary>
     /// Models an Animal
@@ -8,7 +8,7 @@
         /// <summary>
         /// Animal Name
         /// </summary>
-        protected String Name { get; set; }
+        protected string Name { get; set; }
 
         /// <summary>
         /// Parameterized constructor
