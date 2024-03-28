@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_11_2_ModelViewPresenter.Model.Species">
+    <Position X="0.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAIAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Species.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_11_2_ModelViewPresenter.Model.SpeciesXmlRepository">
+    <Position X="8.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAQQAAEAAAAAAAAAAAAAiAAAACAAAAAAAABAAAAA=</HashCode>
+      <FileName>Model\SpeciesXmlRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_11_2_ModelViewPresenter.Presenter.SpeciesPresenter">
+    <Position X="6" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAABAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAA=</HashCode>
+      <FileName>Presenter\SpeciesPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_11_2_ModelViewPresenter.View.SpeciesForm">
+    <Position X="3.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIQAiAgIAAAAACAAEACAAQAAAAAoAAAACAAACI=</HashCode>
+      <FileName>View\SpeciesForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_11_2_ModelViewPresenter.Program">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="_11_2_ModelViewPresenter.Model.ISpeciesRepository">
+    <Position X="8.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ISpeciesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_11_2_ModelViewPresenter.View.ISpeciesView">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAQAAAAIAAAAACAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>View\ISpeciesView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

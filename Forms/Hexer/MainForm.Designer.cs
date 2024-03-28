@@ -43,19 +43,19 @@
             // 
             // filePathTextBox
             // 
-            filePathTextBox.Location = new Point(14, 16);
-            filePathTextBox.Margin = new Padding(3, 4, 3, 4);
+            filePathTextBox.Location = new Point(18, 20);
+            filePathTextBox.Margin = new Padding(4, 5, 4, 5);
             filePathTextBox.Name = "filePathTextBox";
             filePathTextBox.ReadOnly = true;
-            filePathTextBox.Size = new Size(517, 27);
+            filePathTextBox.Size = new Size(645, 31);
             filePathTextBox.TabIndex = 0;
             // 
             // selectFileButton
             // 
-            selectFileButton.Location = new Point(538, 16);
-            selectFileButton.Margin = new Padding(3, 4, 3, 4);
+            selectFileButton.Location = new Point(672, 20);
+            selectFileButton.Margin = new Padding(4, 5, 4, 5);
             selectFileButton.Name = "selectFileButton";
-            selectFileButton.Size = new Size(86, 31);
+            selectFileButton.Size = new Size(108, 39);
             selectFileButton.TabIndex = 1;
             selectFileButton.Text = "Select File";
             selectFileButton.UseVisualStyleBackColor = true;
@@ -63,24 +63,24 @@
             // 
             // outputTextBox
             // 
-            outputTextBox.Location = new Point(7, 29);
-            outputTextBox.Margin = new Padding(3, 4, 3, 4);
+            outputTextBox.Location = new Point(9, 36);
+            outputTextBox.Margin = new Padding(4, 5, 4, 5);
             outputTextBox.Multiline = true;
             outputTextBox.Name = "outputTextBox";
             outputTextBox.ReadOnly = true;
             outputTextBox.ScrollBars = ScrollBars.Vertical;
-            outputTextBox.Size = new Size(595, 329);
+            outputTextBox.Size = new Size(743, 410);
             outputTextBox.TabIndex = 2;
             outputTextBox.WordWrap = false;
             // 
             // outputGroup
             // 
             outputGroup.Controls.Add(outputTextBox);
-            outputGroup.Location = new Point(15, 72);
-            outputGroup.Margin = new Padding(3, 4, 3, 4);
+            outputGroup.Location = new Point(19, 90);
+            outputGroup.Margin = new Padding(4, 5, 4, 5);
             outputGroup.Name = "outputGroup";
-            outputGroup.Padding = new Padding(3, 4, 3, 4);
-            outputGroup.Size = new Size(609, 368);
+            outputGroup.Padding = new Padding(4, 5, 4, 5);
+            outputGroup.Size = new Size(761, 460);
             outputGroup.TabIndex = 3;
             outputGroup.TabStop = false;
             outputGroup.Text = "Hex";
@@ -88,22 +88,23 @@
             // noteLabel
             // 
             noteLabel.AutoSize = true;
-            noteLabel.Location = new Point(15, 444);
+            noteLabel.Location = new Point(19, 555);
+            noteLabel.Margin = new Padding(4, 0, 4, 0);
             noteLabel.Name = "noteLabel";
-            noteLabel.Size = new Size(246, 20);
+            noteLabel.Size = new Size(294, 25);
             noteLabel.TabIndex = 4;
             noteLabel.Text = "*Will not open files larger than 2GB.";
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(649, 474);
+            ClientSize = new Size(811, 592);
             Controls.Add(noteLabel);
             Controls.Add(outputGroup);
             Controls.Add(selectFileButton);
             Controls.Add(filePathTextBox);
-            Margin = new Padding(3, 4, 3, 4);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "MainForm";
             Text = "Hexer File Viewer";
             outputGroup.ResumeLayout(false);
