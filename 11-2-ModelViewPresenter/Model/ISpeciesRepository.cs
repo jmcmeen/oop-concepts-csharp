@@ -6,6 +6,6 @@
 
         Species GetSpecies(int id);
 
-        void SaveSpecies(int id, Species frog);
+        void SaveSpecies(int id, Species species);
     }
 }

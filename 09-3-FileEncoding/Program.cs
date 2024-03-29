@@ -6,6 +6,7 @@ namespace _09_3_FileEncoding
     {
         static void Main()
         {
+            //TODO TEll them what youre doing and why
             const string textFilePath = @"textfile.txt";
             const string binaryFilePath = @"binaryfile.dat";
             int writeValue = int.MaxValue;
