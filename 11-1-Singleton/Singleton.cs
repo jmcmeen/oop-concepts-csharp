@@ -1,4 +1,4 @@
-﻿namespace _10_1_Singleton
+﻿namespace _11_1_Singleton
 {
     /// <summary>
     /// Singleton design pattern
