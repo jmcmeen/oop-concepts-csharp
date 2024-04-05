@@ -27,7 +27,7 @@
             Address address = new Address("2425 TN-75", "", "Blountville", "TN", "37617");
 
             //Now create a Person object
-            Person person = new Person("John M.", address);
+            Person? person = new Person("John M.", address);
 
             //So we gave the Person object an Address, but what will happen when the Person
             //object "dies", or goes out of memory. We will set the Person object to null

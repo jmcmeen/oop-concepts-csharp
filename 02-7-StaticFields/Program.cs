@@ -16,8 +16,6 @@
 
             Console.WriteLine(TreasureChest.numChests);
             Console.WriteLine(tc.GetNumChests());
-
-            string s = "Hello World!";
         }
     }
 }
