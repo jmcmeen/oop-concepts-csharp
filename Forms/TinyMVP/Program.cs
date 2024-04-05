@@ -15,7 +15,7 @@ namespace TinyMVP
             Application.SetCompatibleTextRenderingDefault(false);
 
             var model = new ImageFile();
-            var view =  new MainForm();
+            var view = new MainForm();
             var presenter = new ImagePresenter(view, model);
 
             Application.Run(view);
