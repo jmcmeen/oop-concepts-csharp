@@ -180,6 +180,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-3-LamdaExpressions", "12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-4-AnonymousMethods", "12-4-AnonymousMethods\12-4-AnonymousMethods.csproj", "{D38AB2C5-3CDC-45FB-A74F-88E7835C7E1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-1-LINQ", "13-1-LINQ\13-1-LINQ.csproj", "{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1186,6 +1188,18 @@ Global
 		{D38AB2C5-3CDC-45FB-A74F-88E7835C7E1F}.Release|x64.Build.0 = Release|Any CPU
 		{D38AB2C5-3CDC-45FB-A74F-88E7835C7E1F}.Release|x86.ActiveCfg = Release|Any CPU
 		{D38AB2C5-3CDC-45FB-A74F-88E7835C7E1F}.Release|x86.Build.0 = Release|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Debug|x64.Build.0 = Debug|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Debug|x86.Build.0 = Debug|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Release|x64.ActiveCfg = Release|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Release|x64.Build.0 = Release|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Release|x86.ActiveCfg = Release|Any CPU
+		{4ABF8628-553D-44DC-9A37-7FA3734F1D6B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
