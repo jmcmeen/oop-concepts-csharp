@@ -46,7 +46,6 @@
             btnLaugh = new PictureBox();
             btnCry = new PictureBox();
             btnDevil = new PictureBox();
-            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)tblUser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)tblGroup).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnPicture).BeginInit();
@@ -271,20 +270,11 @@
             btnDevil.TabStop = false;
             btnDevil.Click += btnDevil_Click;
             // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(337, 14);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 30;
-            // 
             // ChatBoxForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(614, 663);
-            Controls.Add(comboBox1);
             Controls.Add(button1);
             Controls.Add(btnCreateGroup);
             Controls.Add(lblWelcome);
@@ -337,6 +327,5 @@
         private PictureBox btnLaugh;
         private PictureBox btnCry;
         private PictureBox btnDevil;
-        private ComboBox comboBox1;
     }
 }
