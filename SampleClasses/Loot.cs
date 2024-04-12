@@ -5,7 +5,7 @@ namespace SampleClasses
     {
         // public auto-properties
         public string? Name { get; set; }
-        public uint Price { get; set; }
+        public uint? Price { get; set; }
         public string? Description { get; set; }
 
         //public methods
@@ -46,23 +46,16 @@ namespace SampleClasses
         /// <returns></returns>
         public override bool Equals(object? other)
         {
-            //check to make sure obj is not null
-            if (other == null) return false;
-
-            //check to see if obj is identical to this
-            if (other == this) return true;
-
-            //make sure obj is same type
-            if (other.GetType() != typeof(Loot)) return false;
-
-            //another way to do the same thing above
-            //if (obj is not Loot) return false;
-
-            //cast to Loot
-            Loot that = (Loot)other;
-
-            //check all values to see if they are the same
-            return this.Name.Equals(that.Name) && this.Price.Equals(that.Price) && this.Description.Equals(that.Description);
+            if(other is null || other is not Loot) 
+            {  
+                return false; 
+            } 
+            else
+            {
+                return Name == ((Loot)other).Name &&
+                    Price == ((Loot)other).Price &&
+                    Description == ((Loot)other).Description;
+            }
         }
 
         bool IEquatable<Loot>.Equals(Loot? other)
