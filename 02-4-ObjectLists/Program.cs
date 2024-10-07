@@ -19,6 +19,8 @@ namespace _02_4_ObjectLists
             circles.Add(new Circle() { Radius = 1 });
             circles.Add(new Circle() { Radius = 2 });
             circles.Add(new Circle() { Radius = 4 });
+            circles.Add(new Circle() { Radius = 8 });
+            circles.Add(new Circle() { Radius = 16 });
 
             // Display the area of each circle using a for loop
             for (int i = 0; i < circles.Count; i++)
