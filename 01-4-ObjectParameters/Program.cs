@@ -12,9 +12,25 @@ namespace _01_4_ObjectParameters
         /// </summary>
         static void Main()
         {
-            Dice dice = new Dice();
-            Roll5Times(dice);
-            RollNumTimes(dice, 10);
+            //Create a d6
+            Dice myDice = new Dice();
+
+            // use a really poorly designed method to roll the Dice object 5 times
+            Roll5Times(myDice);
+
+            // use a more properly designed method to roll the Dice object 10 times
+            RollNumTimes(myDice, 10);
+
+            // use the NextRolls method in the class
+            int[]? rolls = myDice.NextRolls(10);
+
+            if(rolls != null)
+            {
+                for(int i = 0; i < rolls.Length; i++)
+                {
+                    Console.WriteLine($"{myDice} = {rolls[i]}");
+                }
+            }
         }
 
         /// <summary>
@@ -25,7 +41,7 @@ namespace _01_4_ObjectParameters
         {
             for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine(dice.NextRoll());
+                Console.WriteLine($"{dice} = {dice.NextRoll()}");
             }
             Console.WriteLine();
         }
@@ -39,7 +55,7 @@ namespace _01_4_ObjectParameters
         {
             for (int i = 0; i < numTimes; i++)
             {
-                Console.WriteLine(dice.NextRoll());
+                Console.WriteLine($"{dice} = {dice.NextRoll()}");
             }
             Console.WriteLine();
         }

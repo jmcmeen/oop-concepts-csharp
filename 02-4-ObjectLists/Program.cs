@@ -16,7 +16,9 @@ namespace _02_4_ObjectLists
             List<Circle> circles = new List<Circle>();
 
             // Add some circles
-            circles.Add(new Circle() { Radius = 1 });
+            Circle c = new Circle() { Radius = 1 };
+            circles.Add(c);
+
             circles.Add(new Circle() { Radius = 2 });
             circles.Add(new Circle() { Radius = 4 });
             circles.Add(new Circle() { Radius = 8 });
@@ -31,7 +33,7 @@ namespace _02_4_ObjectLists
             Console.WriteLine();
 
             // Display the area of each circle using a foreach loop
-            foreach (var circle in circles)
+            foreach (Circle circle in circles)
             {
                 Console.WriteLine($"{circle.Area}");
             }

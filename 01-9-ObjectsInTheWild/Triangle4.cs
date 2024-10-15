@@ -15,6 +15,13 @@
             }
         }
 
+        public Triangle4()
+        {
+            SideA = 1;
+            SideB = 1;
+            SideC = 1;
+        }
+
         public Triangle4(double sideA, double sideB, double sideC)
         {
             SideA = sideA;

@@ -44,10 +44,17 @@ namespace _01_8_ObjectInitializers
                 Description = "woo!"
             };
 
+            //Object initializers provide a alternative to this
+            Loot loot5 = new Loot();
+            loot5.Name = "Hammer";
+            loot5.Price = 50;
+            loot5.Description = "A really awesome hammer";
+
             Console.WriteLine(loot1);
             Console.WriteLine(loot2);
             Console.WriteLine(loot3);
             Console.WriteLine(loot4);
+            Console.WriteLine(loot5);
         }
     }
 }

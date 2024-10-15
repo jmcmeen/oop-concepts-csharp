@@ -22,7 +22,7 @@
 
         public double CalculateArea()
         {
-            double s = (sideA + sideB + sideC) / 2; // Semi-perimeter
+            double s = (sideA + sideB + sideC) / 2;
             return Math.Sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
         }
     }

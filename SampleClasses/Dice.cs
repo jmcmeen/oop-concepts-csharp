@@ -42,4 +42,36 @@ public class Dice
     {
         return _random.Next(NumSides) + 1;
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="numTimes"></param>
+    /// <returns></returns>
+    public int[]? NextRolls(int numTimes)
+    {
+        //TODO add documentation
+        int[]? diceRolls = null;
+
+        //guard clause
+        if (numTimes < 1) { return diceRolls; }
+
+        diceRolls = new int[numTimes];
+
+        for (int i = 0; i < numTimes; i++)
+        {
+            diceRolls[i] = NextRoll();
+        }
+
+        return diceRolls;
+    }
+
+    /// <summary>
+    /// Converts object to String
+    /// </summary>
+    /// <returns></returns>
+    public override string ToString()
+    {
+        return $"d{NumSides}";
+    }
 }

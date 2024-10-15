@@ -11,7 +11,7 @@
         static void Main()
         {
             //If you are starting this course and need a refresher on CISP 1010 topics,
-            //Please visit https://github.com/northeaststatecisp/CISP1010
+            //Please visit https://github.com/jmcmeen/intro-programming-concepts-csharp
             Console.WriteLine("Hello, World!");
         }
     }
