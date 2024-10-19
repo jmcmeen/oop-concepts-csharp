@@ -1,4 +1,4 @@
-﻿using SampleClasses;
+﻿using LabUtils;
 
 namespace _04_4_ToString
 {

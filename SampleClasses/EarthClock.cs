@@ -1,4 +1,4 @@
-﻿namespace SampleClasses
+﻿namespace LabUtils
 {
     /// <summary>
     /// Models an Earthling's clock

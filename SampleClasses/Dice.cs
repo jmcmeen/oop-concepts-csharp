@@ -1,4 +1,4 @@
-﻿namespace SampleClasses;
+﻿namespace LabUtils;
 
 /// <summary>
 /// Class which models a table top gaming die

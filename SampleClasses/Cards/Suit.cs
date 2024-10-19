@@ -1,4 +1,4 @@
-﻿namespace SampleClasses.Cards
+﻿namespace LabUtils.Cards
 {
     /// <summary>
     /// Models suits for playing cards

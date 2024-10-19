@@ -1,4 +1,4 @@
-﻿namespace SampleClasses
+﻿namespace LabUtils
 {
     public class Stats
     {

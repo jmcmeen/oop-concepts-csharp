@@ -135,7 +135,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-PhysicsSim", "dev\XX-Phy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XX-UsingObjects", "dev\XX-UsingObjects\XX-UsingObjects.csproj", "{376737CD-EAE8-4EBF-93A0-C6A2DB5FB7A2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleClasses", "SampleClasses\SampleClasses.csproj", "{E3C252A1-A7F1-426C-A3EC-06E2897D0625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabUtils", "SampleClasses\LabUtils.csproj", "{E3C252A1-A7F1-426C-A3EC-06E2897D0625}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{238F75B6-F573-4E9E-9448-433F333ED022}"
 EndProject
@@ -184,7 +184,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatServer", "Forms\ChatSer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-3-AbstractClasses", "05-3-AbstractClasses\05-3-AbstractClasses.csproj", "{5A8EBBEF-EC54-4804-8207-603D169EE658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-7-CopyConstructors", "03-7-CopyConstructors\03-7-CopyConstructors.csproj", "{88D1499B-9840-4119-9024-FC5005FB5C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-7-CopyConstructors", "03-7-CopyConstructors\03-7-CopyConstructors.csproj", "{88D1499B-9840-4119-9024-FC5005FB5C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

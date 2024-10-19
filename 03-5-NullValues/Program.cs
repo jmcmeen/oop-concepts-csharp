@@ -1,4 +1,4 @@
-﻿using SampleClasses;
+﻿using LabUtils;
 
 namespace _03_5_NullValues
 {

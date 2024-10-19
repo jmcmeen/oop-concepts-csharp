@@ -1,4 +1,4 @@
-﻿using SampleClasses;
+﻿using LabUtils;
 
 namespace _01_4_ObjectParameters
 {

@@ -1,4 +1,4 @@
-﻿namespace SampleClasses
+﻿namespace LabUtils
 {
     /// <summary>
     /// Demonstrates auto properties, and properties backed with an explicit field or logic

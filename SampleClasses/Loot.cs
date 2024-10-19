@@ -1,5 +1,5 @@
 ﻿
-namespace SampleClasses
+namespace LabUtils
 {
     public class Loot : IEquatable<Loot>, IComparable<Loot>
     {
