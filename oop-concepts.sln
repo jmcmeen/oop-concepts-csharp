@@ -182,7 +182,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatEngine", "Forms\ChatEng
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatServer", "Forms\ChatServer\ChatServer.csproj", "{81637546-9FAB-4280-871B-469A7B567519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-3-AbstractClasses", "05-3-AbstractClasses\05-3-AbstractClasses.csproj", "{5A8EBBEF-EC54-4804-8207-603D169EE658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-3-AbstractClasses", "05-3-AbstractClasses\05-3-AbstractClasses.csproj", "{5A8EBBEF-EC54-4804-8207-603D169EE658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-7-CopyConstructors", "03-7-CopyConstructors\03-7-CopyConstructors.csproj", "{88D1499B-9840-4119-9024-FC5005FB5C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1214,6 +1216,18 @@ Global
 		{5A8EBBEF-EC54-4804-8207-603D169EE658}.Release|x64.Build.0 = Release|Any CPU
 		{5A8EBBEF-EC54-4804-8207-603D169EE658}.Release|x86.ActiveCfg = Release|Any CPU
 		{5A8EBBEF-EC54-4804-8207-603D169EE658}.Release|x86.Build.0 = Release|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Debug|x64.Build.0 = Debug|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Debug|x86.Build.0 = Debug|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Release|x64.ActiveCfg = Release|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Release|x64.Build.0 = Release|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Release|x86.ActiveCfg = Release|Any CPU
+		{88D1499B-9840-4119-9024-FC5005FB5C63}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

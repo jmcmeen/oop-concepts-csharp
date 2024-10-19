@@ -21,10 +21,10 @@ namespace _01_5_Properties
             //like variables or fields in an object. 
 
             //Set the person's Name property
-            person.NameAsProperty = "Leroy";
+            person.NameAsPropertyWithExplicitField = "Leroy";
 
             //Get the person's Name property and print it
-            Console.WriteLine(person.NameAsProperty);
+            Console.WriteLine(person.NameAsPropertyWithExplicitField);
         }
     }
 }
