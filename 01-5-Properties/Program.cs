@@ -13,7 +13,10 @@ namespace _01_5_Properties
         static void Main()
         {
             // create a person object
-            Person person = new Person();
+            Person person = new Person("Mr. Bowlin");
+
+            //Get the person's Name property and print it
+            Console.WriteLine(person.NameAsPropertyWithExplicitField);
 
             //Investigating the person class shows the NameAsProperty property
             //hides a private field, _name, and exposes access
@@ -21,10 +24,15 @@ namespace _01_5_Properties
             //like variables or fields in an object. 
 
             //Set the person's Name property
-            person.NameAsPropertyWithExplicitField = "Leroy";
+            person.NameAsPropertyWithExplicitField = "Leroy Jenkins";
 
             //Get the person's Name property and print it
             Console.WriteLine(person.NameAsPropertyWithExplicitField);
+
+            //The auto implemented property in Person behaves the same way,
+            //but doesn't have any additional behavior
+            person.NameAsAutoProperty = "Burf Snerfle";
+            Console.WriteLine(person.NameAsAutoProperty);
         }
     }
 }
