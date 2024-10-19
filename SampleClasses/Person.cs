@@ -38,10 +38,10 @@
         /// </summary>
         /// <param name="name">Person's name</param>
         /// <exception cref="ArgumentNullException"></exception>
-        public Person(string name)
+        public Person()
         {
             //simplified guard clause
-            _name = name ?? throw new ArgumentNullException("name");
+            _name = "";
         }
     }
 }

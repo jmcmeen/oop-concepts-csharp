@@ -13,7 +13,7 @@ namespace _01_5_Properties
         static void Main()
         {
             // create a person object
-            Person person = new Person("Mr. Bowlin");
+            Person person = new Person();
 
             //Get the person's Name property and print it
             Console.WriteLine(person.NameAsPropertyWithExplicitField);
