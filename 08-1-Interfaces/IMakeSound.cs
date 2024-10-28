@@ -3,7 +3,7 @@
     /// <summary>
     /// Defines an interface for making sounds
     /// </summary>
-    internal interface ISound
+    internal interface IMakeSound
     {
         /// <summary>
         /// Make a sound

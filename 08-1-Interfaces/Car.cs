@@ -3,7 +3,7 @@
     /// <summary>
     /// Models a Car that implements the ISound interface
     /// </summary>
-    internal class Car : ISound
+    internal class Car : IMakeSound
     {
         /// <summary>
         /// Makes a car sound

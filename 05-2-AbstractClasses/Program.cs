@@ -22,6 +22,7 @@
             list.Add(new Donkey("Daniela"));
             list.Add(new Elephant("Elizabeth"));
             list.Add(new Fish("Frederick"));
+            list.Add(new Lion("Simba"));
 
             //Make them make sound!
             foreach (Animal a in list)

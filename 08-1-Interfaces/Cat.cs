@@ -3,7 +3,7 @@
     /// <summary>
     /// Models a Cat that implements the ISound interface
     /// </summary>
-    internal class Cat : ISound
+    internal class Cat : IMakeSound
     {
         /// <summary>
         /// Makes a Cat sound

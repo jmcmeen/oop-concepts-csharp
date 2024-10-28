@@ -1,6 +1,6 @@
 ﻿namespace _08_1_Interfaces
 {
-    internal class Duck : ISound
+    internal class Duck : IMakeSound
     {
         public void MakeSound()
         {
