@@ -2,7 +2,7 @@
 {
     internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //First there is one Item
             Item itemOne = new Item("Sword", 235.2f);
@@ -12,7 +12,7 @@
             //Now we can create a copy using Item's Clone Method, since it implements the ICloneable interface
             Item? itemTwo = (Item)itemOne.Clone();
 
-            //Item? itemTwo = itemOne.Clone() as Item;
+            itemTwo = itemOne.Clone() as Item;
 
             if (itemTwo != null)
             {

@@ -14,18 +14,18 @@
 
             for (int i = 0; i < 25; i++)
             {
-                monsterList.Add(RandomGen.NextMonster());
+                monsterList.Add(RandomMonsterFactory.NextMonster());
             }
 
             Console.WriteLine("Print unsorted List\n");
             PrintMonsters(monsterList);
 
-            monsterList.Sort(new HitPointsComparer());
+            monsterList.Sort(new MonsterHitPointsComparer());
 
             Console.WriteLine("\nPrint List sorted by HitPoints\n");
             PrintMonsters(monsterList);
 
-            monsterList.Sort(new NameComparer());
+            monsterList.Sort(new MonsterNameComparer());
 
             Console.WriteLine("\nPrint List sorted by Name\n");
             PrintMonsters(monsterList);
