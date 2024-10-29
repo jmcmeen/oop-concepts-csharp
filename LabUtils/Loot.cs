@@ -64,9 +64,9 @@ namespace LabUtils
             }
             else
             {
-                return Name == ((Loot)other).Name &&
-                    Price == ((Loot)other).Price &&
-                    Description == ((Loot)other).Description;
+                return Name.Equals(((Loot)other).Name) &&
+                    Price.Equals(((Loot)other).Price) &&
+                    Description.Equals(((Loot)other).Description);
             }
         }
 
