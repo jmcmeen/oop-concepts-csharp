@@ -1,9 +1,9 @@
-﻿namespace LabUtils
+﻿namespace SampleClasses.Clocks
 {
     /// <summary>
     /// Models an Earthling's clock
     /// </summary>
-    public class EarthClock
+    public class BasicClock
     {
         /// <summary>
         /// Seconds value
@@ -23,7 +23,7 @@
         /// <summary>
         /// Default constructor
         /// </summary>
-        public EarthClock()
+        public BasicClock()
         {
             Seconds = 0;
             Minutes = 0;
@@ -36,7 +36,7 @@
         /// <param name="seconds"></param>
         /// <param name="minutes"></param>
         /// <param name="hours"></param>
-        public EarthClock(int seconds, int minutes, int hours)
+        public BasicClock(int seconds, int minutes, int hours)
         {
             Seconds = seconds;
             Minutes = minutes;
@@ -47,7 +47,7 @@
         /// Copy constructor 
         /// </summary>
         /// <param name="other"></param>
-        public EarthClock(EarthClock other)
+        public BasicClock(BasicClock other)
         {
             Seconds = other.Seconds;
             Minutes = other.Minutes;

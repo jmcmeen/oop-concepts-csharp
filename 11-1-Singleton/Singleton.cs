@@ -29,5 +29,14 @@
                 return instance;
             }
         }
+
+        public static Singleton GetInstance()
+        {
+            if (instance == null)
+            {
+                instance = new Singleton();
+            }
+            return instance;
+        }
     }
 }
