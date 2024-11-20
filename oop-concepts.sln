@@ -147,13 +147,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexer", "Forms\Hexer\Hexer.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperDiceRoller", "Forms\SuperDiceRoller\SuperDiceRoller.csproj", "{3D2DBADB-72B7-4977-9EE4-03EA2A66FE50}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{E4C495BA-EB5E-4B8F-A278-A481FFADD316}"
-	ProjectSection(SolutionItems) = preProject
-		Database\scripts\instnwnd.sql = Database\scripts\instnwnd.sql
-		Database\northwind.mdf = Database\northwind.mdf
-		Database\northwind_log.ldf = Database\northwind_log.ldf
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-2-ModelViewPresenter", "11-2-ModelViewPresenter\11-2-ModelViewPresenter.csproj", "{1E6A1211-3DB4-444E-9038-902321888A9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-1-AsyncAwait", "10-1-AsyncAwait\10-1-AsyncAwait.csproj", "{ABE9DC31-B8BD-42C8-8F49-D2006C434A24}"
