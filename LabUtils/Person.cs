@@ -8,12 +8,12 @@
         /// <summary>
         /// Name as an auto property, default get and set behavior
         /// </summary>
-        public string NameAsAutoProperty { get; set; }
+        public string? NameAsAutoProperty { get; set; }
 
         /// <summary>
         /// Private field to hold a name
         /// </summary>
-        private string _name;
+        private string? _name;
 
         /// <summary>
         /// Property to get and set _name
@@ -22,7 +22,7 @@
         {
             get
             {
-                return _name;
+                return _name!;
             }
             set
             {

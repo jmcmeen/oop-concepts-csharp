@@ -1,4 +1,4 @@
-﻿using LabUtils; // Loot is in the SampleClasses class library in this solution
+﻿using LabUtils;
 
 namespace _01_8_ObjectInitializers
 {

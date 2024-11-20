@@ -7,9 +7,10 @@
 
         public string? CommonName { get; set; }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object? obj)
         {
-            Species other = obj as Species;
+            if (obj == null) return false;
+            Species? other = obj as Species;
             return Equals(other);
         }
 
@@ -18,7 +19,7 @@
             return HashCode.Combine(ScientificName, CommonName);
         }
 
-        public bool Equals(Species other)
+        public bool Equals(Species? other)
         {
             if (other == null)
                 return false;

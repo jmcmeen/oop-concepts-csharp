@@ -1,4 +1,4 @@
-﻿namespace _02_2_Dependency
+﻿namespace _02_2_Dependencies
 {
     /// <summary>
     /// A brief explanation of the Dependency relationship

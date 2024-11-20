@@ -21,7 +21,7 @@ namespace _11_2_ModelViewPresenter.Presenter
         {
             var speciesNames = from species in _repository.GetAllSpecies() select species.ScientificName;
             int selectedSpecies = _view.SelectedSpecies >= 0 ? _view.SelectedSpecies : 0;
-            _view.speciesList = speciesNames.ToList();
+            _view.SpeciesList = speciesNames.ToList();
             _view.SelectedSpecies = selectedSpecies;
         }
 

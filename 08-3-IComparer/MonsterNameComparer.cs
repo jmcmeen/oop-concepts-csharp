@@ -13,7 +13,7 @@
         /// <returns></returns>
         public int Compare(Monster? x, Monster? y)
         {
-            return x.Name.CompareTo(y.Name);
+            return x!.Name!.CompareTo(y!.Name);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace XX_BasicWinForms
+﻿namespace _07_1_WinTroll
 {
     partial class Form1
     {

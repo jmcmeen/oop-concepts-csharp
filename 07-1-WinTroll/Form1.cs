@@ -1,11 +1,11 @@
-namespace XX_BasicWinForms
+namespace _07_1_WinTroll
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-            this.button1.MouseEnter += new EventHandler(OnMouseEnterButton1);
+            this.button1.MouseEnter += new EventHandler(OnMouseEnterButton1!);
         }
 
         private void OnMouseEnterButton1(object sender, EventArgs e)

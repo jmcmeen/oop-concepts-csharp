@@ -2,6 +2,6 @@
 {
     public class ImageFile
     {
-        public string Path { get; set; }
+        public string? Path { get; set; }
     }
 }

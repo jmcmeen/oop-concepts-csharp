@@ -24,10 +24,10 @@ namespace MediaPlayer
             player = new System.Media.SoundPlayer();
 
             // Listen for the LoadCompleted event.
-            player.LoadCompleted += player_LoadCompleted;
+            player.LoadCompleted += player_LoadCompleted!;
 
             // Listen for the SoundLocationChanged event.
-            player.SoundLocationChanged += player_LocationChanged;
+            player.SoundLocationChanged += player_LocationChanged!;
         }
 
         private void selectFileButton_Click(object sender, EventArgs e)

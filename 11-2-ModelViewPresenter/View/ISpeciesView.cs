@@ -4,14 +4,14 @@ namespace _11_2_ModelViewPresenter.View
 {
     public interface ISpeciesView
     {
-        IList<string> speciesList { get; set; }
+        IList<string>? SpeciesList { get; set; }
 
         int SelectedSpecies { get; set; }
 
-        string ScientificName { get; set; }
+        string? ScientificName { get; set; }
 
-        string CommonName { get; set; }
+        string? CommonName { get; set; }
 
-        SpeciesPresenter Presenter { set; }
+        SpeciesPresenter? Presenter { set; }
     }
 }

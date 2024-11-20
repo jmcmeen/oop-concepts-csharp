@@ -7,6 +7,9 @@ namespace _02_1_Encapsulation
     /// </summary>
     internal static class Program
     {
+        /// <summary>
+        /// Program entry point
+        /// </summary>
         static void Main()
         {
             /* Encapsulation refers to the bundling of data(attributes) 

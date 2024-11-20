@@ -2,7 +2,7 @@
 {
     internal class Loot
     {
-        public string name;
+        public string? name;
         public double cost;
 
         public override int GetHashCode()

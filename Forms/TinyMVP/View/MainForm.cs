@@ -1,12 +1,15 @@
 using TinyMVP.Presenter;
 using TinyMVP.View;
+using System.ComponentModel;
 
 namespace TinyMVP
 {
     public partial class MainForm : Form, IImageView
     {
-        public string ImagePath { get; set; }
-        public ImagePresenter ImagePresenter { get; set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string? ImagePath { get; set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public ImagePresenter? ImagePresenter { get; set; }
         public MainForm()
         {
             InitializeComponent();
@@ -27,7 +30,7 @@ namespace TinyMVP
             {
                 if (!string.IsNullOrEmpty(openFileDialog.FileName))
                 {
-                    this.ImagePresenter.UpdateImageFile(openFileDialog.FileName);
+                    ImagePresenter?.UpdateImageFile(openFileDialog.FileName);
                 }
             }
         }

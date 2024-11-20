@@ -47,7 +47,7 @@
             // Open the file to read from line by line
             using (StreamReader sr = File.OpenText(path2))
             {
-                while ((s = sr.ReadLine()) != null)
+                while ((s = sr.ReadLine()!) != null)
                 {
                     Console.WriteLine(s);
                     input += s + "\n";

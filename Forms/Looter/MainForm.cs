@@ -19,7 +19,7 @@ namespace BindingSource
 
             if (index != -1)
             {
-                LootFile.loots.RemoveAt(index);
+                LootFile!.loots.RemoveAt(index);
                 LootFile.Saved = false;
             }
 
@@ -56,7 +56,7 @@ namespace BindingSource
                         Price = price
                     };
 
-                    LootFile.loots.Add(l);
+                    LootFile!.loots.Add(l);
                     LootFile.loots.Sort();
                     LootFile.Saved = false;
                     LootFile.NewFile = false;
@@ -132,7 +132,7 @@ namespace BindingSource
                         {
                             Saved = true,
                             Path = openFileDialog.FileName,
-                            loots = JsonSerializer.Deserialize<List<Loot>>(json)
+                            loots = JsonSerializer.Deserialize<List<Loot>>(json)!
                         };
 
                         lootListBindingSource.DataSource = LootFile.loots;
@@ -162,7 +162,7 @@ namespace BindingSource
                         {
                             Saved = true,
                             Path = openFileDialog.FileName,
-                            loots = JsonSerializer.Deserialize<List<Loot>>(json),
+                            loots = JsonSerializer.Deserialize<List<Loot>>(json)!,
                             NewFile = false
                         };
 
@@ -186,7 +186,7 @@ namespace BindingSource
 
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (!LootFile.Saved && !LootFile.NewFile)
+            if (!LootFile!.Saved && !LootFile.NewFile)
             {
                 DialogResult dialogResult = MessageBox.Show("You have unsaved data. Do you want to save?", "Warning", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
@@ -213,7 +213,7 @@ namespace BindingSource
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (LootFile.Path == string.Empty)
+            if (LootFile!.Path == string.Empty)
             {
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -233,7 +233,7 @@ namespace BindingSource
         {
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                LootFile.Path = saveFileDialog.FileName;
+                LootFile!.Path = saveFileDialog.FileName;
                 File.WriteAllText(LootFile.Path, JsonSerializer.Serialize(LootFile.loots));
                 LootFile.Saved = true;
             }

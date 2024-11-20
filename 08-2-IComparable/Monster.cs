@@ -52,6 +52,7 @@
         /// <returns></returns>
         public int CompareTo(Monster? other)
         {
+            if (other == null) throw new ArgumentNullException("other");
             return Name.CompareTo(other.Name);
         }
     }

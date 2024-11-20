@@ -1,4 +1,5 @@
 ﻿using _11_2_ModelViewPresenter.Presenter;
+using System.ComponentModel;
 
 namespace _11_2_ModelViewPresenter.View
 {
@@ -11,37 +12,42 @@ namespace _11_2_ModelViewPresenter.View
             InitializeComponent();
         }
 
-        public IList<string> speciesList
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public IList<string>? SpeciesList
         {
-            get { return (IList<string>)this.speciesListBox.DataSource; }
+            get { return (IList<string>)this.speciesListBox.DataSource!; }
             set { this.speciesListBox.DataSource = value; }
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int SelectedSpecies
         {
             get { return this.speciesListBox.SelectedIndex; }
             set { this.speciesListBox.SelectedIndex = value; }
         }
 
-        public string CommonName
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string? CommonName
         {
             get { return this.comNameTextBox.Text; }
-            set { this.comNameTextBox.Text = value; }
+            set { comNameTextBox.Text = value; }
         }
 
-        public string ScientificName
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string? ScientificName
         {
             get { return this.sciNameTextBox.Text; }
             set { this.sciNameTextBox.Text = value; }
         }
 
-        public SpeciesPresenter Presenter
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public SpeciesPresenter? Presenter
         { private get; set; }
 
         private void speciesListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // FIXME: try/catch
-            Presenter.UpdateSpeciesView(speciesListBox.SelectedIndex);
+            // TODO: try/catch
+            Presenter!.UpdateSpeciesView(speciesListBox.SelectedIndex);
         }
 
         private void editButton_Click(object sender, EventArgs e)
@@ -58,7 +64,7 @@ namespace _11_2_ModelViewPresenter.View
             {
                 // TODO: validation
                 // FIXME: try/catch
-                Presenter.SaveSpecies();
+                Presenter!.SaveSpecies();
             }
         }
     }

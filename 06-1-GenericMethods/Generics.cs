@@ -45,7 +45,7 @@
         public static T RandomEnumValue<T>()
         {
             var v = Enum.GetValues(typeof(T));
-            return (T)v.GetValue(r.Next(v.Length));
+            return (T)v.GetValue(r.Next(v.Length))!;
         }
     }
 }

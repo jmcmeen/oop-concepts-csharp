@@ -19,7 +19,7 @@ namespace _11_2_ModelViewPresenter.Model
             {
                 using (var reader = new StreamReader(_xmlFilePath))
                 {
-                    return (List<Species>)_serializer.Deserialize(reader);
+                    return (List<Species>)_serializer.Deserialize(reader)!;
                 }
             });
         }

@@ -24,7 +24,7 @@
             //no way to reference that Engine directly from another object or method, because
             //it is a private field in Car. The Car manages the Engine solely.
 
-            Car c = new Car();
+            Car? c = new Car();
 
             Console.WriteLine(c);
             c.EngineOn();

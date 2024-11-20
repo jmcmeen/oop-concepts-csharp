@@ -13,7 +13,7 @@
         /// <returns></returns>
         public int Compare(Monster? x, Monster? y)
         {
-            return x.HitPoints - y.HitPoints;
+            return x!.HitPoints - y!.HitPoints;
         }
     }
 }

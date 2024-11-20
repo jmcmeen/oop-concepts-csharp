@@ -105,7 +105,7 @@ namespace LabUtils
         /// <returns></returns>
         public int CompareTo(Loot? other)
         {
-            return this.Name.CompareTo(other.Name);
+            return this.Name.CompareTo(other!.Name);
         }
 
         //operator overrides 

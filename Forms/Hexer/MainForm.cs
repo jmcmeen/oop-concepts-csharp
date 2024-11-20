@@ -1,10 +1,13 @@
+using System.ComponentModel;
 //https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios
+
 
 namespace XX_FileDialog
 {
     public partial class MainForm : Form
     {
-        public byte[]? fileData { get; set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public byte[]? FileData { get; set; }
         public MainForm()
         {
             InitializeComponent();
@@ -25,10 +28,10 @@ namespace XX_FileDialog
                     outputTextBox.Text = string.Empty;
 
                     //IO Bound, use await without Run
-                    fileData = await File.ReadAllBytesAsync(openFileDialog.FileName);
+                    FileData = await File.ReadAllBytesAsync(openFileDialog.FileName);
 
                     //CPU Bound, and not an async method, use Task.Run
-                    outputTextBox.Text = await Task.Run(() => BitConverter.ToString(fileData));
+                    outputTextBox.Text = await Task.Run(() => BitConverter.ToString(FileData));
 
                     selectFileButton.Enabled = true;
                 }

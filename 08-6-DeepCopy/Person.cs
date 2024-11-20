@@ -15,7 +15,7 @@
             return new Person
             {
                 Name = Name,
-                Address = (Address)Address.Clone()
+                Address = (Address)Address!.Clone()
             };
         }
 

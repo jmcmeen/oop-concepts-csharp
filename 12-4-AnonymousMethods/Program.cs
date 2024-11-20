@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-namespace _12_4_AnonymousMethods
+﻿namespace _12_4_AnonymousMethods
 {
     internal class Program
     {

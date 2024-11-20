@@ -26,7 +26,7 @@ namespace _09_3_FileEncoding
             using (StreamReader sr = File.OpenText(textFilePath))
             {
                 string s;
-                while ((s = sr.ReadLine()) != null)
+                while ((s = sr.ReadLine()!) != null)
                 {
                     Console.WriteLine(s);
                 }
